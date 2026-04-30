@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classical Arabic – Assignment 01</title>
+  <style>
+    /* ── Base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: #f7f8fc;
+      padding: 24px 16px 60px;
+    }
+    .page { max-width: 960px; margin: 0 auto; }
+
+    /* ── Typography ── */
+    h1 { font-size: 2rem; text-align: center; color: #0d47a1; margin-bottom: 6px; }
+    .subtitle { text-align: center; color: #555; margin-bottom: 36px; font-style: italic; }
+    h2 { font-size: 1.35rem; background: #0d47a1; color: #fff;
+         padding: 10px 16px; border-radius: 6px 6px 0 0; margin-top: 40px; }
+    h3 { font-size: 1.05rem; background: #e3f0ff; color: #0d47a1;
+         padding: 7px 14px; border-left: 4px solid #0d47a1; margin-top: 28px; }
+    p.note { background: #fff8e1; border-left: 4px solid #f9a825;
+             padding: 8px 14px; border-radius: 4px; margin: 16px 0; font-size: 0.9rem; }
+
+    /* ── Arabic text ── */
+    .ar {
+      font-family: 'Amiri', 'Traditional Arabic', 'Arabic Typesetting',
+                   'Scheherazade New', serif;
+      direction: rtl;
+      unicode-bidi: bidi-override;
+      font-size: 1.25em;
+      color: #1a237e;
+    }
+    .ar-sm { font-size: 1.05em; }
+    .alt { color: #6a1b9a; font-size: 0.95em; }
+
+    /* ── Tables ── */
+    .tbl-wrap { overflow-x: auto; margin-top: 2px; }
+    table { width: 100%; border-collapse: collapse; background: #fff;
+            border-radius: 0 0 6px 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+    thead tr { background: #1565c0; color: #fff; }
+    thead th { padding: 9px 12px; font-weight: 600; font-size: 0.88rem;
+               text-align: left; white-space: nowrap; }
+    tbody tr:nth-child(even) { background: #f0f4ff; }
+    tbody tr:hover { background: #ddeeff; }
+    td { padding: 8px 12px; vertical-align: top; border-bottom: 1px solid #e0e7ff; }
+    td.center { text-align: center; }
+
+    /* ── Sector grid ── */
+    .sector-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); gap: 28px; margin-top: 10px; }
+    .sector-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); overflow: hidden; }
+    .sector-card h3 { margin-top: 0; }
+    .sector-card table { box-shadow: none; border-radius: 0; }
+
+    /* ── Labels ── */
+    .badge { display: inline-block; padding: 1px 7px; border-radius: 12px;
+             font-size: 0.75rem; font-weight: 700; margin-right: 4px; }
+    .b-verb { background: #e8f5e9; color: #2e7d32; }
+    .b-harf { background: #fff3e0; color: #e65100; }
+    .b-noun { background: #e3f2fd; color: #1565c0; }
+
+    /* ── Legend box ── */
+    .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0;
+              background: #fff; padding: 12px 16px; border-radius: 8px;
+              box-shadow: 0 1px 4px rgba(0,0,0,0.07); font-size: 0.88rem; }
+    .legend span { white-space: nowrap; }
+    .legend b { color: #0d47a1; }
+
+    @media print {
+      body { background: #fff; }
+      h2 { break-before: page; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <h1>📖 Classical Arabic – Assignment 01</h1>
+  <p class="subtitle">
+    Curated for formal &amp; academic spoken Arabic &nbsp;|&nbsp;
+    Focus: Classical / Modern Standard Arabic (MSA) &nbsp;|&nbsp;
+    All words carry full <em>harakah</em> (vowel marks)
+  </p>
+
+  <div class="legend">
+    <span><b>مَاضٍ</b> = Past tense (root form)</span>
+    <span><b>مُضَارِعٌ</b> = Present / imperfect</span>
+    <span><b>مَصْدَرٌ</b> = Verbal noun (masdar)</span>
+    <span><b>اسْمُ الْفَاعِلِ</b> = Active participle</span>
+    <span><b>اسْمُ الْمَفْعُولِ</b> = Passive participle</span>
+    <span><b>ج</b> = Plural (جَمْعٌ)</span>
+    <span><b style="color:#6a1b9a">↔ Alt</b> = Common alternatives (max 2)</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 1 – 30 VERBS
+  ══════════════════════════════════════════════════════════ -->
+  <h2>① أَهَمُّ ثَلَاثِينَ فِعْلاً — 30 Top Verbs</h2>
+  <p class="note">
+    Every verb is given in the <em>third-person masculine singular past</em> as the canonical dictionary form,
+    followed by present, masdar, active participle, and passive participle with full harakah.
+    Intransitive verbs are marked <em>—</em> for ism al-maf'ūl.
+  </p>
+  <div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>مَاضٍ / Past</th>
+        <th>مُضَارِعٌ / Present</th>
+        <th>مَصْدَرٌ / Masdar</th>
+        <th>اسْمُ الْفَاعِلِ</th>
+        <th>اسْمُ الْمَفْعُولِ</th>
+        <th>Meaning</th>
+        <th class="alt">↔ Alternatives</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 1 -->
+      <tr>
+        <td class="center">1</td>
+        <td><span class="ar">قَرَأَ</span></td>
+        <td><span class="ar">يَقْرَأُ</span></td>
+        <td><span class="ar">قِرَاءَةٌ</span></td>
+        <td><span class="ar">قَارِئٌ</span></td>
+        <td><span class="ar">مَقْرُوءٌ</span></td>
+        <td>to read</td>
+        <td><span class="ar alt">تَلَا، دَرَسَ</span></td>
+      </tr>
+      <!-- 2 -->
+      <tr>
+        <td class="center">2</td>
+        <td><span class="ar">كَتَبَ</span></td>
+        <td><span class="ar">يَكْتُبُ</span></td>
+        <td><span class="ar">كِتَابَةٌ</span></td>
+        <td><span class="ar">كَاتِبٌ</span></td>
+        <td><span class="ar">مَكْتُوبٌ</span></td>
+        <td>to write</td>
+        <td><span class="ar alt">خَطَّ، دَوَّنَ</span></td>
+      </tr>
+      <!-- 3 -->
+      <tr>
+        <td class="center">3</td>
+        <td><span class="ar">تَكَلَّمَ</span></td>
+        <td><span class="ar">يَتَكَلَّمُ</span></td>
+        <td><span class="ar">تَكَلُّمٌ / كَلَامٌ</span></td>
+        <td><span class="ar">مُتَكَلِّمٌ</span></td>
+        <td><span class="ar">مُتَكَلَّمٌ بِهِ</span></td>
+        <td>to speak</td>
+        <td><span class="ar alt">قَالَ، نَطَقَ</span></td>
+      </tr>
+      <!-- 4 -->
+      <tr>
+        <td class="center">4</td>
+        <td><span class="ar">فَهِمَ</span></td>
+        <td><span class="ar">يَفْهَمُ</span></td>
+        <td><span class="ar">فَهْمٌ</span></td>
+        <td><span class="ar">فَاهِمٌ</span></td>
+        <td><span class="ar">مَفْهُومٌ</span></td>
+        <td>to understand</td>
+        <td><span class="ar alt">أَدْرَكَ، عَقَلَ</span></td>
+      </tr>
+      <!-- 5 -->
+      <tr>
+        <td class="center">5</td>
+        <td><span class="ar">عَلِمَ</span></td>
+        <td><span class="ar">يَعْلَمُ</span></td>
+        <td><span class="ar">عِلْمٌ</span></td>
+        <td><span class="ar">عَالِمٌ</span></td>
+        <td><span class="ar">مَعْلُومٌ</span></td>
+        <td>to know</td>
+        <td><span class="ar alt">عَرَفَ، دَرَى</span></td>
+      </tr>
+      <!-- 6 -->
+      <tr>
+        <td class="center">6</td>
+        <td><span class="ar">قَالَ</span></td>
+        <td><span class="ar">يَقُولُ</span></td>
+        <td><span class="ar">قَوْلٌ</span></td>
+        <td><span class="ar">قَائِلٌ</span></td>
+        <td><span class="ar">مَقُولٌ</span></td>
+        <td>to say</td>
+        <td><span class="ar alt">أَفَادَ، ذَكَرَ</span></td>
+      </tr>
+      <!-- 7 -->
+      <tr>
+        <td class="center">7</td>
+        <td><span class="ar">سَأَلَ</span></td>
+        <td><span class="ar">يَسْأَلُ</span></td>
+        <td><span class="ar">سُؤَالٌ</span></td>
+        <td><span class="ar">سَائِلٌ</span></td>
+        <td><span class="ar">مَسْئُولٌ</span></td>
+        <td>to ask</td>
+        <td><span class="ar alt">اسْتَفْسَرَ، اسْتَوْضَحَ</span></td>
+      </tr>
+      <!-- 8 -->
+      <tr>
+        <td class="center">8</td>
+        <td><span class="ar">أَجَابَ</span></td>
+        <td><span class="ar">يُجِيبُ</span></td>
+        <td><span class="ar">إِجَابَةٌ</span></td>
+        <td><span class="ar">مُجِيبٌ</span></td>
+        <td><span class="ar">مُجَابٌ</span></td>
+        <td>to answer / respond</td>
+        <td><span class="ar alt">رَدَّ، أَفَادَ</span></td>
+      </tr>
+      <!-- 9 -->
+      <tr>
+        <td class="center">9</td>
+        <td><span class="ar">رَأَى</span></td>
+        <td><span class="ar">يَرَى</span></td>
+        <td><span class="ar">رُؤْيَةٌ</span></td>
+        <td><span class="ar">رَاءٍ</span></td>
+        <td><span class="ar">مَرْئِيٌّ</span></td>
+        <td>to see</td>
+        <td><span class="ar alt">نَظَرَ، أَبْصَرَ</span></td>
+      </tr>
+      <!-- 10 -->
+      <tr>
+        <td class="center">10</td>
+        <td><span class="ar">سَمِعَ</span></td>
+        <td><span class="ar">يَسْمَعُ</span></td>
+        <td><span class="ar">سَمَاعٌ</span></td>
+        <td><span class="ar">سَامِعٌ</span></td>
+        <td><span class="ar">مَسْمُوعٌ</span></td>
+        <td>to hear / listen</td>
+        <td><span class="ar alt">اسْتَمَعَ، أَنْصَتَ</span></td>
+      </tr>
+      <!-- 11 -->
+      <tr>
+        <td class="center">11</td>
+        <td><span class="ar">ذَهَبَ</span></td>
+        <td><span class="ar">يَذْهَبُ</span></td>
+        <td><span class="ar">ذَهَابٌ</span></td>
+        <td><span class="ar">ذَاهِبٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to go</td>
+        <td><span class="ar alt">انْطَلَقَ، سَارَ</span></td>
+      </tr>
+      <!-- 12 -->
+      <tr>
+        <td class="center">12</td>
+        <td><span class="ar">جَاءَ</span></td>
+        <td><span class="ar">يَجِيءُ</span></td>
+        <td><span class="ar">مَجِيءٌ</span></td>
+        <td><span class="ar">جَائِءٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to come</td>
+        <td><span class="ar alt">أَتَى، حَضَرَ</span></td>
+      </tr>
+      <!-- 13 -->
+      <tr>
+        <td class="center">13</td>
+        <td><span class="ar">دَخَلَ</span></td>
+        <td><span class="ar">يَدْخُلُ</span></td>
+        <td><span class="ar">دُخُولٌ</span></td>
+        <td><span class="ar">دَاخِلٌ</span></td>
+        <td><span class="ar">مَدْخُولٌ فِيهِ</span></td>
+        <td>to enter</td>
+        <td><span class="ar alt">وَلَجَ، —</span></td>
+      </tr>
+      <!-- 14 -->
+      <tr>
+        <td class="center">14</td>
+        <td><span class="ar">خَرَجَ</span></td>
+        <td><span class="ar">يَخْرُجُ</span></td>
+        <td><span class="ar">خُرُوجٌ</span></td>
+        <td><span class="ar">خَارِجٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to exit / go out</td>
+        <td><span class="ar alt">غَادَرَ، بَرَزَ</span></td>
+      </tr>
+      <!-- 15 -->
+      <tr>
+        <td class="center">15</td>
+        <td><span class="ar">جَلَسَ</span></td>
+        <td><span class="ar">يَجْلِسُ</span></td>
+        <td><span class="ar">جُلُوسٌ</span></td>
+        <td><span class="ar">جَالِسٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to sit</td>
+        <td><span class="ar alt">قَعَدَ، —</span></td>
+      </tr>
+      <!-- 16 -->
+      <tr>
+        <td class="center">16</td>
+        <td><span class="ar">قَامَ</span></td>
+        <td><span class="ar">يَقُومُ</span></td>
+        <td><span class="ar">قِيَامٌ</span></td>
+        <td><span class="ar">قَائِمٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to stand / rise</td>
+        <td><span class="ar alt">نَهَضَ، —</span></td>
+      </tr>
+      <!-- 17 -->
+      <tr>
+        <td class="center">17</td>
+        <td><span class="ar">أَكَلَ</span></td>
+        <td><span class="ar">يَأْكُلُ</span></td>
+        <td><span class="ar">أَكْلٌ</span></td>
+        <td><span class="ar">آكِلٌ</span></td>
+        <td><span class="ar">مَأْكُولٌ</span></td>
+        <td>to eat</td>
+        <td><span class="ar alt">تَنَاوَلَ، طَعِمَ</span></td>
+      </tr>
+      <!-- 18 -->
+      <tr>
+        <td class="center">18</td>
+        <td><span class="ar">شَرِبَ</span></td>
+        <td><span class="ar">يَشْرَبُ</span></td>
+        <td><span class="ar">شُرْبٌ</span></td>
+        <td><span class="ar">شَارِبٌ</span></td>
+        <td><span class="ar">مَشْرُوبٌ</span></td>
+        <td>to drink</td>
+        <td><span class="ar alt">تَجَرَّعَ، —</span></td>
+      </tr>
+      <!-- 19 -->
+      <tr>
+        <td class="center">19</td>
+        <td><span class="ar">أَخَذَ</span></td>
+        <td><span class="ar">يَأْخُذُ</span></td>
+        <td><span class="ar">أَخْذٌ</span></td>
+        <td><span class="ar">آخِذٌ</span></td>
+        <td><span class="ar">مَأْخُوذٌ</span></td>
+        <td>to take</td>
+        <td><span class="ar alt">اسْتَلَمَ، تَسَلَّمَ</span></td>
+      </tr>
+      <!-- 20 -->
+      <tr>
+        <td class="center">20</td>
+        <td><span class="ar">أَعْطَى</span></td>
+        <td><span class="ar">يُعْطِي</span></td>
+        <td><span class="ar">إِعْطَاءٌ</span></td>
+        <td><span class="ar">مُعْطٍ</span></td>
+        <td><span class="ar">مُعْطًى</span></td>
+        <td>to give</td>
+        <td><span class="ar alt">وَهَبَ، مَنَحَ</span></td>
+      </tr>
+      <!-- 21 -->
+      <tr>
+        <td class="center">21</td>
+        <td><span class="ar">طَلَبَ</span></td>
+        <td><span class="ar">يَطْلُبُ</span></td>
+        <td><span class="ar">طَلَبٌ</span></td>
+        <td><span class="ar">طَالِبٌ</span></td>
+        <td><span class="ar">مَطْلُوبٌ</span></td>
+        <td>to request / seek</td>
+        <td><span class="ar alt">اسْتَدْعَى، رَجَا</span></td>
+      </tr>
+      <!-- 22 -->
+      <tr>
+        <td class="center">22</td>
+        <td><span class="ar">فَعَلَ</span></td>
+        <td><span class="ar">يَفْعَلُ</span></td>
+        <td><span class="ar">فِعْلٌ</span></td>
+        <td><span class="ar">فَاعِلٌ</span></td>
+        <td><span class="ar">مَفْعُولٌ</span></td>
+        <td>to do / act</td>
+        <td><span class="ar alt">عَمِلَ، صَنَعَ</span></td>
+      </tr>
+      <!-- 23 -->
+      <tr>
+        <td class="center">23</td>
+        <td><span class="ar">وَصَلَ</span></td>
+        <td><span class="ar">يَصِلُ</span></td>
+        <td><span class="ar">وُصُولٌ</span></td>
+        <td><span class="ar">وَاصِلٌ</span></td>
+        <td><span class="ar">مَوْصُولٌ</span></td>
+        <td>to arrive / reach</td>
+        <td><span class="ar alt">بَلَغَ، وَافَى</span></td>
+      </tr>
+      <!-- 24 -->
+      <tr>
+        <td class="center">24</td>
+        <td><span class="ar">سَافَرَ</span></td>
+        <td><span class="ar">يُسَافِرُ</span></td>
+        <td><span class="ar">سَفَرٌ</span></td>
+        <td><span class="ar">مُسَافِرٌ</span></td>
+        <td><span class="ar">—</span></td>
+        <td>to travel</td>
+        <td><span class="ar alt">رَحَلَ، انْتَقَلَ</span></td>
+      </tr>
+      <!-- 25 -->
+      <tr>
+        <td class="center">25</td>
+        <td><span class="ar">فَتَحَ</span></td>
+        <td><span class="ar">يَفْتَحُ</span></td>
+        <td><span class="ar">فَتْحٌ</span></td>
+        <td><span class="ar">فَاتِحٌ</span></td>
+        <td><span class="ar">مَفْتُوحٌ</span></td>
+        <td>to open</td>
+        <td><span class="ar alt">—</span></td>
+      </tr>
+      <!-- 26 -->
+      <tr>
+        <td class="center">26</td>
+        <td><span class="ar">أَغْلَقَ</span></td>
+        <td><span class="ar">يُغْلِقُ</span></td>
+        <td><span class="ar">إِغْلَاقٌ</span></td>
+        <td><span class="ar">مُغْلِقٌ</span></td>
+        <td><span class="ar">مُغْلَقٌ</span></td>
+        <td>to close / shut</td>
+        <td><span class="ar alt">أَوْصَدَ، سَدَّ</span></td>
+      </tr>
+      <!-- 27 -->
+      <tr>
+        <td class="center">27</td>
+        <td><span class="ar">حَمَلَ</span></td>
+        <td><span class="ar">يَحْمِلُ</span></td>
+        <td><span class="ar">حَمْلٌ</span></td>
+        <td><span class="ar">حَامِلٌ</span></td>
+        <td><span class="ar">مَحْمُولٌ</span></td>
+        <td>to carry / bear</td>
+        <td><span class="ar alt">رَفَعَ، حَازَ</span></td>
+      </tr>
+      <!-- 28 -->
+      <tr>
+        <td class="center">28</td>
+        <td><span class="ar">دَرَسَ</span></td>
+        <td><span class="ar">يَدْرُسُ</span></td>
+        <td><span class="ar">دِرَاسَةٌ</span></td>
+        <td><span class="ar">دَارِسٌ</span></td>
+        <td><span class="ar">مَدْرُوسٌ</span></td>
+        <td>to study</td>
+        <td><span class="ar alt">تَعَلَّمَ، تَفَقَّهَ</span></td>
+      </tr>
+      <!-- 29 -->
+      <tr>
+        <td class="center">29</td>
+        <td><span class="ar">اشْتَرَى</span></td>
+        <td><span class="ar">يَشْتَرِي</span></td>
+        <td><span class="ar">شِرَاءٌ</span></td>
+        <td><span class="ar">مُشْتَرٍ</span></td>
+        <td><span class="ar">مُشْتَرًى</span></td>
+        <td>to buy / purchase</td>
+        <td><span class="ar alt">ابْتَاعَ، اقْتَنَى</span></td>
+      </tr>
+      <!-- 30 -->
+      <tr>
+        <td class="center">30</td>
+        <td><span class="ar">عَمِلَ</span></td>
+        <td><span class="ar">يَعْمَلُ</span></td>
+        <td><span class="ar">عَمَلٌ</span></td>
+        <td><span class="ar">عَامِلٌ</span></td>
+        <td><span class="ar">مَعْمُولٌ</span></td>
+        <td>to work / act</td>
+        <td><span class="ar alt">اشْتَغَلَ، خَدَمَ</span></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 2 – 20 HARFS
+  ══════════════════════════════════════════════════════════ -->
+  <h2>② أَهَمُّ عِشْرِينَ حَرْفاً وَأَدَاةً — 20 Key Particles &amp; Signs</h2>
+  <p class="note">
+    These include prepositions, conjunctions, interrogative particles, negation, and emphasis
+    tools essential for formal and academic speech.
+  </p>
+  <div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>الْكَلِمَةُ / Word</th>
+        <th>Transliteration</th>
+        <th>Type</th>
+        <th>Meaning &amp; Use</th>
+        <th class="alt">↔ Alternatives</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="center">1</td>
+        <td><span class="ar">فِي</span></td>
+        <td><em>fī</em></td>
+        <td>Preposition</td>
+        <td>in, at, on (location / time)</td>
+        <td><span class="ar alt">دَاخِلَ، بِـ</span></td>
+      </tr>
+      <tr>
+        <td class="center">2</td>
+        <td><span class="ar">عَلَى</span></td>
+        <td><em>'alā</em></td>
+        <td>Preposition</td>
+        <td>on, upon, over; regarding</td>
+        <td><span class="ar alt">فَوْقَ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">3</td>
+        <td><span class="ar">مِنْ</span></td>
+        <td><em>min</em></td>
+        <td>Preposition</td>
+        <td>from, of, out of</td>
+        <td><span class="ar alt">عَنْ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">4</td>
+        <td><span class="ar">إِلَى</span></td>
+        <td><em>ilā</em></td>
+        <td>Preposition</td>
+        <td>to, towards, until</td>
+        <td><span class="ar alt">نَحْوَ، حَتَّى</span></td>
+      </tr>
+      <tr>
+        <td class="center">5</td>
+        <td><span class="ar">عَنْ</span></td>
+        <td><em>'an</em></td>
+        <td>Preposition</td>
+        <td>about, concerning; away from</td>
+        <td><span class="ar alt">حَوْلَ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">6</td>
+        <td><span class="ar">مَعَ</span></td>
+        <td><em>ma'a</em></td>
+        <td>Preposition</td>
+        <td>with, together with, along with</td>
+        <td><span class="ar alt">بِرُفْقَةِ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">7</td>
+        <td><span class="ar">بِـ</span></td>
+        <td><em>bi</em></td>
+        <td>Preposition</td>
+        <td>with (instrument), by means of, in</td>
+        <td><span class="ar alt">بِوَاسِطَةِ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">8</td>
+        <td><span class="ar">لِـ</span></td>
+        <td><em>li</em></td>
+        <td>Preposition</td>
+        <td>for, to (purpose/possession)</td>
+        <td><span class="ar alt">مِنْ أَجْلِ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">9</td>
+        <td><span class="ar">وَ</span></td>
+        <td><em>wa</em></td>
+        <td>Conjunction</td>
+        <td>and (joins nouns, phrases, clauses)</td>
+        <td><span class="ar alt">فَـ، ثُمَّ</span></td>
+      </tr>
+      <tr>
+        <td class="center">10</td>
+        <td><span class="ar">أَوْ</span></td>
+        <td><em>aw</em></td>
+        <td>Conjunction</td>
+        <td>or (choice / doubt)</td>
+        <td><span class="ar alt">إِمَّا، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">11</td>
+        <td><span class="ar">لَكِنْ / لَكِنَّ</span></td>
+        <td><em>lākin / lākinna</em></td>
+        <td>Conjunction</td>
+        <td>but, however, yet</td>
+        <td><span class="ar alt">غَيْرَ أَنَّ، بَيْدَ أَنَّ</span></td>
+      </tr>
+      <tr>
+        <td class="center">12</td>
+        <td><span class="ar">إِنَّ</span></td>
+        <td><em>inna</em></td>
+        <td>Emphasis particle</td>
+        <td>indeed / verily — stresses what follows (puts noun in accusative)</td>
+        <td><span class="ar alt">أَنَّ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">13</td>
+        <td><span class="ar">أَنَّ</span></td>
+        <td><em>anna</em></td>
+        <td>Complementiser</td>
+        <td>that (clause introduced after verbs of saying/knowing)</td>
+        <td><span class="ar alt">كَيْ، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">14</td>
+        <td><span class="ar">إِذَا</span></td>
+        <td><em>idhā</em></td>
+        <td>Conditional</td>
+        <td>when, if (for expected/likely events)</td>
+        <td><span class="ar alt">إِنْ، لَوْ</span></td>
+      </tr>
+      <tr>
+        <td class="center">15</td>
+        <td><span class="ar">لَمَّا</span></td>
+        <td><em>lammā</em></td>
+        <td>Temporal</td>
+        <td>when, as soon as, once (past narrative)</td>
+        <td><span class="ar alt">حِينَ، عِنْدَمَا</span></td>
+      </tr>
+      <tr>
+        <td class="center">16</td>
+        <td><span class="ar">لِكَيْ / كَيْ</span></td>
+        <td><em>likay / kay</em></td>
+        <td>Purpose particle</td>
+        <td>in order to, so that (followed by subjunctive)</td>
+        <td><span class="ar alt">لِـ (+ مَصْدَرٌ)، —</span></td>
+      </tr>
+      <tr>
+        <td class="center">17</td>
+        <td><span class="ar">هَلْ</span></td>
+        <td><em>hal</em></td>
+        <td>Interrogative</td>
+        <td>introduces a yes/no question</td>
+        <td><span class="ar alt">أَـ (hamza), —</span></td>
+      </tr>
+      <tr>
+        <td class="center">18</td>
+        <td><span class="ar">لَا</span></td>
+        <td><em>lā</em></td>
+        <td>Negation</td>
+        <td>no / not (general negation; prohibitive with jussive)</td>
+        <td><span class="ar alt">مَا، لَمْ</span></td>
+      </tr>
+      <tr>
+        <td class="center">19</td>
+        <td><span class="ar">قَدْ</span></td>
+        <td><em>qad</em></td>
+        <td>Emphasis / Perfect</td>
+        <td>already / indeed (with past = confirmation; with present = possibility)</td>
+        <td><span class="ar alt">—</span></td>
+      </tr>
+      <tr>
+        <td class="center">20</td>
+        <td><span class="ar">ثُمَّ</span></td>
+        <td><em>thumma</em></td>
+        <td>Sequence</td>
+        <td>then, thereafter, afterwards (implies a time gap)</td>
+        <td><span class="ar alt">فَـ، بَعْدَ ذَلِكَ</span></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       SECTION 3 – NOUNS BY SECTOR
+  ══════════════════════════════════════════════════════════ -->
+  <h2>③ مُفْرَدَاتٌ حَسَبَ الْمَجَالِ — Vocabulary by Sector</h2>
+  <p class="note">
+    Each entry: <b>singular (مُفْرَدٌ)</b> — meaning — <b>plural (جَمْعٌ)</b>.
+    Alternatives in <span style="color:#6a1b9a">purple</span>.
+    Gender: مُذَكَّرٌ = masculine, مُؤَنَّثٌ = feminine (marked on entries where helpful).
+  </p>
+
+  <div class="sector-grid">
+
+    <!-- ── Kitchen ── -->
+    <div class="sector-card">
+      <h3>🍳 الْمَطْبَخُ — Kitchen</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">مِلْعَقَةٌ</span></td><td><span class="ar">مَلَاعِقُ</span></td><td>spoon</td><td>—</td></tr>
+          <tr><td>2</td><td><span class="ar">سِكِّينٌ</span></td><td><span class="ar">سَكَاكِينُ</span></td><td>knife</td><td><span class="ar alt">مُدْيَةٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">صَحْنٌ</span></td><td><span class="ar">صُحُونٌ</span></td><td>plate / dish</td><td><span class="ar alt">طَبَقٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">كُوبٌ</span></td><td><span class="ar">أَكْوَابٌ</span></td><td>cup / glass</td><td><span class="ar alt">زُجَاجَةٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">قِدْرٌ</span></td><td><span class="ar">قُدُورٌ</span></td><td>pot / cooking pan</td><td><span class="ar alt">إِنَاءٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">طَعَامٌ</span></td><td><span class="ar">أَطْعِمَةٌ</span></td><td>food</td><td><span class="ar alt">أَكْلٌ، غِذَاءٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">ثَلَّاجَةٌ</span></td><td><span class="ar">ثَلَّاجَاتٌ</span></td><td>refrigerator</td><td>—</td></tr>
+          <tr><td>8</td><td><span class="ar">مَوْقِدٌ</span></td><td><span class="ar">مَوَاقِدُ</span></td><td>stove / cooker</td><td><span class="ar alt">فُرْنٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">مَاءٌ</span></td><td><span class="ar">مِيَاهٌ</span></td><td>water</td><td>—</td></tr>
+          <tr><td>10</td><td><span class="ar">مِنْضَدَةٌ</span></td><td><span class="ar">مَنَاضِدُ</span></td><td>kitchen counter / table</td><td><span class="ar alt">طَاوِلَةٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Bedroom ── -->
+    <div class="sector-card">
+      <h3>🛏️ غُرْفَةُ النَّوْمِ — Bedroom</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">سَرِيرٌ</span></td><td><span class="ar">أَسِرَّةٌ</span></td><td>bed</td><td><span class="ar alt">فِرَاشٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">وِسَادَةٌ</span></td><td><span class="ar">وَسَائِدُ</span></td><td>pillow</td><td><span class="ar alt">مِخَدَّةٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">غِطَاءٌ</span></td><td><span class="ar">أَغْطِيَةٌ</span></td><td>blanket / cover</td><td><span class="ar alt">لِحَافٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">خِزَانَةٌ</span></td><td><span class="ar">خَزَائِنُ</span></td><td>wardrobe / closet</td><td><span class="ar alt">دُوْلَابٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">مِصْبَاحٌ</span></td><td><span class="ar">مَصَابِيحُ</span></td><td>lamp / light</td><td><span class="ar alt">ضَوْءٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">نَافِذَةٌ</span></td><td><span class="ar">نَوَافِذُ</span></td><td>window</td><td><span class="ar alt">شُبَّاكٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">بَابٌ</span></td><td><span class="ar">أَبْوَابٌ</span></td><td>door</td><td>—</td></tr>
+          <tr><td>8</td><td><span class="ar">مِرْآةٌ</span></td><td><span class="ar">مَرَايَا</span></td><td>mirror</td><td>—</td></tr>
+          <tr><td>9</td><td><span class="ar">سَجَّادَةٌ</span></td><td><span class="ar">سَجَّادَاتٌ</span></td><td>rug / carpet</td><td><span class="ar alt">بِسَاطٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">مَلَابِسٌ</span></td><td><span class="ar">مَلَابِسُ</span></td><td>clothes (already pl.)</td><td><span class="ar alt">ثِيَابٌ، لِبَاسٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Dining Room ── -->
+    <div class="sector-card">
+      <h3>🍽️ غُرْفَةُ الطَّعَامِ — Dining Room</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">مَائِدَةٌ</span></td><td><span class="ar">مَوَائِدُ</span></td><td>dining table</td><td><span class="ar alt">طَاوِلَةٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">كُرْسِيٌّ</span></td><td><span class="ar">كَرَاسِيُّ</span></td><td>chair</td><td>—</td></tr>
+          <tr><td>3</td><td><span class="ar">طَبَقٌ</span></td><td><span class="ar">أَطْبَاقٌ</span></td><td>dish / serving plate</td><td><span class="ar alt">صَحْنٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">فِنْجَانٌ</span></td><td><span class="ar">فَنَاجِينُ</span></td><td>small cup / coffee cup</td><td><span class="ar alt">كُوبٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">إِبْرِيقٌ</span></td><td><span class="ar">أَبَارِيقُ</span></td><td>teapot / pitcher / jug</td><td><span class="ar alt">كَتَلِيقٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">مِنْدِيلٌ</span></td><td><span class="ar">مَنَادِيلُ</span></td><td>napkin / tissue</td><td><span class="ar alt">فُوطَةٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">خُبْزٌ</span></td><td><span class="ar">أَخْبَازٌ</span></td><td>bread</td><td><span class="ar alt">رَغِيفٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">وَجْبَةٌ</span></td><td><span class="ar">وَجَبَاتٌ</span></td><td>meal</td><td><span class="ar alt">طَعَامٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">شَرَابٌ</span></td><td><span class="ar">أَشْرِبَةٌ</span></td><td>drink / beverage</td><td><span class="ar alt">مَشْرُوبٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">مِلْحٌ</span></td><td><span class="ar">أَمْلَاحٌ</span></td><td>salt</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Drawing Room ── -->
+    <div class="sector-card">
+      <h3>🛋️ غُرْفَةُ الْجُلُوسِ — Drawing Room / Living Room</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">أَرِيكَةٌ</span></td><td><span class="ar">أَرَائِكُ</span></td><td>sofa / couch</td><td><span class="ar alt">كَنَبَةٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">طَاوِلَةٌ</span></td><td><span class="ar">طَاوِلَاتٌ</span></td><td>table</td><td><span class="ar alt">مَنْضَدَةٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">تِلْفَازٌ</span></td><td><span class="ar">تِلْفَازَاتٌ</span></td><td>television</td><td><span class="ar alt">شَاشَةٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">سِتَارَةٌ</span></td><td><span class="ar">سَتَائِرُ</span></td><td>curtain / drape</td><td>—</td></tr>
+          <tr><td>5</td><td><span class="ar">لَوْحَةٌ</span></td><td><span class="ar">لَوْحَاتٌ</span></td><td>painting / picture</td><td><span class="ar alt">صُورَةٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">مِخَدَّةٌ</span></td><td><span class="ar">مَخَادُّ</span></td><td>cushion</td><td><span class="ar alt">وِسَادَةٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">مُكَيِّفٌ</span></td><td><span class="ar">مُكَيِّفَاتٌ</span></td><td>air conditioner</td><td>—</td></tr>
+          <tr><td>8</td><td><span class="ar">رَفٌّ</span></td><td><span class="ar">رُفُوفٌ</span></td><td>shelf</td><td>—</td></tr>
+          <tr><td>9</td><td><span class="ar">بِسَاطٌ</span></td><td><span class="ar">بُسُطٌ</span></td><td>carpet / rug</td><td><span class="ar alt">سَجَّادَةٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">مِصْبَاحٌ</span></td><td><span class="ar">مَصَابِيحُ</span></td><td>lamp / light fixture</td><td><span class="ar alt">نُورٌ، ضَوْءٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Washroom ── -->
+    <div class="sector-card">
+      <h3>🚿 الْحَمَّامُ — Washroom / Toilet</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">مِرْحَاضٌ</span></td><td><span class="ar">مَرَاحِيضُ</span></td><td>toilet / WC</td><td><span class="ar alt">دَوْرَةُ الْمِيَاهِ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">حَوْضٌ</span></td><td><span class="ar">أَحْوَاضٌ</span></td><td>sink / basin</td><td><span class="ar alt">مَغْسَلَةٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">صَابُونٌ</span></td><td><span class="ar">أَصَابِيعُ الصَّابُونِ</span></td><td>soap</td><td>—</td></tr>
+          <tr><td>4</td><td><span class="ar">مِنْشَفَةٌ</span></td><td><span class="ar">مَنَاشِفُ</span></td><td>towel</td><td><span class="ar alt">فُوطَةٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">مِرْآةٌ</span></td><td><span class="ar">مَرَايَا</span></td><td>mirror</td><td>—</td></tr>
+          <tr><td>6</td><td><span class="ar">حَنَفِيَّةٌ</span></td><td><span class="ar">حَنَفِيَّاتٌ</span></td><td>tap / faucet</td><td><span class="ar alt">صُنْبُورٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">دُوشٌ</span></td><td><span class="ar">دُوشَاتٌ</span></td><td>shower</td><td><span class="ar alt">مِرَشَّةٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">مِشَطٌّ</span></td><td><span class="ar">أَمْشَاطٌ</span></td><td>comb</td><td>—</td></tr>
+          <tr><td>9</td><td><span class="ar">مَعْجُونُ الْأَسْنَانِ</span></td><td>—</td><td>toothpaste</td><td>—</td></tr>
+          <tr><td>10</td><td><span class="ar">عِطْرٌ</span></td><td><span class="ar">عُطُورٌ</span></td><td>perfume / fragrance</td><td><span class="ar alt">بَخُورٌ، مِزَيِّلٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Office ── -->
+    <div class="sector-card">
+      <h3>💼 الْمَكْتَبُ — Office</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">مَكْتَبٌ</span></td><td><span class="ar">مَكَاتِبُ</span></td><td>desk / office</td><td>—</td></tr>
+          <tr><td>2</td><td><span class="ar">حَاسُوبٌ</span></td><td><span class="ar">حَوَاسِيبُ</span></td><td>computer</td><td><span class="ar alt">كُمْبِيُوتَرٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">قَلَمٌ</span></td><td><span class="ar">أَقْلَامٌ</span></td><td>pen / pencil</td><td>—</td></tr>
+          <tr><td>4</td><td><span class="ar">وَرَقَةٌ</span></td><td><span class="ar">أَوْرَاقٌ</span></td><td>paper / sheet</td><td><span class="ar alt">صَفْحَةٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">مُدِيرٌ</span></td><td><span class="ar">مُدَرَاءُ</span></td><td>manager / director</td><td><span class="ar alt">رَئِيسٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">مُوَظَّفٌ</span></td><td><span class="ar">مُوَظَّفُونَ</span></td><td>employee / staff</td><td><span class="ar alt">عَامِلٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">اجْتِمَاعٌ</span></td><td><span class="ar">اجْتِمَاعَاتٌ</span></td><td>meeting</td><td><span class="ar alt">لِقَاءٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">مَلَفٌّ</span></td><td><span class="ar">مَلَفَّاتٌ</span></td><td>file / folder / dossier</td><td><span class="ar alt">وَثِيقَةٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">طَابِعَةٌ</span></td><td><span class="ar">طَابِعَاتٌ</span></td><td>printer</td><td>—</td></tr>
+          <tr><td>10</td><td><span class="ar">تَقْرِيرٌ</span></td><td><span class="ar">تَقَارِيرُ</span></td><td>report</td><td><span class="ar alt">بَيَانٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Masjid ── -->
+    <div class="sector-card">
+      <h3>🕌 الْمَسْجِدُ — Masjid / Mosque</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">مِحْرَابٌ</span></td><td><span class="ar">مَحَارِيبُ</span></td><td>prayer niche (qiblah direction)</td><td>—</td></tr>
+          <tr><td>2</td><td><span class="ar">مِنْبَرٌ</span></td><td><span class="ar">مَنَابِرُ</span></td><td>pulpit / minbar</td><td>—</td></tr>
+          <tr><td>3</td><td><span class="ar">صَلَاةٌ</span></td><td><span class="ar">صَلَوَاتٌ</span></td><td>prayer</td><td><span class="ar alt">دُعَاءٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">إِمَامٌ</span></td><td><span class="ar">أَئِمَّةٌ</span></td><td>imam / prayer leader</td><td>—</td></tr>
+          <tr><td>5</td><td><span class="ar">أَذَانٌ</span></td><td><span class="ar">أَذَانَاتٌ</span></td><td>call to prayer</td><td>—</td></tr>
+          <tr><td>6</td><td><span class="ar">وُضُوءٌ</span></td><td>—</td><td>ablution</td><td><span class="ar alt">تَطَهُّرٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">سَجَّادَةٌ</span></td><td><span class="ar">سَجَّادَاتٌ</span></td><td>prayer rug</td><td><span class="ar alt">مُصَلًّى</span></td></tr>
+          <tr><td>8</td><td><span class="ar">مُؤَذِّنٌ</span></td><td><span class="ar">مُؤَذِّنُونَ</span></td><td>muezzin (caller to prayer)</td><td>—</td></tr>
+          <tr><td>9</td><td><span class="ar">خُطْبَةٌ</span></td><td><span class="ar">خُطَبٌ</span></td><td>sermon / khutbah</td><td><span class="ar alt">مَوْعِظَةٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">صَفٌّ</span></td><td><span class="ar">صُفُوفٌ</span></td><td>row (prayer row)</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── University ── -->
+    <div class="sector-card">
+      <h3>🎓 الْجَامِعَةُ — University</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">أُسْتَاذٌ</span></td><td><span class="ar">أَسَاتِذَةٌ</span></td><td>professor / lecturer</td><td><span class="ar alt">مُحَاضِرٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">طَالِبٌ</span></td><td><span class="ar">طُلَّابٌ</span></td><td>student</td><td><span class="ar alt">دَارِسٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">قَاعَةٌ</span></td><td><span class="ar">قَاعَاتٌ</span></td><td>hall / lecture room</td><td><span class="ar alt">فَصْلٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">مَكْتَبَةٌ</span></td><td><span class="ar">مَكْتَبَاتٌ</span></td><td>library</td><td>—</td></tr>
+          <tr><td>5</td><td><span class="ar">مَادَّةٌ</span></td><td><span class="ar">مَوَادُّ</span></td><td>subject / course</td><td><span class="ar alt">مَنْهَجٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">امْتِحَانٌ</span></td><td><span class="ar">امْتِحَانَاتٌ</span></td><td>exam / test</td><td><span class="ar alt">اخْتِبَارٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">شَهَادَةٌ</span></td><td><span class="ar">شَهَادَاتٌ</span></td><td>degree / certificate</td><td><span class="ar alt">دَرَجَةٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">بَحْثٌ</span></td><td><span class="ar">أَبْحَاثٌ</span></td><td>research / thesis</td><td><span class="ar alt">دِرَاسَةٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">كُلِّيَّةٌ</span></td><td><span class="ar">كُلِّيَّاتٌ</span></td><td>faculty / college</td><td><span class="ar alt">قِسْمٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">حَرَمٌ جَامِعِيٌّ</span></td><td><span class="ar">أَحْرَامٌ جَامِعِيَّةٌ</span></td><td>campus</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Bus ── -->
+    <div class="sector-card">
+      <h3>🚌 النَّقْلُ بِالْحَافِلَةِ — Bus Transportation</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">حَافِلَةٌ</span></td><td><span class="ar">حَافِلَاتٌ</span></td><td>bus</td><td><span class="ar alt">بَاصٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">مَحَطَّةٌ</span></td><td><span class="ar">مَحَطَّاتٌ</span></td><td>bus stop / station</td><td><span class="ar alt">مَوْقِفٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">تَذْكَرَةٌ</span></td><td><span class="ar">تَذَاكِرُ</span></td><td>ticket</td><td><span class="ar alt">بِطَاقَةٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">سَائِقٌ</span></td><td><span class="ar">سَائِقُونَ</span></td><td>driver</td><td><span class="ar alt">قَائِدٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">رَاكِبٌ</span></td><td><span class="ar">رُكَّابٌ</span></td><td>passenger</td><td><span class="ar alt">مُسَافِرٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">مَقْعَدٌ</span></td><td><span class="ar">مَقَاعِدُ</span></td><td>seat</td><td><span class="ar alt">كُرْسِيٌّ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">طَرِيقٌ</span></td><td><span class="ar">طُرُقٌ</span></td><td>road / route</td><td><span class="ar alt">خَطٌّ، مَسَارٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">أُجْرَةٌ</span></td><td><span class="ar">أُجَرٌ</span></td><td>fare / fee</td><td><span class="ar alt">رَسْمٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">رِحْلَةٌ</span></td><td><span class="ar">رِحَلَاتٌ</span></td><td>trip / journey</td><td><span class="ar alt">سَفَرٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">تَوَقُّفٌ</span></td><td><span class="ar">تَوَقُّفَاتٌ</span></td><td>stop / halt</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Metro ── -->
+    <div class="sector-card">
+      <h3>🚇 النَّقْلُ بِالْمِتْرُو — Metro Transportation</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">قِطَارٌ</span></td><td><span class="ar">قِطَارَاتٌ</span></td><td>train / metro</td><td><span class="ar alt">مِتْرُو</span></td></tr>
+          <tr><td>2</td><td><span class="ar">مَحَطَّةٌ</span></td><td><span class="ar">مَحَطَّاتٌ</span></td><td>station</td><td><span class="ar alt">مَوْقِفٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">رَصِيفٌ</span></td><td><span class="ar">أَرْصِفَةٌ</span></td><td>platform</td><td>—</td></tr>
+          <tr><td>4</td><td><span class="ar">بِطَاقَةٌ</span></td><td><span class="ar">بِطَاقَاتٌ</span></td><td>card (metro card)</td><td><span class="ar alt">تَذْكَرَةٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">خَطٌّ</span></td><td><span class="ar">خُطُوطٌ</span></td><td>line (metro line)</td><td><span class="ar alt">مَسَارٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">بَوَّابَةٌ</span></td><td><span class="ar">بَوَّابَاتٌ</span></td><td>gate / turnstile</td><td><span class="ar alt">مَدْخَلٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">مَسَافَةٌ</span></td><td><span class="ar">مَسَافَاتٌ</span></td><td>distance</td><td>—</td></tr>
+          <tr><td>8</td><td><span class="ar">تَأْخِيرٌ</span></td><td><span class="ar">تَأْخِيرَاتٌ</span></td><td>delay</td><td>—</td></tr>
+          <tr><td>9</td><td><span class="ar">مَخْرَجٌ</span></td><td><span class="ar">مَخَارِجُ</span></td><td>exit</td><td><span class="ar alt">بَابُ الْخُرُوجِ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">مُوَاصَلَاتٌ</span></td><td>—</td><td>transportation (general)</td><td><span class="ar alt">نَقْلٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Taxi ── -->
+    <div class="sector-card">
+      <h3>🚕 النَّقْلُ بِالتَّاكْسِي — Taxi Transportation</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">تَاكْسِي</span></td><td><span class="ar">تَاكْسِيَّاتٌ</span></td><td>taxi</td><td><span class="ar alt">سَيَّارَةُ أُجْرَةٍ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">سَائِقٌ</span></td><td><span class="ar">سَائِقُونَ</span></td><td>driver</td><td><span class="ar alt">قَائِدٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">عُنْوَانٌ</span></td><td><span class="ar">عَنَاوِينُ</span></td><td>address</td><td>—</td></tr>
+          <tr><td>4</td><td><span class="ar">وِجْهَةٌ</span></td><td><span class="ar">وِجْهَاتٌ</span></td><td>destination</td><td><span class="ar alt">مَقْصِدٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">أُجْرَةٌ</span></td><td><span class="ar">أُجَرٌ</span></td><td>fare</td><td><span class="ar alt">رَسْمٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">مِيتَرٌ</span></td><td><span class="ar">مِيتَرَاتٌ</span></td><td>meter (taxi meter)</td><td>—</td></tr>
+          <tr><td>7</td><td><span class="ar">تَطْبِيقٌ</span></td><td><span class="ar">تَطْبِيقَاتٌ</span></td><td>app (ride-hailing app)</td><td>—</td></tr>
+          <tr><td>8</td><td><span class="ar">ازْدِحَامٌ</span></td><td>—</td><td>traffic / congestion</td><td><span class="ar alt">زِحَامٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">طَرِيقٌ</span></td><td><span class="ar">طُرُقٌ</span></td><td>road / route</td><td><span class="ar alt">شَارِعٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">مَوْقِفٌ</span></td><td><span class="ar">مَوَاقِفُ</span></td><td>parking / stand</td><td>—</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Language Course ── -->
+    <div class="sector-card">
+      <h3>📚 دَوْرَةُ تَعَلُّمِ اللُّغَةِ — Language Learning Course</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">لُغَةٌ</span></td><td><span class="ar">لُغَاتٌ</span></td><td>language</td><td><span class="ar alt">لِسَانٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">مُعَلِّمٌ</span></td><td><span class="ar">مُعَلِّمُونَ</span></td><td>teacher / instructor</td><td><span class="ar alt">مُدَرِّسٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">مُتَعَلِّمٌ</span></td><td><span class="ar">مُتَعَلِّمُونَ</span></td><td>learner / student</td><td><span class="ar alt">طَالِبٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">كِتَابٌ</span></td><td><span class="ar">كُتُبٌ</span></td><td>book / textbook</td><td><span class="ar alt">مُقَرَّرٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">قَامُوسٌ</span></td><td><span class="ar">قَوَامِيسُ</span></td><td>dictionary</td><td><span class="ar alt">مُعْجَمٌ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">قَاعِدَةٌ</span></td><td><span class="ar">قَوَاعِدُ</span></td><td>grammar rule</td><td><span class="ar alt">نَحْوٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">مُفْرَدَةٌ</span></td><td><span class="ar">مُفْرَدَاتٌ</span></td><td>vocabulary item</td><td><span class="ar alt">كَلِمَةٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">نُطْقٌ</span></td><td>—</td><td>pronunciation</td><td><span class="ar alt">لَفْظٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">تَمْرِينٌ</span></td><td><span class="ar">تَمَارِينُ</span></td><td>exercise / practice</td><td><span class="ar alt">وَاجِبٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">صَفٌّ</span></td><td><span class="ar">صُفُوفٌ</span></td><td>class / classroom</td><td><span class="ar alt">فَصْلٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+    <!-- ── Interpersonal ── -->
+    <div class="sector-card">
+      <h3>🤝 التَّوَاصُلُ الشَّخْصِيُّ — Inter-personal Communication</h3>
+      <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Singular</th><th>Plural</th><th>Meaning</th><th class="alt">↔ Alt</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="ar">تَحِيَّةٌ</span></td><td><span class="ar">تَحِيَّاتٌ</span></td><td>greeting / salutation</td><td><span class="ar alt">سَلَامٌ</span></td></tr>
+          <tr><td>2</td><td><span class="ar">مُحَادَثَةٌ</span></td><td><span class="ar">مُحَادَثَاتٌ</span></td><td>conversation</td><td><span class="ar alt">حِوَارٌ، كَلَامٌ</span></td></tr>
+          <tr><td>3</td><td><span class="ar">صَدِيقٌ</span></td><td><span class="ar">أَصْدِقَاءُ</span></td><td>friend</td><td><span class="ar alt">رَفِيقٌ</span></td></tr>
+          <tr><td>4</td><td><span class="ar">زَمِيلٌ</span></td><td><span class="ar">زُمَلَاءُ</span></td><td>colleague / classmate</td><td><span class="ar alt">رَفِيقٌ</span></td></tr>
+          <tr><td>5</td><td><span class="ar">رَأْيٌ</span></td><td><span class="ar">آرَاءٌ</span></td><td>opinion / view</td><td><span class="ar alt">وِجْهَةُ نَظَرٍ</span></td></tr>
+          <tr><td>6</td><td><span class="ar">اقْتِرَاحٌ</span></td><td><span class="ar">اقْتِرَاحَاتٌ</span></td><td>suggestion / proposal</td><td><span class="ar alt">مُقْتَرَحٌ</span></td></tr>
+          <tr><td>7</td><td><span class="ar">مَوْعِدٌ</span></td><td><span class="ar">مَوَاعِيدُ</span></td><td>appointment / meeting time</td><td><span class="ar alt">لِقَاءٌ</span></td></tr>
+          <tr><td>8</td><td><span class="ar">شُكْرٌ</span></td><td>—</td><td>thanks / gratitude</td><td><span class="ar alt">امْتِنَانٌ</span></td></tr>
+          <tr><td>9</td><td><span class="ar">اعْتِذَارٌ</span></td><td><span class="ar">اعْتِذَارَاتٌ</span></td><td>apology / excuse</td><td><span class="ar alt">عُذْرٌ</span></td></tr>
+          <tr><td>10</td><td><span class="ar">تَعَارُفٌ</span></td><td>—</td><td>introduction / acquaintance</td><td><span class="ar alt">مُقَدِّمَةٌ</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+
+  </div><!-- /sector-grid -->
+
+  <p style="text-align:center; margin-top:48px; color:#aaa; font-size:0.85rem;">
+    Prepared for Classical / Modern Standard Arabic (MSA) learning &nbsp;|&nbsp;
+    All words carry full <em>tashkīl</em> (harakah) &nbsp;|&nbsp;
+    <span class="ar ar-sm">بِالتَّوْفِيقِ إِنْ شَاءَ اللهُ</span>
+  </p>
+
+</div><!-- /page -->
+</body>
+</html>
