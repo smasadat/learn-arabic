@@ -101,8 +101,8 @@
       .tbl-wrap { overflow: visible !important; }
       /* Scale-down wide tables to fit the printed page */
       .tbl-wrap table { font-size: 0.72em; white-space: normal; }
-      /* Allow sector-grid to flow as two-column in print */
-      .sector-grid { grid-template-columns: 1fr 1fr; }
+      /* Sector tables print full-width (one per row) for maximum readability */
+      .sector-grid { grid-template-columns: 1fr; }
       /* Ensure page uses full width */
       .page { max-width: 100%; }
     }
