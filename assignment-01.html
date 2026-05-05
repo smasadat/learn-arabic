@@ -71,6 +71,10 @@
     .legend span { white-space: nowrap; }
     .legend b { color: #0d47a1; }
 
+    /* ── RTL data cells (Arabic verb table) ── */
+    td.ar-cell { text-align: right; direction: rtl; unicode-bidi: embed; }
+    td.num-cell { text-align: center; font-weight: 600; }
+
     @media print {
       body { background: #fff; }
       h2 { break-before: page; }
@@ -94,692 +98,1243 @@
     <span><b>اسْمُ الْفَاعِلِ</b> = Active participle</span>
     <span><b>اسْمُ الْمَفْعُولِ</b> = Passive participle</span>
     <span><b>ج</b> = Plural (جَمْعٌ)</span>
+    <span><b>مَاضٍ مجهول</b> = Past passive</span>
+    <span><b>مُضَارِعٌ مجهول</b> = Present passive</span>
+    <span><b>الأمر</b> = Imperative (2nd m. sg.)</span>
+    <span><b>النهي</b> = Prohibitive (لَا + jussive)</span>
     <span><b style="color:#6a1b9a">↔ Alt</b> = Common alternatives (max 2)</span>
   </div>
 
   <!-- ══════════════════════════════════════════════════════════
-       SECTION 1 – 30 VERBS
+       SECTION 1 – 80 VERBS
   ══════════════════════════════════════════════════════════ -->
-  <h2>① أَهَمُّ سِتِّينَ فِعْلاً — 60 Top Verbs</h2>
+  <h2>① أَهَمُّ ثَمَانِينَ فِعْلاً — 80 Top Verbs</h2>
   <p class="note">
-    Every verb is given in the <em>third-person masculine singular past</em> as the canonical dictionary form,
-    followed by present, masdar, active participle, and passive participle with full harakah.
-    Intransitive verbs are marked <em>—</em> for ism al-maf'ūl.
+    Every verb is given in the <em>third-person masculine singular past (مَاضٍ)</em> as the dictionary entry,
+    followed by present (مُضَارِعٌ), active participle (اسْمُ الْفَاعِلِ), masdar (مَصْدَرٌ),
+    passive participle (اسْمُ الْمَفْعُولِ), past passive (مَاضٍ مجهول), present passive (مُضَارِعٌ مجهول),
+    imperative (الأمر) and prohibitive (النهي) — all with full <em>harakah</em>.
+    Intransitive / rarely-passivised verbs are marked <em>—</em> in passive columns.
+    Serial numbers use Eastern Arabic numerals (١، ٢، …).
   </p>
   <div class="tbl-wrap">
   <table>
     <thead>
       <tr>
         <th>#</th>
-        <th>مَاضٍ / Past</th>
-        <th>مُضَارِعٌ / Present</th>
-        <th>مَصْدَرٌ / Masdar</th>
+        <th>مَاضٍ</th>
+        <th>مُضَارِعٌ</th>
         <th>اسْمُ الْفَاعِلِ</th>
+        <th>مَصْدَرٌ</th>
         <th>اسْمُ الْمَفْعُولِ</th>
+        <th>مَاضٍ مجهول</th>
+        <th>مُضَارِعٌ مجهول</th>
+        <th>الأمر</th>
+        <th>النهي</th>
         <th>Meaning</th>
         <th class="alt">↔ Alternatives</th>
       </tr>
     </thead>
     <tbody>
-      <!-- 1 -->
+<!-- 1 -->
       <tr>
-        <td class="center">1</td>
-        <td><span class="ar">قَرَأَ</span></td>
-        <td><span class="ar">يَقْرَأُ</span></td>
-        <td><span class="ar">قِرَاءَةٌ</span></td>
-        <td><span class="ar">قَارِئٌ</span></td>
-        <td><span class="ar">مَقْرُوءٌ</span></td>
+        <td class="num-cell">١</td>
+        <td class="ar-cell"><span class="ar">قَرَأَ</span></td>
+        <td class="ar-cell"><span class="ar">يَقْرَأُ</span></td>
+        <td class="ar-cell"><span class="ar">قَارِئٌ</span></td>
+        <td class="ar-cell"><span class="ar">قِرَاءَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَقْرُوءٌ</span></td>
+        <td class="ar-cell"><span class="ar">قُرِئَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقْرَأُ</span></td>
+        <td class="ar-cell"><span class="ar">اِقْرَأْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَقْرَأْ</span></td>
         <td>to read</td>
-        <td><span class="ar alt">تَلَا، دَرَسَ</span></td>
+        <td class="ar-cell"><span class="ar alt">تَلَا، دَرَسَ</span></td>
       </tr>
       <!-- 2 -->
       <tr>
-        <td class="center">2</td>
-        <td><span class="ar">كَتَبَ</span></td>
-        <td><span class="ar">يَكْتُبُ</span></td>
-        <td><span class="ar">كِتَابَةٌ</span></td>
-        <td><span class="ar">كَاتِبٌ</span></td>
-        <td><span class="ar">مَكْتُوبٌ</span></td>
+        <td class="num-cell">٢</td>
+        <td class="ar-cell"><span class="ar">كَتَبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَكْتُبُ</span></td>
+        <td class="ar-cell"><span class="ar">كَاتِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">كِتَابَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَكْتُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">كُتِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُكْتَبُ</span></td>
+        <td class="ar-cell"><span class="ar">اُكْتُبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَكْتُبْ</span></td>
         <td>to write</td>
-        <td><span class="ar alt">خَطَّ، دَوَّنَ</span></td>
+        <td class="ar-cell"><span class="ar alt">خَطَّ، دَوَّنَ</span></td>
       </tr>
       <!-- 3 -->
       <tr>
-        <td class="center">3</td>
-        <td><span class="ar">تَكَلَّمَ</span></td>
-        <td><span class="ar">يَتَكَلَّمُ</span></td>
-        <td><span class="ar">تَكَلُّمٌ / كَلَامٌ</span></td>
-        <td><span class="ar">مُتَكَلِّمٌ</span></td>
-        <td><span class="ar">مُتَكَلَّمٌ بِهِ</span></td>
+        <td class="num-cell">٣</td>
+        <td class="ar-cell"><span class="ar">تَكَلَّمَ</span></td>
+        <td class="ar-cell"><span class="ar">يَتَكَلَّمُ</span></td>
+        <td class="ar-cell"><span class="ar">مُتَكَلِّمٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَكَلُّمٌ / كَلَامٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُتَكَلَّمٌ بِهِ</span></td>
+        <td class="ar-cell"><span class="ar">تُكُلِّمَ</span></td>
+        <td class="ar-cell"><span class="ar">يُتَكَلَّمُ</span></td>
+        <td class="ar-cell"><span class="ar">تَكَلَّمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَتَكَلَّمْ</span></td>
         <td>to speak</td>
-        <td><span class="ar alt">قَالَ، نَطَقَ</span></td>
+        <td class="ar-cell"><span class="ar alt">قَالَ، نَطَقَ</span></td>
       </tr>
       <!-- 4 -->
       <tr>
-        <td class="center">4</td>
-        <td><span class="ar">فَهِمَ</span></td>
-        <td><span class="ar">يَفْهَمُ</span></td>
-        <td><span class="ar">فَهْمٌ</span></td>
-        <td><span class="ar">فَاهِمٌ</span></td>
-        <td><span class="ar">مَفْهُومٌ</span></td>
+        <td class="num-cell">٤</td>
+        <td class="ar-cell"><span class="ar">فَهِمَ</span></td>
+        <td class="ar-cell"><span class="ar">يَفْهَمُ</span></td>
+        <td class="ar-cell"><span class="ar">فَاهِمٌ</span></td>
+        <td class="ar-cell"><span class="ar">فَهْمٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَفْهُومٌ</span></td>
+        <td class="ar-cell"><span class="ar">فُهِمَ</span></td>
+        <td class="ar-cell"><span class="ar">يُفْهَمُ</span></td>
+        <td class="ar-cell"><span class="ar">اِفْهَمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَفْهَمْ</span></td>
         <td>to understand</td>
-        <td><span class="ar alt">أَدْرَكَ، عَقَلَ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَدْرَكَ، عَقَلَ</span></td>
       </tr>
       <!-- 5 -->
       <tr>
-        <td class="center">5</td>
-        <td><span class="ar">عَلِمَ</span></td>
-        <td><span class="ar">يَعْلَمُ</span></td>
-        <td><span class="ar">عِلْمٌ</span></td>
-        <td><span class="ar">عَالِمٌ</span></td>
-        <td><span class="ar">مَعْلُومٌ</span></td>
+        <td class="num-cell">٥</td>
+        <td class="ar-cell"><span class="ar">عَلِمَ</span></td>
+        <td class="ar-cell"><span class="ar">يَعْلَمُ</span></td>
+        <td class="ar-cell"><span class="ar">عَالِمٌ</span></td>
+        <td class="ar-cell"><span class="ar">عِلْمٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَعْلُومٌ</span></td>
+        <td class="ar-cell"><span class="ar">عُلِمَ</span></td>
+        <td class="ar-cell"><span class="ar">يُعْلَمُ</span></td>
+        <td class="ar-cell"><span class="ar">اِعْلَمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَعْلَمْ</span></td>
         <td>to know</td>
-        <td><span class="ar alt">عَرَفَ، دَرَى</span></td>
+        <td class="ar-cell"><span class="ar alt">عَرَفَ، دَرَى</span></td>
       </tr>
       <!-- 6 -->
       <tr>
-        <td class="center">6</td>
-        <td><span class="ar">قَالَ</span></td>
-        <td><span class="ar">يَقُولُ</span></td>
-        <td><span class="ar">قَوْلٌ</span></td>
-        <td><span class="ar">قَائِلٌ</span></td>
-        <td><span class="ar">مَقُولٌ</span></td>
+        <td class="num-cell">٦</td>
+        <td class="ar-cell"><span class="ar">قَالَ</span></td>
+        <td class="ar-cell"><span class="ar">يَقُولُ</span></td>
+        <td class="ar-cell"><span class="ar">قَائِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">قَوْلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَقُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">قِيلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقَالُ</span></td>
+        <td class="ar-cell"><span class="ar">قُلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَقُلْ</span></td>
         <td>to say</td>
-        <td><span class="ar alt">أَفَادَ، ذَكَرَ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَفَادَ، ذَكَرَ</span></td>
       </tr>
       <!-- 7 -->
       <tr>
-        <td class="center">7</td>
-        <td><span class="ar">سَأَلَ</span></td>
-        <td><span class="ar">يَسْأَلُ</span></td>
-        <td><span class="ar">سُؤَالٌ</span></td>
-        <td><span class="ar">سَائِلٌ</span></td>
-        <td><span class="ar">مَسْئُولٌ</span></td>
+        <td class="num-cell">٧</td>
+        <td class="ar-cell"><span class="ar">سَأَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْأَلُ</span></td>
+        <td class="ar-cell"><span class="ar">سَائِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُؤَالٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَسْئُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُئِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْأَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اِسْأَلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْأَلْ</span></td>
         <td>to ask</td>
-        <td><span class="ar alt">اسْتَفْسَرَ، اسْتَوْضَحَ</span></td>
+        <td class="ar-cell"><span class="ar alt">اسْتَفْسَرَ، اسْتَوْضَحَ</span></td>
       </tr>
       <!-- 8 -->
       <tr>
-        <td class="center">8</td>
-        <td><span class="ar">أَجَابَ</span></td>
-        <td><span class="ar">يُجِيبُ</span></td>
-        <td><span class="ar">إِجَابَةٌ</span></td>
-        <td><span class="ar">مُجِيبٌ</span></td>
-        <td><span class="ar">مُجَابٌ</span></td>
+        <td class="num-cell">٨</td>
+        <td class="ar-cell"><span class="ar">أَجَابَ</span></td>
+        <td class="ar-cell"><span class="ar">يُجِيبُ</span></td>
+        <td class="ar-cell"><span class="ar">مُجِيبٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِجَابَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُجَابٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُجِيبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُجَابُ</span></td>
+        <td class="ar-cell"><span class="ar">أَجِبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُجِبْ</span></td>
         <td>to answer / respond</td>
-        <td><span class="ar alt">رَدَّ، أَفَادَ</span></td>
+        <td class="ar-cell"><span class="ar alt">رَدَّ، أَفَادَ</span></td>
       </tr>
       <!-- 9 -->
       <tr>
-        <td class="center">9</td>
-        <td><span class="ar">رَأَى</span></td>
-        <td><span class="ar">يَرَى</span></td>
-        <td><span class="ar">رُؤْيَةٌ</span></td>
-        <td><span class="ar">رَاءٍ</span></td>
-        <td><span class="ar">مَرْئِيٌّ</span></td>
+        <td class="num-cell">٩</td>
+        <td class="ar-cell"><span class="ar">رَأَى</span></td>
+        <td class="ar-cell"><span class="ar">يَرَى</span></td>
+        <td class="ar-cell"><span class="ar">رَاءٍ</span></td>
+        <td class="ar-cell"><span class="ar">رُؤْيَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَرْئِيٌّ</span></td>
+        <td class="ar-cell"><span class="ar">رُئِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرَى</span></td>
+        <td class="ar-cell"><span class="ar">رَ / اِرَأَ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَرَ</span></td>
         <td>to see</td>
-        <td><span class="ar alt">نَظَرَ، أَبْصَرَ</span></td>
+        <td class="ar-cell"><span class="ar alt">نَظَرَ، أَبْصَرَ</span></td>
       </tr>
       <!-- 10 -->
       <tr>
-        <td class="center">10</td>
-        <td><span class="ar">سَمِعَ</span></td>
-        <td><span class="ar">يَسْمَعُ</span></td>
-        <td><span class="ar">سَمَاعٌ</span></td>
-        <td><span class="ar">سَامِعٌ</span></td>
-        <td><span class="ar">مَسْمُوعٌ</span></td>
+        <td class="num-cell">١٠</td>
+        <td class="ar-cell"><span class="ar">سَمِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْمَعُ</span></td>
+        <td class="ar-cell"><span class="ar">سَامِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">سَمَاعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَسْمُوعٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُمِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْمَعُ</span></td>
+        <td class="ar-cell"><span class="ar">اِسْمَعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْمَعْ</span></td>
         <td>to hear / listen</td>
-        <td><span class="ar alt">اسْتَمَعَ، أَنْصَتَ</span></td>
+        <td class="ar-cell"><span class="ar alt">اسْتَمَعَ، أَنْصَتَ</span></td>
       </tr>
       <!-- 11 -->
       <tr>
-        <td class="center">11</td>
-        <td><span class="ar">ذَهَبَ</span></td>
-        <td><span class="ar">يَذْهَبُ</span></td>
-        <td><span class="ar">ذَهَابٌ</span></td>
-        <td><span class="ar">ذَاهِبٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">١١</td>
+        <td class="ar-cell"><span class="ar">ذَهَبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَذْهَبُ</span></td>
+        <td class="ar-cell"><span class="ar">ذَاهِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">ذَهَابٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اِذْهَبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَذْهَبْ</span></td>
         <td>to go</td>
-        <td><span class="ar alt">انْطَلَقَ، سَارَ</span></td>
+        <td class="ar-cell"><span class="ar alt">انْطَلَقَ، سَارَ</span></td>
       </tr>
       <!-- 12 -->
       <tr>
-        <td class="center">12</td>
-        <td><span class="ar">جَاءَ</span></td>
-        <td><span class="ar">يَجِيءُ</span></td>
-        <td><span class="ar">مَجِيءٌ</span></td>
-        <td><span class="ar">جَائِءٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">١٢</td>
+        <td class="ar-cell"><span class="ar">جَاءَ</span></td>
+        <td class="ar-cell"><span class="ar">يَجِيءُ</span></td>
+        <td class="ar-cell"><span class="ar">جَائِءٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَجِيءٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">جِيءَ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">جِئْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَجِئْ</span></td>
         <td>to come</td>
-        <td><span class="ar alt">أَتَى، حَضَرَ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَتَى، حَضَرَ</span></td>
       </tr>
       <!-- 13 -->
       <tr>
-        <td class="center">13</td>
-        <td><span class="ar">دَخَلَ</span></td>
-        <td><span class="ar">يَدْخُلُ</span></td>
-        <td><span class="ar">دُخُولٌ</span></td>
-        <td><span class="ar">دَاخِلٌ</span></td>
-        <td><span class="ar">مَدْخُولٌ فِيهِ</span></td>
+        <td class="num-cell">١٣</td>
+        <td class="ar-cell"><span class="ar">دَخَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَدْخُلُ</span></td>
+        <td class="ar-cell"><span class="ar">دَاخِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">دُخُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَدْخُولٌ فِيهِ</span></td>
+        <td class="ar-cell"><span class="ar">دُخِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُدْخَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اُدْخُلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَدْخُلْ</span></td>
         <td>to enter</td>
-        <td><span class="ar alt">وَلَجَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">وَلَجَ، —</span></td>
       </tr>
       <!-- 14 -->
       <tr>
-        <td class="center">14</td>
-        <td><span class="ar">خَرَجَ</span></td>
-        <td><span class="ar">يَخْرُجُ</span></td>
-        <td><span class="ar">خُرُوجٌ</span></td>
-        <td><span class="ar">خَارِجٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">١٤</td>
+        <td class="ar-cell"><span class="ar">خَرَجَ</span></td>
+        <td class="ar-cell"><span class="ar">يَخْرُجُ</span></td>
+        <td class="ar-cell"><span class="ar">خَارِجٌ</span></td>
+        <td class="ar-cell"><span class="ar">خُرُوجٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اُخْرُجْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَخْرُجْ</span></td>
         <td>to exit / go out</td>
-        <td><span class="ar alt">غَادَرَ، بَرَزَ</span></td>
+        <td class="ar-cell"><span class="ar alt">غَادَرَ، بَرَزَ</span></td>
       </tr>
       <!-- 15 -->
       <tr>
-        <td class="center">15</td>
-        <td><span class="ar">جَلَسَ</span></td>
-        <td><span class="ar">يَجْلِسُ</span></td>
-        <td><span class="ar">جُلُوسٌ</span></td>
-        <td><span class="ar">جَالِسٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">١٥</td>
+        <td class="ar-cell"><span class="ar">جَلَسَ</span></td>
+        <td class="ar-cell"><span class="ar">يَجْلِسُ</span></td>
+        <td class="ar-cell"><span class="ar">جَالِسٌ</span></td>
+        <td class="ar-cell"><span class="ar">جُلُوسٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اِجْلِسْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَجْلِسْ</span></td>
         <td>to sit</td>
-        <td><span class="ar alt">قَعَدَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">قَعَدَ، —</span></td>
       </tr>
       <!-- 16 -->
       <tr>
-        <td class="center">16</td>
-        <td><span class="ar">قَامَ</span></td>
-        <td><span class="ar">يَقُومُ</span></td>
-        <td><span class="ar">قِيَامٌ</span></td>
-        <td><span class="ar">قَائِمٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">١٦</td>
+        <td class="ar-cell"><span class="ar">قَامَ</span></td>
+        <td class="ar-cell"><span class="ar">يَقُومُ</span></td>
+        <td class="ar-cell"><span class="ar">قَائِمٌ</span></td>
+        <td class="ar-cell"><span class="ar">قِيَامٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">قِيمَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقَامُ</span></td>
+        <td class="ar-cell"><span class="ar">قُمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَقُمْ</span></td>
         <td>to stand / rise</td>
-        <td><span class="ar alt">نَهَضَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">نَهَضَ، —</span></td>
       </tr>
       <!-- 17 -->
       <tr>
-        <td class="center">17</td>
-        <td><span class="ar">أَكَلَ</span></td>
-        <td><span class="ar">يَأْكُلُ</span></td>
-        <td><span class="ar">أَكْلٌ</span></td>
-        <td><span class="ar">آكِلٌ</span></td>
-        <td><span class="ar">مَأْكُولٌ</span></td>
+        <td class="num-cell">١٧</td>
+        <td class="ar-cell"><span class="ar">أَكَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَأْكُلُ</span></td>
+        <td class="ar-cell"><span class="ar">آكِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">أَكْلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَأْكُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُكِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُؤْكَلُ</span></td>
+        <td class="ar-cell"><span class="ar">كُلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَأْكُلْ</span></td>
         <td>to eat</td>
-        <td><span class="ar alt">تَنَاوَلَ، طَعِمَ</span></td>
+        <td class="ar-cell"><span class="ar alt">تَنَاوَلَ، طَعِمَ</span></td>
       </tr>
       <!-- 18 -->
       <tr>
-        <td class="center">18</td>
-        <td><span class="ar">شَرِبَ</span></td>
-        <td><span class="ar">يَشْرَبُ</span></td>
-        <td><span class="ar">شُرْبٌ</span></td>
-        <td><span class="ar">شَارِبٌ</span></td>
-        <td><span class="ar">مَشْرُوبٌ</span></td>
+        <td class="num-cell">١٨</td>
+        <td class="ar-cell"><span class="ar">شَرِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَشْرَبُ</span></td>
+        <td class="ar-cell"><span class="ar">شَارِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">شُرْبٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَشْرُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">شُرِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُشْرَبُ</span></td>
+        <td class="ar-cell"><span class="ar">اِشْرَبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَشْرَبْ</span></td>
         <td>to drink</td>
-        <td><span class="ar alt">تَجَرَّعَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">تَجَرَّعَ، —</span></td>
       </tr>
       <!-- 19 -->
       <tr>
-        <td class="center">19</td>
-        <td><span class="ar">أَخَذَ</span></td>
-        <td><span class="ar">يَأْخُذُ</span></td>
-        <td><span class="ar">أَخْذٌ</span></td>
-        <td><span class="ar">آخِذٌ</span></td>
-        <td><span class="ar">مَأْخُوذٌ</span></td>
+        <td class="num-cell">١٩</td>
+        <td class="ar-cell"><span class="ar">أَخَذَ</span></td>
+        <td class="ar-cell"><span class="ar">يَأْخُذُ</span></td>
+        <td class="ar-cell"><span class="ar">آخِذٌ</span></td>
+        <td class="ar-cell"><span class="ar">أَخْذٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَأْخُوذٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُخِذَ</span></td>
+        <td class="ar-cell"><span class="ar">يُؤْخَذُ</span></td>
+        <td class="ar-cell"><span class="ar">خُذْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَأْخُذْ</span></td>
         <td>to take</td>
-        <td><span class="ar alt">اسْتَلَمَ، تَسَلَّمَ</span></td>
+        <td class="ar-cell"><span class="ar alt">اسْتَلَمَ، تَسَلَّمَ</span></td>
       </tr>
       <!-- 20 -->
       <tr>
-        <td class="center">20</td>
-        <td><span class="ar">أَعْطَى</span></td>
-        <td><span class="ar">يُعْطِي</span></td>
-        <td><span class="ar">إِعْطَاءٌ</span></td>
-        <td><span class="ar">مُعْطٍ</span></td>
-        <td><span class="ar">مُعْطًى</span></td>
+        <td class="num-cell">٢٠</td>
+        <td class="ar-cell"><span class="ar">أَعْطَى</span></td>
+        <td class="ar-cell"><span class="ar">يُعْطِي</span></td>
+        <td class="ar-cell"><span class="ar">مُعْطٍ</span></td>
+        <td class="ar-cell"><span class="ar">إِعْطَاءٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُعْطًى</span></td>
+        <td class="ar-cell"><span class="ar">أُعْطِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُعْطَى</span></td>
+        <td class="ar-cell"><span class="ar">أَعْطِ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُعْطِ</span></td>
         <td>to give</td>
-        <td><span class="ar alt">وَهَبَ، مَنَحَ</span></td>
+        <td class="ar-cell"><span class="ar alt">وَهَبَ، مَنَحَ</span></td>
       </tr>
       <!-- 21 -->
       <tr>
-        <td class="center">21</td>
-        <td><span class="ar">طَلَبَ</span></td>
-        <td><span class="ar">يَطْلُبُ</span></td>
-        <td><span class="ar">طَلَبٌ</span></td>
-        <td><span class="ar">طَالِبٌ</span></td>
-        <td><span class="ar">مَطْلُوبٌ</span></td>
+        <td class="num-cell">٢١</td>
+        <td class="ar-cell"><span class="ar">طَلَبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَطْلُبُ</span></td>
+        <td class="ar-cell"><span class="ar">طَالِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">طَلَبٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَطْلُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">طُلِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُطْلَبُ</span></td>
+        <td class="ar-cell"><span class="ar">اُطْلُبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَطْلُبْ</span></td>
         <td>to request / seek</td>
-        <td><span class="ar alt">اسْتَدْعَى، رَجَا</span></td>
+        <td class="ar-cell"><span class="ar alt">اسْتَدْعَى، رَجَا</span></td>
       </tr>
       <!-- 22 -->
       <tr>
-        <td class="center">22</td>
-        <td><span class="ar">فَعَلَ</span></td>
-        <td><span class="ar">يَفْعَلُ</span></td>
-        <td><span class="ar">فِعْلٌ</span></td>
-        <td><span class="ar">فَاعِلٌ</span></td>
-        <td><span class="ar">مَفْعُولٌ</span></td>
+        <td class="num-cell">٢٢</td>
+        <td class="ar-cell"><span class="ar">فَعَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَفْعَلُ</span></td>
+        <td class="ar-cell"><span class="ar">فَاعِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">فِعْلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَفْعُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">فُعِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُفْعَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اِفْعَلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَفْعَلْ</span></td>
         <td>to do / act</td>
-        <td><span class="ar alt">عَمِلَ، صَنَعَ</span></td>
+        <td class="ar-cell"><span class="ar alt">عَمِلَ، صَنَعَ</span></td>
       </tr>
       <!-- 23 -->
       <tr>
-        <td class="center">23</td>
-        <td><span class="ar">وَصَلَ</span></td>
-        <td><span class="ar">يَصِلُ</span></td>
-        <td><span class="ar">وُصُولٌ</span></td>
-        <td><span class="ar">وَاصِلٌ</span></td>
-        <td><span class="ar">مَوْصُولٌ</span></td>
+        <td class="num-cell">٢٣</td>
+        <td class="ar-cell"><span class="ar">وَصَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَصِلُ</span></td>
+        <td class="ar-cell"><span class="ar">وَاصِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">وُصُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَوْصُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">وُصِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوصَلُ</span></td>
+        <td class="ar-cell"><span class="ar">صِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَصِلْ</span></td>
         <td>to arrive / reach</td>
-        <td><span class="ar alt">بَلَغَ، وَافَى</span></td>
+        <td class="ar-cell"><span class="ar alt">بَلَغَ، وَافَى</span></td>
       </tr>
       <!-- 24 -->
       <tr>
-        <td class="center">24</td>
-        <td><span class="ar">سَافَرَ</span></td>
-        <td><span class="ar">يُسَافِرُ</span></td>
-        <td><span class="ar">سَفَرٌ</span></td>
-        <td><span class="ar">مُسَافِرٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">٢٤</td>
+        <td class="ar-cell"><span class="ar">سَافَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسَافِرُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَافِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">سَفَرٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">سَافِرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُسَافِرْ</span></td>
         <td>to travel</td>
-        <td><span class="ar alt">رَحَلَ، انْتَقَلَ</span></td>
+        <td class="ar-cell"><span class="ar alt">رَحَلَ، انْتَقَلَ</span></td>
       </tr>
       <!-- 25 -->
       <tr>
-        <td class="center">25</td>
-        <td><span class="ar">فَتَحَ</span></td>
-        <td><span class="ar">يَفْتَحُ</span></td>
-        <td><span class="ar">فَتْحٌ</span></td>
-        <td><span class="ar">فَاتِحٌ</span></td>
-        <td><span class="ar">مَفْتُوحٌ</span></td>
+        <td class="num-cell">٢٥</td>
+        <td class="ar-cell"><span class="ar">فَتَحَ</span></td>
+        <td class="ar-cell"><span class="ar">يَفْتَحُ</span></td>
+        <td class="ar-cell"><span class="ar">فَاتِحٌ</span></td>
+        <td class="ar-cell"><span class="ar">فَتْحٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَفْتُوحٌ</span></td>
+        <td class="ar-cell"><span class="ar">فُتِحَ</span></td>
+        <td class="ar-cell"><span class="ar">يُفْتَحُ</span></td>
+        <td class="ar-cell"><span class="ar">اِفْتَحْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَفْتَحْ</span></td>
         <td>to open</td>
-        <td><span class="ar alt">—</span></td>
+        <td class="ar-cell"><span class="ar alt">—</span></td>
       </tr>
       <!-- 26 -->
       <tr>
-        <td class="center">26</td>
-        <td><span class="ar">أَغْلَقَ</span></td>
-        <td><span class="ar">يُغْلِقُ</span></td>
-        <td><span class="ar">إِغْلَاقٌ</span></td>
-        <td><span class="ar">مُغْلِقٌ</span></td>
-        <td><span class="ar">مُغْلَقٌ</span></td>
+        <td class="num-cell">٢٦</td>
+        <td class="ar-cell"><span class="ar">أَغْلَقَ</span></td>
+        <td class="ar-cell"><span class="ar">يُغْلِقُ</span></td>
+        <td class="ar-cell"><span class="ar">مُغْلِقٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِغْلَاقٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُغْلَقٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُغْلِقَ</span></td>
+        <td class="ar-cell"><span class="ar">يُغْلَقُ</span></td>
+        <td class="ar-cell"><span class="ar">أَغْلِقْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُغْلِقْ</span></td>
         <td>to close / shut</td>
-        <td><span class="ar alt">أَوْصَدَ، سَدَّ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَوْصَدَ، سَدَّ</span></td>
       </tr>
       <!-- 27 -->
       <tr>
-        <td class="center">27</td>
-        <td><span class="ar">حَمَلَ</span></td>
-        <td><span class="ar">يَحْمِلُ</span></td>
-        <td><span class="ar">حَمْلٌ</span></td>
-        <td><span class="ar">حَامِلٌ</span></td>
-        <td><span class="ar">مَحْمُولٌ</span></td>
+        <td class="num-cell">٢٧</td>
+        <td class="ar-cell"><span class="ar">حَمَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَحْمِلُ</span></td>
+        <td class="ar-cell"><span class="ar">حَامِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">حَمْلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَحْمُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">حُمِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُحْمَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اِحْمِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَحْمِلْ</span></td>
         <td>to carry / bear</td>
-        <td><span class="ar alt">رَفَعَ، حَازَ</span></td>
+        <td class="ar-cell"><span class="ar alt">رَفَعَ، حَازَ</span></td>
       </tr>
       <!-- 28 -->
       <tr>
-        <td class="center">28</td>
-        <td><span class="ar">دَرَسَ</span></td>
-        <td><span class="ar">يَدْرُسُ</span></td>
-        <td><span class="ar">دِرَاسَةٌ</span></td>
-        <td><span class="ar">دَارِسٌ</span></td>
-        <td><span class="ar">مَدْرُوسٌ</span></td>
+        <td class="num-cell">٢٨</td>
+        <td class="ar-cell"><span class="ar">دَرَسَ</span></td>
+        <td class="ar-cell"><span class="ar">يَدْرُسُ</span></td>
+        <td class="ar-cell"><span class="ar">دَارِسٌ</span></td>
+        <td class="ar-cell"><span class="ar">دِرَاسَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَدْرُوسٌ</span></td>
+        <td class="ar-cell"><span class="ar">دُرِسَ</span></td>
+        <td class="ar-cell"><span class="ar">يُدْرَسُ</span></td>
+        <td class="ar-cell"><span class="ar">اُدْرُسْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَدْرُسْ</span></td>
         <td>to study</td>
-        <td><span class="ar alt">تَعَلَّمَ، تَفَقَّهَ</span></td>
+        <td class="ar-cell"><span class="ar alt">تَعَلَّمَ، تَفَقَّهَ</span></td>
       </tr>
       <!-- 29 -->
       <tr>
-        <td class="center">29</td>
-        <td><span class="ar">اشْتَرَى</span></td>
-        <td><span class="ar">يَشْتَرِي</span></td>
-        <td><span class="ar">شِرَاءٌ</span></td>
-        <td><span class="ar">مُشْتَرٍ</span></td>
-        <td><span class="ar">مُشْتَرًى</span></td>
+        <td class="num-cell">٢٩</td>
+        <td class="ar-cell"><span class="ar">اشْتَرَى</span></td>
+        <td class="ar-cell"><span class="ar">يَشْتَرِي</span></td>
+        <td class="ar-cell"><span class="ar">مُشْتَرٍ</span></td>
+        <td class="ar-cell"><span class="ar">شِرَاءٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُشْتَرًى</span></td>
+        <td class="ar-cell"><span class="ar">اشْتُرِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُشْتَرَى</span></td>
+        <td class="ar-cell"><span class="ar">اِشْتَرِ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَشْتَرِ</span></td>
         <td>to buy / purchase</td>
-        <td><span class="ar alt">ابْتَاعَ، اقْتَنَى</span></td>
+        <td class="ar-cell"><span class="ar alt">ابْتَاعَ، اقْتَنَى</span></td>
       </tr>
       <!-- 30 -->
       <tr>
-        <td class="center">30</td>
-        <td><span class="ar">عَمِلَ</span></td>
-        <td><span class="ar">يَعْمَلُ</span></td>
-        <td><span class="ar">عَمَلٌ</span></td>
-        <td><span class="ar">عَامِلٌ</span></td>
-        <td><span class="ar">مَعْمُولٌ</span></td>
+        <td class="num-cell">٣٠</td>
+        <td class="ar-cell"><span class="ar">عَمِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَعْمَلُ</span></td>
+        <td class="ar-cell"><span class="ar">عَامِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">عَمَلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَعْمُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">عُمِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُعْمَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اِعْمَلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَعْمَلْ</span></td>
         <td>to work / act</td>
-        <td><span class="ar alt">اشْتَغَلَ، خَدَمَ</span></td>
+        <td class="ar-cell"><span class="ar alt">اشْتَغَلَ، خَدَمَ</span></td>
       </tr>
       <!-- 31 -->
       <tr>
-        <td class="center">31</td>
-        <td><span class="ar">جَرَّبَ</span></td>
-        <td><span class="ar">يُجَرِّبُ</span></td>
-        <td><span class="ar">تَجْرِبَةٌ</span></td>
-        <td><span class="ar">مُجَرِّبٌ</span></td>
-        <td><span class="ar">مُجَرَّبٌ</span></td>
+        <td class="num-cell">٣١</td>
+        <td class="ar-cell"><span class="ar">جَرَّبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُجَرِّبُ</span></td>
+        <td class="ar-cell"><span class="ar">مُجَرِّبٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَجْرِبَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُجَرَّبٌ</span></td>
+        <td class="ar-cell"><span class="ar">جُرِّبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُجَرَّبُ</span></td>
+        <td class="ar-cell"><span class="ar">جَرِّبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُجَرِّبْ</span></td>
         <td>to try / test</td>
-        <td><span class="ar alt">حَاوَلَ، اخْتَبَرَ</span></td>
+        <td class="ar-cell"><span class="ar alt">حَاوَلَ، اخْتَبَرَ</span></td>
       </tr>
       <!-- 32 -->
       <tr>
-        <td class="center">32</td>
-        <td><span class="ar">أَحَبَّ</span></td>
-        <td><span class="ar">يُحِبُّ</span></td>
-        <td><span class="ar">حُبٌّ / مَحَبَّةٌ</span></td>
-        <td><span class="ar">مُحِبٌّ</span></td>
-        <td><span class="ar">مَحْبُوبٌ</span></td>
+        <td class="num-cell">٣٢</td>
+        <td class="ar-cell"><span class="ar">أَحَبَّ</span></td>
+        <td class="ar-cell"><span class="ar">يُحِبُّ</span></td>
+        <td class="ar-cell"><span class="ar">مُحِبٌّ</span></td>
+        <td class="ar-cell"><span class="ar">حُبٌّ / مَحَبَّةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَحْبُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُحِبَّ</span></td>
+        <td class="ar-cell"><span class="ar">يُحَبُّ</span></td>
+        <td class="ar-cell"><span class="ar">أَحِبَّ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُحِبَّ</span></td>
         <td>to like / love</td>
-        <td><span class="ar alt">وَدَّ، رَغِبَ فِي</span></td>
+        <td class="ar-cell"><span class="ar alt">وَدَّ، رَغِبَ فِي</span></td>
       </tr>
       <!-- 33 -->
       <tr>
-        <td class="center">33</td>
-        <td><span class="ar">فَضَّلَ</span></td>
-        <td><span class="ar">يُفَضِّلُ</span></td>
-        <td><span class="ar">تَفْضِيلٌ</span></td>
-        <td><span class="ar">مُفَضِّلٌ</span></td>
-        <td><span class="ar">مُفَضَّلٌ</span></td>
+        <td class="num-cell">٣٣</td>
+        <td class="ar-cell"><span class="ar">فَضَّلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُفَضِّلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُفَضِّلٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَفْضِيلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُفَضَّلٌ</span></td>
+        <td class="ar-cell"><span class="ar">فُضِّلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُفَضَّلُ</span></td>
+        <td class="ar-cell"><span class="ar">فَضِّلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُفَضِّلْ</span></td>
         <td>to prefer</td>
-        <td><span class="ar alt">آثَرَ، اخْتَارَ</span></td>
+        <td class="ar-cell"><span class="ar alt">آثَرَ، اخْتَارَ</span></td>
       </tr>
       <!-- 34 -->
       <tr>
-        <td class="center">34</td>
-        <td><span class="ar">أَرَادَ</span></td>
-        <td><span class="ar">يُرِيدُ</span></td>
-        <td><span class="ar">إِرَادَةٌ</span></td>
-        <td><span class="ar">مُرِيدٌ</span></td>
-        <td><span class="ar">مُرَادٌ</span></td>
+        <td class="num-cell">٣٤</td>
+        <td class="ar-cell"><span class="ar">أَرَادَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرِيدُ</span></td>
+        <td class="ar-cell"><span class="ar">مُرِيدٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِرَادَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُرَادٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُرِيدَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرَادُ</span></td>
+        <td class="ar-cell"><span class="ar">أَرِدْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُرِدْ</span></td>
         <td>to want / intend</td>
-        <td><span class="ar alt">رَغِبَ، نَوَى</span></td>
+        <td class="ar-cell"><span class="ar alt">رَغِبَ، نَوَى</span></td>
       </tr>
       <!-- 35 -->
       <tr>
-        <td class="center">35</td>
-        <td><span class="ar">احْتَاجَ</span></td>
-        <td><span class="ar">يَحْتَاجُ</span></td>
-        <td><span class="ar">احْتِيَاجٌ</span></td>
-        <td><span class="ar">مُحْتَاجٌ</span></td>
-        <td><span class="ar">مُحْتَاجٌ إِلَيْهِ</span></td>
+        <td class="num-cell">٣٥</td>
+        <td class="ar-cell"><span class="ar">احْتَاجَ</span></td>
+        <td class="ar-cell"><span class="ar">يَحْتَاجُ</span></td>
+        <td class="ar-cell"><span class="ar">مُحْتَاجٌ</span></td>
+        <td class="ar-cell"><span class="ar">احْتِيَاجٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُحْتَاجٌ إِلَيْهِ</span></td>
+        <td class="ar-cell"><span class="ar">اُحْتِيجَ</span></td>
+        <td class="ar-cell"><span class="ar">يُحْتَاجُ</span></td>
+        <td class="ar-cell"><span class="ar">اِحْتَجْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَحْتَجْ</span></td>
         <td>to need / require</td>
-        <td><span class="ar alt">افْتَقَرَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">افْتَقَرَ، —</span></td>
       </tr>
       <!-- 36 -->
       <tr>
-        <td class="center">36</td>
-        <td><span class="ar">طَبَخَ</span></td>
-        <td><span class="ar">يَطْبُخُ</span></td>
-        <td><span class="ar">طَبْخٌ</span></td>
-        <td><span class="ar">طَابِخٌ</span></td>
-        <td><span class="ar">مَطْبُوخٌ</span></td>
+        <td class="num-cell">٣٦</td>
+        <td class="ar-cell"><span class="ar">طَبَخَ</span></td>
+        <td class="ar-cell"><span class="ar">يَطْبُخُ</span></td>
+        <td class="ar-cell"><span class="ar">طَابِخٌ</span></td>
+        <td class="ar-cell"><span class="ar">طَبْخٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَطْبُوخٌ</span></td>
+        <td class="ar-cell"><span class="ar">طُبِخَ</span></td>
+        <td class="ar-cell"><span class="ar">يُطْبَخُ</span></td>
+        <td class="ar-cell"><span class="ar">اُطْبُخْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَطْبُخْ</span></td>
         <td>to cook</td>
-        <td><span class="ar alt">أَعَدَّ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">أَعَدَّ، —</span></td>
       </tr>
       <!-- 37 -->
       <tr>
-        <td class="center">37</td>
-        <td><span class="ar">غَسَلَ</span></td>
-        <td><span class="ar">يَغْسِلُ</span></td>
-        <td><span class="ar">غَسْلٌ</span></td>
-        <td><span class="ar">غَاسِلٌ</span></td>
-        <td><span class="ar">مَغْسُولٌ</span></td>
+        <td class="num-cell">٣٧</td>
+        <td class="ar-cell"><span class="ar">غَسَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَغْسِلُ</span></td>
+        <td class="ar-cell"><span class="ar">غَاسِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">غَسْلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَغْسُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">غُسِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُغْسَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اِغْسِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَغْسِلْ</span></td>
         <td>to wash / clean</td>
-        <td><span class="ar alt">نَظَّفَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">نَظَّفَ، —</span></td>
       </tr>
       <!-- 38 -->
       <tr>
-        <td class="center">38</td>
-        <td><span class="ar">نَظَّفَ</span></td>
-        <td><span class="ar">يُنَظِّفُ</span></td>
-        <td><span class="ar">تَنْظِيفٌ</span></td>
-        <td><span class="ar">مُنَظِّفٌ</span></td>
-        <td><span class="ar">مُنَظَّفٌ</span></td>
+        <td class="num-cell">٣٨</td>
+        <td class="ar-cell"><span class="ar">نَظَّفَ</span></td>
+        <td class="ar-cell"><span class="ar">يُنَظِّفُ</span></td>
+        <td class="ar-cell"><span class="ar">مُنَظِّفٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَنْظِيفٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُنَظَّفٌ</span></td>
+        <td class="ar-cell"><span class="ar">نُظِّفَ</span></td>
+        <td class="ar-cell"><span class="ar">يُنَظَّفُ</span></td>
+        <td class="ar-cell"><span class="ar">نَظِّفْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُنَظِّفْ</span></td>
         <td>to clean / tidy</td>
-        <td><span class="ar alt">كَنَسَ، مَسَحَ</span></td>
+        <td class="ar-cell"><span class="ar alt">كَنَسَ، مَسَحَ</span></td>
       </tr>
       <!-- 39 -->
       <tr>
-        <td class="center">39</td>
-        <td><span class="ar">رَتَّبَ</span></td>
-        <td><span class="ar">يُرَتِّبُ</span></td>
-        <td><span class="ar">تَرْتِيبٌ</span></td>
-        <td><span class="ar">مُرَتِّبٌ</span></td>
-        <td><span class="ar">مُرَتَّبٌ</span></td>
+        <td class="num-cell">٣٩</td>
+        <td class="ar-cell"><span class="ar">رَتَّبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرَتِّبُ</span></td>
+        <td class="ar-cell"><span class="ar">مُرَتِّبٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَرْتِيبٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُرَتَّبٌ</span></td>
+        <td class="ar-cell"><span class="ar">رُتِّبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرَتَّبُ</span></td>
+        <td class="ar-cell"><span class="ar">رَتِّبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُرَتِّبْ</span></td>
         <td>to arrange / tidy up</td>
-        <td><span class="ar alt">نَظَّمَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">نَظَّمَ، —</span></td>
       </tr>
       <!-- 40 -->
       <tr>
-        <td class="center">40</td>
-        <td><span class="ar">أَعَدَّ</span></td>
-        <td><span class="ar">يُعِدُّ</span></td>
-        <td><span class="ar">إِعْدَادٌ</span></td>
-        <td><span class="ar">مُعِدٌّ</span></td>
-        <td><span class="ar">مُعَدٌّ</span></td>
+        <td class="num-cell">٤٠</td>
+        <td class="ar-cell"><span class="ar">أَعَدَّ</span></td>
+        <td class="ar-cell"><span class="ar">يُعِدُّ</span></td>
+        <td class="ar-cell"><span class="ar">مُعِدٌّ</span></td>
+        <td class="ar-cell"><span class="ar">إِعْدَادٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُعَدٌّ</span></td>
+        <td class="ar-cell"><span class="ar">أُعِدَّ</span></td>
+        <td class="ar-cell"><span class="ar">يُعَدُّ</span></td>
+        <td class="ar-cell"><span class="ar">أَعِدَّ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُعِدَّ</span></td>
         <td>to prepare / get ready</td>
-        <td><span class="ar alt">جَهَّزَ، هَيَّأَ</span></td>
+        <td class="ar-cell"><span class="ar alt">جَهَّزَ، هَيَّأَ</span></td>
       </tr>
       <!-- 41 -->
       <tr>
-        <td class="center">41</td>
-        <td><span class="ar">اجْتَمَعَ</span></td>
-        <td><span class="ar">يَجْتَمِعُ</span></td>
-        <td><span class="ar">اجْتِمَاعٌ</span></td>
-        <td><span class="ar">مُجْتَمِعٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">٤١</td>
+        <td class="ar-cell"><span class="ar">اجْتَمَعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَجْتَمِعُ</span></td>
+        <td class="ar-cell"><span class="ar">مُجْتَمِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">اجْتِمَاعٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اِجْتَمِعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَجْتَمِعْ</span></td>
         <td>to meet / assemble</td>
-        <td><span class="ar alt">الْتَقَى، لَقِيَ</span></td>
+        <td class="ar-cell"><span class="ar alt">الْتَقَى، لَقِيَ</span></td>
       </tr>
       <!-- 42 -->
       <tr>
-        <td class="center">42</td>
-        <td><span class="ar">وَقَّعَ</span></td>
-        <td><span class="ar">يُوَقِّعُ</span></td>
-        <td><span class="ar">تَوْقِيعٌ</span></td>
-        <td><span class="ar">مُوَقِّعٌ</span></td>
-        <td><span class="ar">مُوَقَّعٌ</span></td>
+        <td class="num-cell">٤٢</td>
+        <td class="ar-cell"><span class="ar">وَقَّعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوَقِّعُ</span></td>
+        <td class="ar-cell"><span class="ar">مُوَقِّعٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَوْقِيعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُوَقَّعٌ</span></td>
+        <td class="ar-cell"><span class="ar">وُقِّعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوَقَّعُ</span></td>
+        <td class="ar-cell"><span class="ar">وَقِّعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُوَقِّعْ</span></td>
         <td>to sign (a document)</td>
-        <td><span class="ar alt">أَمْضَى، خَتَمَ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَمْضَى، خَتَمَ</span></td>
       </tr>
       <!-- 43 -->
       <tr>
-        <td class="center">43</td>
-        <td><span class="ar">أَرْسَلَ</span></td>
-        <td><span class="ar">يُرْسِلُ</span></td>
-        <td><span class="ar">إِرْسَالٌ</span></td>
-        <td><span class="ar">مُرْسِلٌ</span></td>
-        <td><span class="ar">مُرْسَلٌ</span></td>
+        <td class="num-cell">٤٣</td>
+        <td class="ar-cell"><span class="ar">أَرْسَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرْسِلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُرْسِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِرْسَالٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُرْسَلٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُرْسِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرْسَلُ</span></td>
+        <td class="ar-cell"><span class="ar">أَرْسِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُرْسِلْ</span></td>
         <td>to send</td>
-        <td><span class="ar alt">بَعَثَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">بَعَثَ، —</span></td>
       </tr>
       <!-- 44 -->
       <tr>
-        <td class="center">44</td>
-        <td><span class="ar">اسْتَلَمَ</span></td>
-        <td><span class="ar">يَسْتَلِمُ</span></td>
-        <td><span class="ar">اسْتِلَامٌ</span></td>
-        <td><span class="ar">مُسْتَلِمٌ</span></td>
-        <td><span class="ar">مُسْتَلَمٌ</span></td>
+        <td class="num-cell">٤٤</td>
+        <td class="ar-cell"><span class="ar">اسْتَلَمَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْتَلِمُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَلِمٌ</span></td>
+        <td class="ar-cell"><span class="ar">اسْتِلَامٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَلَمٌ</span></td>
+        <td class="ar-cell"><span class="ar">اُسْتُلِمَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْتَلَمُ</span></td>
+        <td class="ar-cell"><span class="ar">اِسْتَلِمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْتَلِمْ</span></td>
         <td>to receive / collect</td>
-        <td><span class="ar alt">تَسَلَّمَ، قَبِلَ</span></td>
+        <td class="ar-cell"><span class="ar alt">تَسَلَّمَ، قَبِلَ</span></td>
       </tr>
       <!-- 45 -->
       <tr>
-        <td class="center">45</td>
-        <td><span class="ar">حَفِظَ</span></td>
-        <td><span class="ar">يَحْفَظُ</span></td>
-        <td><span class="ar">حِفْظٌ</span></td>
-        <td><span class="ar">حَافِظٌ</span></td>
-        <td><span class="ar">مَحْفُوظٌ</span></td>
+        <td class="num-cell">٤٥</td>
+        <td class="ar-cell"><span class="ar">حَفِظَ</span></td>
+        <td class="ar-cell"><span class="ar">يَحْفَظُ</span></td>
+        <td class="ar-cell"><span class="ar">حَافِظٌ</span></td>
+        <td class="ar-cell"><span class="ar">حِفْظٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَحْفُوظٌ</span></td>
+        <td class="ar-cell"><span class="ar">حُفِظَ</span></td>
+        <td class="ar-cell"><span class="ar">يُحْفَظُ</span></td>
+        <td class="ar-cell"><span class="ar">اِحْفَظْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَحْفَظْ</span></td>
         <td>to memorize / preserve</td>
-        <td><span class="ar alt">اسْتَظْهَرَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">اسْتَظْهَرَ، —</span></td>
       </tr>
       <!-- 46 -->
       <tr>
-        <td class="center">46</td>
-        <td><span class="ar">تَلَا</span></td>
-        <td><span class="ar">يَتْلُو</span></td>
-        <td><span class="ar">تِلَاوَةٌ</span></td>
-        <td><span class="ar">تَالٍ</span></td>
-        <td><span class="ar">مَتْلُوٌّ</span></td>
+        <td class="num-cell">٤٦</td>
+        <td class="ar-cell"><span class="ar">تَلَا</span></td>
+        <td class="ar-cell"><span class="ar">يَتْلُو</span></td>
+        <td class="ar-cell"><span class="ar">تَالٍ</span></td>
+        <td class="ar-cell"><span class="ar">تِلَاوَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَتْلُوٌّ</span></td>
+        <td class="ar-cell"><span class="ar">تُلِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُتْلَى</span></td>
+        <td class="ar-cell"><span class="ar">اُتْلُ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَتْلُ</span></td>
         <td>to recite (Quran / text)</td>
-        <td><span class="ar alt">رَتَّلَ، قَرَأَ</span></td>
+        <td class="ar-cell"><span class="ar alt">رَتَّلَ، قَرَأَ</span></td>
       </tr>
       <!-- 47 -->
       <tr>
-        <td class="center">47</td>
-        <td><span class="ar">شَرَحَ</span></td>
-        <td><span class="ar">يَشْرَحُ</span></td>
-        <td><span class="ar">شَرْحٌ</span></td>
-        <td><span class="ar">شَارِحٌ</span></td>
-        <td><span class="ar">مَشْرُوحٌ</span></td>
+        <td class="num-cell">٤٧</td>
+        <td class="ar-cell"><span class="ar">شَرَحَ</span></td>
+        <td class="ar-cell"><span class="ar">يَشْرَحُ</span></td>
+        <td class="ar-cell"><span class="ar">شَارِحٌ</span></td>
+        <td class="ar-cell"><span class="ar">شَرْحٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَشْرُوحٌ</span></td>
+        <td class="ar-cell"><span class="ar">شُرِحَ</span></td>
+        <td class="ar-cell"><span class="ar">يُشْرَحُ</span></td>
+        <td class="ar-cell"><span class="ar">اِشْرَحْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَشْرَحْ</span></td>
         <td>to explain / clarify</td>
-        <td><span class="ar alt">فَسَّرَ، أَوْضَحَ</span></td>
+        <td class="ar-cell"><span class="ar alt">فَسَّرَ، أَوْضَحَ</span></td>
       </tr>
       <!-- 48 -->
       <tr>
-        <td class="center">48</td>
-        <td><span class="ar">حَضَرَ</span></td>
-        <td><span class="ar">يَحْضُرُ</span></td>
-        <td><span class="ar">حُضُورٌ</span></td>
-        <td><span class="ar">حَاضِرٌ</span></td>
-        <td><span class="ar">مَحْضُورٌ</span></td>
+        <td class="num-cell">٤٨</td>
+        <td class="ar-cell"><span class="ar">حَضَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يَحْضُرُ</span></td>
+        <td class="ar-cell"><span class="ar">حَاضِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">حُضُورٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَحْضُورٌ</span></td>
+        <td class="ar-cell"><span class="ar">حُضِرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُحْضَرُ</span></td>
+        <td class="ar-cell"><span class="ar">اُحْضُرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَحْضُرْ</span></td>
         <td>to attend / be present</td>
-        <td><span class="ar alt">شَهِدَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">شَهِدَ، —</span></td>
       </tr>
       <!-- 49 -->
       <tr>
-        <td class="center">49</td>
-        <td><span class="ar">سَجَّلَ</span></td>
-        <td><span class="ar">يُسَجِّلُ</span></td>
-        <td><span class="ar">تَسْجِيلٌ</span></td>
-        <td><span class="ar">مُسَجِّلٌ</span></td>
-        <td><span class="ar">مُسَجَّلٌ</span></td>
+        <td class="num-cell">٤٩</td>
+        <td class="ar-cell"><span class="ar">سَجَّلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسَجِّلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَجِّلٌ</span></td>
+        <td class="ar-cell"><span class="ar">تَسْجِيلٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَجَّلٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُجِّلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسَجَّلُ</span></td>
+        <td class="ar-cell"><span class="ar">سَجِّلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُسَجِّلْ</span></td>
         <td>to register / record / enroll</td>
-        <td><span class="ar alt">قَيَّدَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">قَيَّدَ، —</span></td>
       </tr>
       <!-- 50 -->
       <tr>
-        <td class="center">50</td>
-        <td><span class="ar">رَكِبَ</span></td>
-        <td><span class="ar">يَرْكَبُ</span></td>
-        <td><span class="ar">رُكُوبٌ</span></td>
-        <td><span class="ar">رَاكِبٌ</span></td>
-        <td><span class="ar">مَرْكُوبٌ</span></td>
+        <td class="num-cell">٥٠</td>
+        <td class="ar-cell"><span class="ar">رَكِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَرْكَبُ</span></td>
+        <td class="ar-cell"><span class="ar">رَاكِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">رُكُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَرْكُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">رُكِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرْكَبُ</span></td>
+        <td class="ar-cell"><span class="ar">اِرْكَبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَرْكَبْ</span></td>
         <td>to ride / board</td>
-        <td><span class="ar alt">صَعِدَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">صَعِدَ، —</span></td>
       </tr>
       <!-- 51 -->
       <tr>
-        <td class="center">51</td>
-        <td><span class="ar">نَزَلَ</span></td>
-        <td><span class="ar">يَنْزِلُ</span></td>
-        <td><span class="ar">نُزُولٌ</span></td>
-        <td><span class="ar">نَازِلٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">٥١</td>
+        <td class="ar-cell"><span class="ar">نَزَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنْزِلُ</span></td>
+        <td class="ar-cell"><span class="ar">نَازِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">نُزُولٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اِنْزِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنْزِلْ</span></td>
         <td>to descend / get off / alight</td>
-        <td><span class="ar alt">هَبَطَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">هَبَطَ، —</span></td>
       </tr>
       <!-- 52 -->
       <tr>
-        <td class="center">52</td>
-        <td><span class="ar">انْتَظَرَ</span></td>
-        <td><span class="ar">يَنْتَظِرُ</span></td>
-        <td><span class="ar">انْتِظَارٌ</span></td>
-        <td><span class="ar">مُنْتَظِرٌ</span></td>
-        <td><span class="ar">مُنْتَظَرٌ</span></td>
+        <td class="num-cell">٥٢</td>
+        <td class="ar-cell"><span class="ar">انْتَظَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنْتَظِرُ</span></td>
+        <td class="ar-cell"><span class="ar">مُنْتَظِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">انْتِظَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُنْتَظَرٌ</span></td>
+        <td class="ar-cell"><span class="ar">اُنْتُظِرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُنْتَظَرُ</span></td>
+        <td class="ar-cell"><span class="ar">اِنْتَظِرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنْتَظِرْ</span></td>
         <td>to wait / await</td>
-        <td><span class="ar alt">تَرَبَّصَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">تَرَبَّصَ، —</span></td>
       </tr>
       <!-- 53 -->
       <tr>
-        <td class="center">53</td>
-        <td><span class="ar">اسْتَأْجَرَ</span></td>
-        <td><span class="ar">يَسْتَأْجِرُ</span></td>
-        <td><span class="ar">اسْتِئْجَارٌ</span></td>
-        <td><span class="ar">مُسْتَأْجِرٌ</span></td>
-        <td><span class="ar">مُسْتَأْجَرٌ</span></td>
+        <td class="num-cell">٥٣</td>
+        <td class="ar-cell"><span class="ar">اسْتَأْجَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْتَأْجِرُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَأْجِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">اسْتِئْجَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَأْجَرٌ</span></td>
+        <td class="ar-cell"><span class="ar">اُسْتُؤْجِرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْتَأْجَرُ</span></td>
+        <td class="ar-cell"><span class="ar">اِسْتَأْجِرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْتَأْجِرْ</span></td>
         <td>to rent / hire</td>
-        <td><span class="ar alt">اكْتَرَى، —</span></td>
+        <td class="ar-cell"><span class="ar alt">اكْتَرَى، —</span></td>
       </tr>
       <!-- 54 -->
       <tr>
-        <td class="center">54</td>
-        <td><span class="ar">حَجَزَ</span></td>
-        <td><span class="ar">يَحْجُزُ</span></td>
-        <td><span class="ar">حَجْزٌ</span></td>
-        <td><span class="ar">حَاجِزٌ</span></td>
-        <td><span class="ar">مَحْجُوزٌ</span></td>
+        <td class="num-cell">٥٤</td>
+        <td class="ar-cell"><span class="ar">حَجَزَ</span></td>
+        <td class="ar-cell"><span class="ar">يَحْجُزُ</span></td>
+        <td class="ar-cell"><span class="ar">حَاجِزٌ</span></td>
+        <td class="ar-cell"><span class="ar">حَجْزٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَحْجُوزٌ</span></td>
+        <td class="ar-cell"><span class="ar">حُجِزَ</span></td>
+        <td class="ar-cell"><span class="ar">يُحْجَزُ</span></td>
+        <td class="ar-cell"><span class="ar">اُحْجُزْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَحْجُزْ</span></td>
         <td>to book / reserve</td>
-        <td><span class="ar alt">حَجَّزَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">حَجَّزَ، —</span></td>
       </tr>
       <!-- 55 -->
       <tr>
-        <td class="center">55</td>
-        <td><span class="ar">بَاعَ</span></td>
-        <td><span class="ar">يَبِيعُ</span></td>
-        <td><span class="ar">بَيْعٌ</span></td>
-        <td><span class="ar">بَائِعٌ</span></td>
-        <td><span class="ar">مَبِيعٌ</span></td>
+        <td class="num-cell">٥٥</td>
+        <td class="ar-cell"><span class="ar">بَاعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَبِيعُ</span></td>
+        <td class="ar-cell"><span class="ar">بَائِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">بَيْعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَبِيعٌ</span></td>
+        <td class="ar-cell"><span class="ar">بِيعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُبَاعُ</span></td>
+        <td class="ar-cell"><span class="ar">بِعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَبِعْ</span></td>
         <td>to sell</td>
-        <td><span class="ar alt">اتَّجَرَ، —</span></td>
+        <td class="ar-cell"><span class="ar alt">اتَّجَرَ، —</span></td>
       </tr>
       <!-- 56 -->
       <tr>
-        <td class="center">56</td>
-        <td><span class="ar">دَفَعَ</span></td>
-        <td><span class="ar">يَدْفَعُ</span></td>
-        <td><span class="ar">دَفْعٌ</span></td>
-        <td><span class="ar">دَافِعٌ</span></td>
-        <td><span class="ar">مَدْفُوعٌ</span></td>
+        <td class="num-cell">٥٦</td>
+        <td class="ar-cell"><span class="ar">دَفَعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَدْفَعُ</span></td>
+        <td class="ar-cell"><span class="ar">دَافِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">دَفْعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَدْفُوعٌ</span></td>
+        <td class="ar-cell"><span class="ar">دُفِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُدْفَعُ</span></td>
+        <td class="ar-cell"><span class="ar">اِدْفَعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَدْفَعْ</span></td>
         <td>to pay</td>
-        <td><span class="ar alt">سَدَّدَ، أَدَّى</span></td>
+        <td class="ar-cell"><span class="ar alt">سَدَّدَ، أَدَّى</span></td>
       </tr>
       <!-- 57 -->
       <tr>
-        <td class="center">57</td>
-        <td><span class="ar">اخْتَارَ</span></td>
-        <td><span class="ar">يَخْتَارُ</span></td>
-        <td><span class="ar">اخْتِيَارٌ</span></td>
-        <td><span class="ar">مُخْتَارٌ</span></td>
-        <td><span class="ar">مُخْتَارٌ</span></td>
+        <td class="num-cell">٥٧</td>
+        <td class="ar-cell"><span class="ar">اخْتَارَ</span></td>
+        <td class="ar-cell"><span class="ar">يَخْتَارُ</span></td>
+        <td class="ar-cell"><span class="ar">مُخْتَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">اخْتِيَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُخْتَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">اُخْتِيرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُخْتَارُ</span></td>
+        <td class="ar-cell"><span class="ar">اِخْتَرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَخْتَرْ</span></td>
         <td>to choose / select</td>
-        <td><span class="ar alt">انْتَقَى، تَخَيَّرَ</span></td>
+        <td class="ar-cell"><span class="ar alt">انْتَقَى، تَخَيَّرَ</span></td>
       </tr>
       <!-- 58 -->
       <tr>
-        <td class="center">58</td>
-        <td><span class="ar">وَجَدَ</span></td>
-        <td><span class="ar">يَجِدُ</span></td>
-        <td><span class="ar">وِجْدَانٌ</span></td>
-        <td><span class="ar">وَاجِدٌ</span></td>
-        <td><span class="ar">مَوْجُودٌ</span></td>
+        <td class="num-cell">٥٨</td>
+        <td class="ar-cell"><span class="ar">وَجَدَ</span></td>
+        <td class="ar-cell"><span class="ar">يَجِدُ</span></td>
+        <td class="ar-cell"><span class="ar">وَاجِدٌ</span></td>
+        <td class="ar-cell"><span class="ar">وِجْدَانٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَوْجُودٌ</span></td>
+        <td class="ar-cell"><span class="ar">وُجِدَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوجَدُ</span></td>
+        <td class="ar-cell"><span class="ar">جِدْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَجِدْ</span></td>
         <td>to find / discover</td>
-        <td><span class="ar alt">عَثَرَ عَلَى، اكْتَشَفَ</span></td>
+        <td class="ar-cell"><span class="ar alt">عَثَرَ عَلَى، اكْتَشَفَ</span></td>
       </tr>
       <!-- 59 -->
       <tr>
-        <td class="center">59</td>
-        <td><span class="ar">سَاعَدَ</span></td>
-        <td><span class="ar">يُسَاعِدُ</span></td>
-        <td><span class="ar">مُسَاعَدَةٌ</span></td>
-        <td><span class="ar">مُسَاعِدٌ</span></td>
-        <td><span class="ar">مُسَاعَدٌ</span></td>
+        <td class="num-cell">٥٩</td>
+        <td class="ar-cell"><span class="ar">سَاعَدَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسَاعِدُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَاعِدٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَاعَدَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسَاعَدٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُوعِدَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسَاعَدُ</span></td>
+        <td class="ar-cell"><span class="ar">سَاعِدْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُسَاعِدْ</span></td>
         <td>to help / assist</td>
-        <td><span class="ar alt">أَعَانَ، أَسْنَدَ</span></td>
+        <td class="ar-cell"><span class="ar alt">أَعَانَ، أَسْنَدَ</span></td>
       </tr>
       <!-- 60 -->
       <tr>
-        <td class="center">60</td>
-        <td><span class="ar">انْتَقَلَ</span></td>
-        <td><span class="ar">يَنْتَقِلُ</span></td>
-        <td><span class="ar">انْتِقَالٌ</span></td>
-        <td><span class="ar">مُنْتَقِلٌ</span></td>
-        <td><span class="ar">—</span></td>
+        <td class="num-cell">٦٠</td>
+        <td class="ar-cell"><span class="ar">انْتَقَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنْتَقِلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُنْتَقِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">انْتِقَالٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">اِنْتَقِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنْتَقِلْ</span></td>
         <td>to move / relocate / transfer</td>
-        <td><span class="ar alt">تَحَوَّلَ، رَحَلَ</span></td>
+        <td class="ar-cell"><span class="ar alt">تَحَوَّلَ، رَحَلَ</span></td>
+      </tr>
+      <!-- 61 -->
+      <tr>
+        <td class="num-cell">٦١</td>
+        <td class="ar-cell"><span class="ar">نَامَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنَامُ</span></td>
+        <td class="ar-cell"><span class="ar">نَائِمٌ</span></td>
+        <td class="ar-cell"><span class="ar">نَوْمٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">نَمْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنَمْ</span></td>
+        <td>to sleep</td>
+        <td class="ar-cell"><span class="ar alt">رَقَدَ، هَجَعَ</span></td>
+      </tr>
+      <!-- 62 -->
+      <tr>
+        <td class="num-cell">٦٢</td>
+        <td class="ar-cell"><span class="ar">لَبِسَ</span></td>
+        <td class="ar-cell"><span class="ar">يَلْبَسُ</span></td>
+        <td class="ar-cell"><span class="ar">لَابِسٌ</span></td>
+        <td class="ar-cell"><span class="ar">لُبْسٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَلْبُوسٌ</span></td>
+        <td class="ar-cell"><span class="ar">لُبِسَ</span></td>
+        <td class="ar-cell"><span class="ar">يُلْبَسُ</span></td>
+        <td class="ar-cell"><span class="ar">اِلْبَسْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَلْبَسْ</span></td>
+        <td>to wear / put on</td>
+        <td class="ar-cell"><span class="ar alt">اِرْتَدَى، —</span></td>
+      </tr>
+      <!-- 63 -->
+      <tr>
+        <td class="num-cell">٦٣</td>
+        <td class="ar-cell"><span class="ar">كَانَ</span></td>
+        <td class="ar-cell"><span class="ar">يَكُونُ</span></td>
+        <td class="ar-cell"><span class="ar">كَائِنٌ</span></td>
+        <td class="ar-cell"><span class="ar">كَوْنٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">كُونَ</span></td>
+        <td class="ar-cell"><span class="ar">يُكَانُ</span></td>
+        <td class="ar-cell"><span class="ar">كُنْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَكُنْ</span></td>
+        <td>to be / exist</td>
+        <td class="ar-cell"><span class="ar alt">صَارَ، —</span></td>
+      </tr>
+      <!-- 64 -->
+      <tr>
+        <td class="num-cell">٦٤</td>
+        <td class="ar-cell"><span class="ar">اسْتَطَاعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْتَطِيعُ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَطِيعٌ</span></td>
+        <td class="ar-cell"><span class="ar">اسْتِطَاعَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُسْتَطَاعٌ</span></td>
+        <td class="ar-cell"><span class="ar">اُسْتُطِيعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْتَطَاعُ</span></td>
+        <td class="ar-cell"><span class="ar">اِسْتَطِعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْتَطِعْ</span></td>
+        <td>to be able to / can</td>
+        <td class="ar-cell"><span class="ar alt">أَمْكَنَ، قَدَرَ</span></td>
+      </tr>
+      <!-- 65 -->
+      <tr>
+        <td class="num-cell">٦٥</td>
+        <td class="ar-cell"><span class="ar">عَادَ</span></td>
+        <td class="ar-cell"><span class="ar">يَعُودُ</span></td>
+        <td class="ar-cell"><span class="ar">عَائِدٌ</span></td>
+        <td class="ar-cell"><span class="ar">عَوْدَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">—</span></td>
+        <td class="ar-cell"><span class="ar">عِيدَ</span></td>
+        <td class="ar-cell"><span class="ar">يُعَادُ</span></td>
+        <td class="ar-cell"><span class="ar">عُدْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَعُدْ</span></td>
+        <td>to return / go back</td>
+        <td class="ar-cell"><span class="ar alt">رَجَعَ، —</span></td>
+      </tr>
+      <!-- 66 -->
+      <tr>
+        <td class="num-cell">٦٦</td>
+        <td class="ar-cell"><span class="ar">بَدَأَ</span></td>
+        <td class="ar-cell"><span class="ar">يَبْدَأُ</span></td>
+        <td class="ar-cell"><span class="ar">بَادِئٌ</span></td>
+        <td class="ar-cell"><span class="ar">بَدْءٌ / بِدَايَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَبْدُوءٌ</span></td>
+        <td class="ar-cell"><span class="ar">بُدِئَ</span></td>
+        <td class="ar-cell"><span class="ar">يُبْدَأُ</span></td>
+        <td class="ar-cell"><span class="ar">اِبْدَأْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَبْدَأْ</span></td>
+        <td>to begin / start</td>
+        <td class="ar-cell"><span class="ar alt">شَرَعَ، انْطَلَقَ</span></td>
+      </tr>
+      <!-- 67 -->
+      <tr>
+        <td class="num-cell">٦٧</td>
+        <td class="ar-cell"><span class="ar">أَكْمَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُكْمِلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُكْمِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِكْمَالٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُكْمَلٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُكْمِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُكْمَلُ</span></td>
+        <td class="ar-cell"><span class="ar">أَكْمِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُكْمِلْ</span></td>
+        <td>to complete / finish</td>
+        <td class="ar-cell"><span class="ar alt">أَتَمَّ، أَنْجَزَ</span></td>
+      </tr>
+      <!-- 68 -->
+      <tr>
+        <td class="num-cell">٦٨</td>
+        <td class="ar-cell"><span class="ar">وَضَعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَضَعُ</span></td>
+        <td class="ar-cell"><span class="ar">وَاضِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">وَضْعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَوْضُوعٌ</span></td>
+        <td class="ar-cell"><span class="ar">وُضِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوضَعُ</span></td>
+        <td class="ar-cell"><span class="ar">ضَعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَضَعْ</span></td>
+        <td>to put / place</td>
+        <td class="ar-cell"><span class="ar alt">أَلْقَى، —</span></td>
+      </tr>
+      <!-- 69 -->
+      <tr>
+        <td class="num-cell">٦٩</td>
+        <td class="ar-cell"><span class="ar">رَفَعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَرْفَعُ</span></td>
+        <td class="ar-cell"><span class="ar">رَافِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">رَفْعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَرْفُوعٌ</span></td>
+        <td class="ar-cell"><span class="ar">رُفِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُرْفَعُ</span></td>
+        <td class="ar-cell"><span class="ar">اِرْفَعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَرْفَعْ</span></td>
+        <td>to raise / lift</td>
+        <td class="ar-cell"><span class="ar alt">أَعْلَى، —</span></td>
+      </tr>
+      <!-- 70 -->
+      <tr>
+        <td class="num-cell">٧٠</td>
+        <td class="ar-cell"><span class="ar">قَطَعَ</span></td>
+        <td class="ar-cell"><span class="ar">يَقْطَعُ</span></td>
+        <td class="ar-cell"><span class="ar">قَاطِعٌ</span></td>
+        <td class="ar-cell"><span class="ar">قَطْعٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَقْطُوعٌ</span></td>
+        <td class="ar-cell"><span class="ar">قُطِعَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقْطَعُ</span></td>
+        <td class="ar-cell"><span class="ar">اِقْطَعْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَقْطَعْ</span></td>
+        <td>to cut / sever</td>
+        <td class="ar-cell"><span class="ar alt">بَتَرَ، شَقَّ</span></td>
+      </tr>
+      <!-- 71 -->
+      <tr>
+        <td class="num-cell">٧١</td>
+        <td class="ar-cell"><span class="ar">سَكَبَ</span></td>
+        <td class="ar-cell"><span class="ar">يَسْكُبُ</span></td>
+        <td class="ar-cell"><span class="ar">سَاكِبٌ</span></td>
+        <td class="ar-cell"><span class="ar">سَكْبٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَسْكُوبٌ</span></td>
+        <td class="ar-cell"><span class="ar">سُكِبَ</span></td>
+        <td class="ar-cell"><span class="ar">يُسْكَبُ</span></td>
+        <td class="ar-cell"><span class="ar">اُسْكُبْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَسْكُبْ</span></td>
+        <td>to pour</td>
+        <td class="ar-cell"><span class="ar alt">صَبَّ، —</span></td>
+      </tr>
+      <!-- 72 -->
+      <tr>
+        <td class="num-cell">٧٢</td>
+        <td class="ar-cell"><span class="ar">صَلَّى</span></td>
+        <td class="ar-cell"><span class="ar">يُصَلِّي</span></td>
+        <td class="ar-cell"><span class="ar">مُصَلٍّ</span></td>
+        <td class="ar-cell"><span class="ar">صَلَاةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُصَلًّى</span></td>
+        <td class="ar-cell"><span class="ar">صُلِّيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُصَلَّى</span></td>
+        <td class="ar-cell"><span class="ar">صَلِّ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُصَلِّ</span></td>
+        <td>to pray (ṣalāh)</td>
+        <td class="ar-cell"><span class="ar alt">دَعَا، —</span></td>
+      </tr>
+      <!-- 73 -->
+      <tr>
+        <td class="num-cell">٧٣</td>
+        <td class="ar-cell"><span class="ar">دَعَا</span></td>
+        <td class="ar-cell"><span class="ar">يَدْعُو</span></td>
+        <td class="ar-cell"><span class="ar">دَاعٍ</span></td>
+        <td class="ar-cell"><span class="ar">دُعَاءٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَدْعُوٌّ</span></td>
+        <td class="ar-cell"><span class="ar">دُعِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُدْعَى</span></td>
+        <td class="ar-cell"><span class="ar">اُدْعُ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَدْعُ</span></td>
+        <td>to call / invite / supplicate</td>
+        <td class="ar-cell"><span class="ar alt">نَادَى، —</span></td>
+      </tr>
+      <!-- 74 -->
+      <tr>
+        <td class="num-cell">٧٤</td>
+        <td class="ar-cell"><span class="ar">نَظَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنْظُرُ</span></td>
+        <td class="ar-cell"><span class="ar">نَاظِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">نَظَرٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَنْظُورٌ</span></td>
+        <td class="ar-cell"><span class="ar">نُظِرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُنْظَرُ</span></td>
+        <td class="ar-cell"><span class="ar">اُنْظُرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنْظُرْ</span></td>
+        <td>to look at / observe</td>
+        <td class="ar-cell"><span class="ar alt">رَأَى، تَأَمَّلَ</span></td>
+      </tr>
+      <!-- 75 -->
+      <tr>
+        <td class="num-cell">٧٥</td>
+        <td class="ar-cell"><span class="ar">اتَّصَلَ</span></td>
+        <td class="ar-cell"><span class="ar">يَتَّصِلُ</span></td>
+        <td class="ar-cell"><span class="ar">مُتَّصِلٌ</span></td>
+        <td class="ar-cell"><span class="ar">اتِّصَالٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُتَّصَلٌ بِهِ</span></td>
+        <td class="ar-cell"><span class="ar">اتُّصِلَ</span></td>
+        <td class="ar-cell"><span class="ar">يُتَّصَلُ</span></td>
+        <td class="ar-cell"><span class="ar">اتَّصِلْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَتَّصِلْ</span></td>
+        <td>to contact / call / connect</td>
+        <td class="ar-cell"><span class="ar alt">تَوَاصَلَ، —</span></td>
+      </tr>
+      <!-- 76 -->
+      <tr>
+        <td class="num-cell">٧٦</td>
+        <td class="ar-cell"><span class="ar">وَافَقَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوَافِقُ</span></td>
+        <td class="ar-cell"><span class="ar">مُوَافِقٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُوَافَقَةٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُوَافَقٌ عَلَيْهِ</span></td>
+        <td class="ar-cell"><span class="ar">وُوفِقَ</span></td>
+        <td class="ar-cell"><span class="ar">يُوَافَقُ</span></td>
+        <td class="ar-cell"><span class="ar">وَافِقْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُوَافِقْ</span></td>
+        <td>to agree / approve / concur</td>
+        <td class="ar-cell"><span class="ar alt">قَبِلَ، —</span></td>
+      </tr>
+      <!-- 77 -->
+      <tr>
+        <td class="num-cell">٧٧</td>
+        <td class="ar-cell"><span class="ar">أَصْلَحَ</span></td>
+        <td class="ar-cell"><span class="ar">يُصْلِحُ</span></td>
+        <td class="ar-cell"><span class="ar">مُصْلِحٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِصْلَاحٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُصْلَحٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُصْلِحَ</span></td>
+        <td class="ar-cell"><span class="ar">يُصْلَحُ</span></td>
+        <td class="ar-cell"><span class="ar">أَصْلِحْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُصْلِحْ</span></td>
+        <td>to repair / fix / improve</td>
+        <td class="ar-cell"><span class="ar alt">صَلَّحَ، رَمَّمَ</span></td>
+      </tr>
+      <!-- 78 -->
+      <tr>
+        <td class="num-cell">٧٨</td>
+        <td class="ar-cell"><span class="ar">قَرَّرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقَرِّرُ</span></td>
+        <td class="ar-cell"><span class="ar">مُقَرِّرٌ</span></td>
+        <td class="ar-cell"><span class="ar">قَرَارٌ / تَقْرِيرٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُقَرَّرٌ</span></td>
+        <td class="ar-cell"><span class="ar">قُرِّرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُقَرَّرُ</span></td>
+        <td class="ar-cell"><span class="ar">قَرِّرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُقَرِّرْ</span></td>
+        <td>to decide / determine</td>
+        <td class="ar-cell"><span class="ar alt">بَتَّ، أَجْمَعَ</span></td>
+      </tr>
+      <!-- 79 -->
+      <tr>
+        <td class="num-cell">٧٩</td>
+        <td class="ar-cell"><span class="ar">نَسِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يَنْسَى</span></td>
+        <td class="ar-cell"><span class="ar">نَاسٍ</span></td>
+        <td class="ar-cell"><span class="ar">نِسْيَانٌ</span></td>
+        <td class="ar-cell"><span class="ar">مَنْسِيٌّ</span></td>
+        <td class="ar-cell"><span class="ar">نُسِيَ</span></td>
+        <td class="ar-cell"><span class="ar">يُنْسَى</span></td>
+        <td class="ar-cell"><span class="ar">اِنْسَ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تَنْسَ</span></td>
+        <td>to forget</td>
+        <td class="ar-cell"><span class="ar alt">غَفَلَ، —</span></td>
+      </tr>
+      <!-- 80 -->
+      <tr>
+        <td class="num-cell">٨٠</td>
+        <td class="ar-cell"><span class="ar">أَخْبَرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُخْبِرُ</span></td>
+        <td class="ar-cell"><span class="ar">مُخْبِرٌ</span></td>
+        <td class="ar-cell"><span class="ar">إِخْبَارٌ</span></td>
+        <td class="ar-cell"><span class="ar">مُخْبَرٌ</span></td>
+        <td class="ar-cell"><span class="ar">أُخْبِرَ</span></td>
+        <td class="ar-cell"><span class="ar">يُخْبَرُ</span></td>
+        <td class="ar-cell"><span class="ar">أَخْبِرْ</span></td>
+        <td class="ar-cell"><span class="ar">لَا تُخْبِرْ</span></td>
+        <td>to inform / report / notify</td>
+        <td class="ar-cell"><span class="ar alt">أَعْلَمَ، أَبْلَغَ</span></td>
       </tr>
     </tbody>
   </table>
