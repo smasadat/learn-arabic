@@ -77,6 +77,23 @@
     td:has(> span.ar) { text-align: right; direction: rtl; unicode-bidi: embed; }
     td.num-cell, td.center { text-align: center; font-weight: 600; }
 
+
+    /* ── Example sentence rows ── */
+    tr.ex-row td {
+      background: #f9f9f2;
+      border-bottom: 2px solid #c5cae9;
+      font-size: 0.88rem;
+      color: #37474f;
+      padding: 6px 14px;
+    }
+    tr.ex-row .ar-ex {
+      font-family: 'Amiri', 'Traditional Arabic', 'Arabic Typesetting',
+                   'Scheherazade New', serif;
+      direction: rtl;
+      font-size: 1.1em;
+      color: #1a237e;
+    }
+    tr.ex-row .trans-ex { color: #546e7a; font-style: italic; }
     @media print {
       body { background: #fff; }
       h2 { break-before: page; }
@@ -161,6 +178,9 @@
         <td>to read</td>
         <td class="ar-cell"><span class="ar alt">تَلَا، دَرَسَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اَلطَّالِبُ يَقْرَأُ الْكِتَابَ كُلَّ يَوْمٍ.</span> <span class="trans-ex">— The student reads the book every day.</span></td>
+      </tr>
       <!-- 2 -->
       <tr>
         <td class="num-cell">٢</td>
@@ -175,6 +195,9 @@
         <td class="ar-cell"><span class="ar">لَا تَكْتُبْ</span></td>
         <td>to write</td>
         <td class="ar-cell"><span class="ar alt">خَطَّ، دَوَّنَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">كَتَبَ الْمُعَلِّمُ الدَّرْسَ عَلَى السَّبُّورَةِ.</span> <span class="trans-ex">— The teacher wrote the lesson on the board.</span></td>
       </tr>
       <!-- 3 -->
       <tr>
@@ -191,6 +214,9 @@
         <td>to speak</td>
         <td class="ar-cell"><span class="ar alt">قَالَ، نَطَقَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">تَكَلَّمَ الْخَطِيبُ بِثِقَةٍ أَمَامَ الْجَمْهُورِ.</span> <span class="trans-ex">— The speaker spoke with confidence before the audience.</span></td>
+      </tr>
       <!-- 4 -->
       <tr>
         <td class="num-cell">٤</td>
@@ -205,6 +231,9 @@
         <td class="ar-cell"><span class="ar">لَا تَفْهَمْ</span></td>
         <td>to understand</td>
         <td class="ar-cell"><span class="ar alt">أَدْرَكَ، عَقَلَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">فَهِمَ الطُّلَّابُ الدَّرْسَ جَيِّداً بَعْدَ الشَّرْحِ.</span> <span class="trans-ex">— The students understood the lesson well after the explanation.</span></td>
       </tr>
       <!-- 5 -->
       <tr>
@@ -221,6 +250,9 @@
         <td>to know</td>
         <td class="ar-cell"><span class="ar alt">عَرَفَ، دَرَى</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">عَلِمَ الْجَمِيعُ بِالنَّتِيجَةِ فِي وَقْتٍ مُبَكِّرٍ.</span> <span class="trans-ex">— Everyone knew the result at an early time.</span></td>
+      </tr>
       <!-- 6 -->
       <tr>
         <td class="num-cell">٦</td>
@@ -235,6 +267,9 @@
         <td class="ar-cell"><span class="ar">لَا تَقُلْ</span></td>
         <td>to say</td>
         <td class="ar-cell"><span class="ar alt">أَفَادَ، ذَكَرَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">قَالَ الْمُعَلِّمُ إِنَّ الْعِلْمَ نُورٌ يُضِيءُ الْعُقُولَ.</span> <span class="trans-ex">— The teacher said that knowledge is a light that illuminates minds.</span></td>
       </tr>
       <!-- 7 -->
       <tr>
@@ -251,6 +286,9 @@
         <td>to ask</td>
         <td class="ar-cell"><span class="ar alt">اسْتَفْسَرَ، اسْتَوْضَحَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَأَلَ الطَّالِبُ عَنْ مَعْنَى الْكَلِمَةِ الصَّعْبَةِ.</span> <span class="trans-ex">— The student asked about the meaning of the difficult word.</span></td>
+      </tr>
       <!-- 8 -->
       <tr>
         <td class="num-cell">٨</td>
@@ -265,6 +303,9 @@
         <td class="ar-cell"><span class="ar">لَا تُجِبْ</span></td>
         <td>to answer / respond</td>
         <td class="ar-cell"><span class="ar alt">رَدَّ، أَفَادَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَجَابَ الْأُسْتَاذُ عَلَى جَمِيعِ أَسْئِلَةِ الطُّلَّابِ.</span> <span class="trans-ex">— The professor answered all the students' questions.</span></td>
       </tr>
       <!-- 9 -->
       <tr>
@@ -281,6 +322,9 @@
         <td>to see</td>
         <td class="ar-cell"><span class="ar alt">نَظَرَ، أَبْصَرَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">رَأَيْتُ صَدِيقِي فِي السُّوقِ أَمْسِ.</span> <span class="trans-ex">— I saw my friend in the market yesterday.</span></td>
+      </tr>
       <!-- 10 -->
       <tr>
         <td class="num-cell">١٠</td>
@@ -295,6 +339,9 @@
         <td class="ar-cell"><span class="ar">لَا تَسْمَعْ</span></td>
         <td>to hear / listen</td>
         <td class="ar-cell"><span class="ar alt">اسْتَمَعَ، أَنْصَتَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَمِعَ الطِّفْلُ صَوْتَ أُمِّهِ مِنْ بَعِيدٍ.</span> <span class="trans-ex">— The child heard his mother's voice from afar.</span></td>
       </tr>
       <!-- 11 -->
       <tr>
@@ -311,6 +358,9 @@
         <td>to go</td>
         <td class="ar-cell"><span class="ar alt">انْطَلَقَ، سَارَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">ذَهَبَ الطُّلَّابُ إِلَى الْمَكْتَبَةِ بَعْدَ الدَّرْسِ.</span> <span class="trans-ex">— The students went to the library after class.</span></td>
+      </tr>
       <!-- 12 -->
       <tr>
         <td class="num-cell">١٢</td>
@@ -325,6 +375,9 @@
         <td class="ar-cell"><span class="ar">لَا تَجِئْ</span></td>
         <td>to come</td>
         <td class="ar-cell"><span class="ar alt">أَتَى، حَضَرَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">جَاءَ الضَّيْفُ فِي الْوَقْتِ الْمُحَدَّدِ.</span> <span class="trans-ex">— The guest came at the appointed time.</span></td>
       </tr>
       <!-- 13 -->
       <tr>
@@ -341,6 +394,9 @@
         <td>to enter</td>
         <td class="ar-cell"><span class="ar alt">وَلَجَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">دَخَلَ الطُّلَّابُ إِلَى الْقَاعَةِ بِهُدُوءٍ.</span> <span class="trans-ex">— The students entered the hall quietly.</span></td>
+      </tr>
       <!-- 14 -->
       <tr>
         <td class="num-cell">١٤</td>
@@ -355,6 +411,9 @@
         <td class="ar-cell"><span class="ar">لَا تَخْرُجْ</span></td>
         <td>to exit / go out</td>
         <td class="ar-cell"><span class="ar alt">غَادَرَ، بَرَزَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">خَرَجَ الْمُدِيرُ مِنَ الِاجْتِمَاعِ مُبَكِّراً.</span> <span class="trans-ex">— The director left the meeting early.</span></td>
       </tr>
       <!-- 15 -->
       <tr>
@@ -371,6 +430,9 @@
         <td>to sit</td>
         <td class="ar-cell"><span class="ar alt">قَعَدَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">جَلَسَ الضُّيُوفُ حَوْلَ الْمَائِدَةِ بِارْتِيَاحٍ.</span> <span class="trans-ex">— The guests sat around the dining table comfortably.</span></td>
+      </tr>
       <!-- 16 -->
       <tr>
         <td class="num-cell">١٦</td>
@@ -385,6 +447,9 @@
         <td class="ar-cell"><span class="ar">لَا تَقُمْ</span></td>
         <td>to stand / rise</td>
         <td class="ar-cell"><span class="ar alt">نَهَضَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">قَامَ الطُّلَّابُ احْتِرَاماً لِقُدُومِ الْأُسْتَاذِ.</span> <span class="trans-ex">— The students stood up in respect for the professor's arrival.</span></td>
       </tr>
       <!-- 17 -->
       <tr>
@@ -401,6 +466,9 @@
         <td>to eat</td>
         <td class="ar-cell"><span class="ar alt">تَنَاوَلَ، طَعِمَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَكَلَ الْأَطْفَالُ الطَّعَامَ بِشَهِيَّةٍ كَبِيرَةٍ.</span> <span class="trans-ex">— The children ate the food with great appetite.</span></td>
+      </tr>
       <!-- 18 -->
       <tr>
         <td class="num-cell">١٨</td>
@@ -415,6 +483,9 @@
         <td class="ar-cell"><span class="ar">لَا تَشْرَبْ</span></td>
         <td>to drink</td>
         <td class="ar-cell"><span class="ar alt">تَجَرَّعَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">شَرِبَ الضَّيْفُ كُوبَ الْمَاءِ بَعْدَ رِحْلَةٍ طَوِيلَةٍ.</span> <span class="trans-ex">— The guest drank the cup of water after a long journey.</span></td>
       </tr>
       <!-- 19 -->
       <tr>
@@ -431,6 +502,9 @@
         <td>to take</td>
         <td class="ar-cell"><span class="ar alt">اسْتَلَمَ، تَسَلَّمَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَخَذَ الطَّالِبُ الْكِتَابَ مِنَ الرَّفِّ بِعِنَايَةٍ.</span> <span class="trans-ex">— The student took the book from the shelf carefully.</span></td>
+      </tr>
       <!-- 20 -->
       <tr>
         <td class="num-cell">٢٠</td>
@@ -445,6 +519,9 @@
         <td class="ar-cell"><span class="ar">لَا تُعْطِ</span></td>
         <td>to give</td>
         <td class="ar-cell"><span class="ar alt">وَهَبَ، مَنَحَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَعْطَى الْمُعَلِّمُ الطُّلَّابَ وَاجِبَاتٍ جَدِيدَةً.</span> <span class="trans-ex">— The teacher gave the students new assignments.</span></td>
       </tr>
       <!-- 21 -->
       <tr>
@@ -461,6 +538,9 @@
         <td>to request / seek</td>
         <td class="ar-cell"><span class="ar alt">اسْتَدْعَى، رَجَا</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">طَلَبَ الطَّالِبُ مِنَ الْأُسْتَاذِ مَزِيداً مِنَ الشَّرْحِ.</span> <span class="trans-ex">— The student requested more explanation from the professor.</span></td>
+      </tr>
       <!-- 22 -->
       <tr>
         <td class="num-cell">٢٢</td>
@@ -475,6 +555,9 @@
         <td class="ar-cell"><span class="ar">لَا تَفْعَلْ</span></td>
         <td>to do / act</td>
         <td class="ar-cell"><span class="ar alt">عَمِلَ، صَنَعَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">فَعَلَ الطَّالِبُ وَاجِبَهُ بِاجْتِهَادٍ وَإِخْلَاصٍ.</span> <span class="trans-ex">— The student did his homework with diligence and sincerity.</span></td>
       </tr>
       <!-- 23 -->
       <tr>
@@ -491,6 +574,9 @@
         <td>to arrive / reach</td>
         <td class="ar-cell"><span class="ar alt">بَلَغَ، وَافَى</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">وَصَلَ الْقِطَارُ إِلَى الْمَحَطَّةِ فِي مَوْعِدِهِ.</span> <span class="trans-ex">— The train arrived at the station on time.</span></td>
+      </tr>
       <!-- 24 -->
       <tr>
         <td class="num-cell">٢٤</td>
@@ -505,6 +591,9 @@
         <td class="ar-cell"><span class="ar">لَا تُسَافِرْ</span></td>
         <td>to travel</td>
         <td class="ar-cell"><span class="ar alt">رَحَلَ، انْتَقَلَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَافَرَ الْأُسْتَاذُ إِلَى مُؤْتَمَرٍ دَوْلِيٍّ فِي الْخَارِجِ.</span> <span class="trans-ex">— The professor traveled to an international conference abroad.</span></td>
       </tr>
       <!-- 25 -->
       <tr>
@@ -521,6 +610,9 @@
         <td>to open</td>
         <td class="ar-cell"><span class="ar alt">—</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">فَتَحَ الطَّالِبُ الْكِتَابَ عِنْدَ الصَّفْحَةِ الْأُولَى.</span> <span class="trans-ex">— The student opened the book at the first page.</span></td>
+      </tr>
       <!-- 26 -->
       <tr>
         <td class="num-cell">٢٦</td>
@@ -535,6 +627,9 @@
         <td class="ar-cell"><span class="ar">لَا تُغْلِقْ</span></td>
         <td>to close / shut</td>
         <td class="ar-cell"><span class="ar alt">أَوْصَدَ، سَدَّ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَغْلَقَ الْحَارِسُ بَابَ الْمَكْتَبَةِ عِنْدَ الْمَسَاءِ.</span> <span class="trans-ex">— The guard closed the library door in the evening.</span></td>
       </tr>
       <!-- 27 -->
       <tr>
@@ -551,6 +646,9 @@
         <td>to carry / bear</td>
         <td class="ar-cell"><span class="ar alt">رَفَعَ، حَازَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">حَمَلَ الطَّالِبُ حَقِيبَتَهُ وَتَوَجَّهَ إِلَى الْجَامِعَةِ.</span> <span class="trans-ex">— The student carried his bag and headed to the university.</span></td>
+      </tr>
       <!-- 28 -->
       <tr>
         <td class="num-cell">٢٨</td>
@@ -565,6 +663,9 @@
         <td class="ar-cell"><span class="ar">لَا تَدْرُسْ</span></td>
         <td>to study</td>
         <td class="ar-cell"><span class="ar alt">تَعَلَّمَ، تَفَقَّهَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">دَرَسَ الطُّلَّابُ بِجِدٍّ اسْتِعْدَاداً لِلِامْتِحَانِ.</span> <span class="trans-ex">— The students studied hard in preparation for the exam.</span></td>
       </tr>
       <!-- 29 -->
       <tr>
@@ -581,6 +682,9 @@
         <td>to buy / purchase</td>
         <td class="ar-cell"><span class="ar alt">ابْتَاعَ، اقْتَنَى</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اشْتَرَى الطَّالِبُ كُتُباً جَدِيدَةً مِنَ الْمَكْتَبَةِ.</span> <span class="trans-ex">— The student bought new books from the bookshop.</span></td>
+      </tr>
       <!-- 30 -->
       <tr>
         <td class="num-cell">٣٠</td>
@@ -595,6 +699,9 @@
         <td class="ar-cell"><span class="ar">لَا تَعْمَلْ</span></td>
         <td>to work / act</td>
         <td class="ar-cell"><span class="ar alt">اشْتَغَلَ، خَدَمَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">عَمِلَ الْمُوَظَّفُ لَيْلاً لِإِنْجَازِ التَّقْرِيرِ فِي وَقْتِهِ.</span> <span class="trans-ex">— The employee worked at night to complete the report on time.</span></td>
       </tr>
       <!-- 31 -->
       <tr>
@@ -611,6 +718,9 @@
         <td>to try / test</td>
         <td class="ar-cell"><span class="ar alt">حَاوَلَ، اخْتَبَرَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">جَرَّبَ الْعَالِمُ أَسَالِيبَ جَدِيدَةً فِي تَجَارِبِهِ الْعِلْمِيَّةِ.</span> <span class="trans-ex">— The scientist tried new methods in his scientific experiments.</span></td>
+      </tr>
       <!-- 32 -->
       <tr>
         <td class="num-cell">٣٢</td>
@@ -625,6 +735,9 @@
         <td class="ar-cell"><span class="ar">لَا تُحِبَّ</span></td>
         <td>to like / love</td>
         <td class="ar-cell"><span class="ar alt">وَدَّ، رَغِبَ فِي</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَحَبَّ الطُّلَّابُ أُسْتَاذَهُمُ الَّذِي يَشْرَحُ بِوُضُوحٍ.</span> <span class="trans-ex">— The students loved their professor who explains with clarity.</span></td>
       </tr>
       <!-- 33 -->
       <tr>
@@ -641,6 +754,9 @@
         <td>to prefer</td>
         <td class="ar-cell"><span class="ar alt">آثَرَ، اخْتَارَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">فَضَّلَ الطَّالِبُ الدِّرَاسَةَ فِي سَاعَاتِ الصَّبَاحِ الْبَاكِرِ.</span> <span class="trans-ex">— The student preferred studying in the early morning hours.</span></td>
+      </tr>
       <!-- 34 -->
       <tr>
         <td class="num-cell">٣٤</td>
@@ -655,6 +771,9 @@
         <td class="ar-cell"><span class="ar">لَا تُرِدْ</span></td>
         <td>to want / intend</td>
         <td class="ar-cell"><span class="ar alt">رَغِبَ، نَوَى</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَرَادَ الطَّالِبُ أَنْ يَتَعَلَّمَ الْعَرَبِيَّةَ بِإِتْقَانٍ تَامٍّ.</span> <span class="trans-ex">— The student wanted to learn Arabic with complete mastery.</span></td>
       </tr>
       <!-- 35 -->
       <tr>
@@ -671,6 +790,9 @@
         <td>to need / require</td>
         <td class="ar-cell"><span class="ar alt">افْتَقَرَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">احْتَاجَ الطَّالِبُ إِلَى قَامُوسٍ لِفَهْمِ الْكَلِمَاتِ الصَّعْبَةِ.</span> <span class="trans-ex">— The student needed a dictionary to understand the difficult words.</span></td>
+      </tr>
       <!-- 36 -->
       <tr>
         <td class="num-cell">٣٦</td>
@@ -685,6 +807,9 @@
         <td class="ar-cell"><span class="ar">لَا تَطْبُخْ</span></td>
         <td>to cook</td>
         <td class="ar-cell"><span class="ar alt">أَعَدَّ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">طَبَخَتِ الْأُمُّ طَعَاماً شَهِياً لِلْعَائِلَةِ فِي الْعِيدِ.</span> <span class="trans-ex">— The mother cooked a delicious meal for the family at Eid.</span></td>
       </tr>
       <!-- 37 -->
       <tr>
@@ -701,6 +826,9 @@
         <td>to wash / clean</td>
         <td class="ar-cell"><span class="ar alt">نَظَّفَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">غَسَلَ الطَّالِبُ يَدَيْهِ جَيِّداً قَبْلَ تَنَاوُلِ الطَّعَامِ.</span> <span class="trans-ex">— The student washed his hands well before eating.</span></td>
+      </tr>
       <!-- 38 -->
       <tr>
         <td class="num-cell">٣٨</td>
@@ -715,6 +843,9 @@
         <td class="ar-cell"><span class="ar">لَا تُنَظِّفْ</span></td>
         <td>to clean / tidy</td>
         <td class="ar-cell"><span class="ar alt">كَنَسَ، مَسَحَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">نَظَّفَ الطُّلَّابُ الْفَصْلَ بَعْدَ انْتِهَاءِ الدَّرْسِ.</span> <span class="trans-ex">— The students cleaned the classroom after the lesson ended.</span></td>
       </tr>
       <!-- 39 -->
       <tr>
@@ -731,6 +862,9 @@
         <td>to arrange / tidy up</td>
         <td class="ar-cell"><span class="ar alt">نَظَّمَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">رَتَّبَ الطَّالِبُ كُتُبَهُ عَلَى الرَّفِّ بِعِنَايَةٍ وَنِظَامٍ.</span> <span class="trans-ex">— The student arranged his books on the shelf carefully and neatly.</span></td>
+      </tr>
       <!-- 40 -->
       <tr>
         <td class="num-cell">٤٠</td>
@@ -745,6 +879,9 @@
         <td class="ar-cell"><span class="ar">لَا تُعِدَّ</span></td>
         <td>to prepare / get ready</td>
         <td class="ar-cell"><span class="ar alt">جَهَّزَ، هَيَّأَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَعَدَّ الْأُسْتَاذُ خُطَّةَ الدَّرْسِ قَبْلَ مَوْعِدِ الْمُحَاضَرَةِ.</span> <span class="trans-ex">— The professor prepared the lesson plan before the lecture time.</span></td>
       </tr>
       <!-- 41 -->
       <tr>
@@ -761,6 +898,9 @@
         <td>to meet / assemble</td>
         <td class="ar-cell"><span class="ar alt">الْتَقَى، لَقِيَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اجْتَمَعَ الْمُدَرِّسُونَ لِمُنَاقَشَةِ الْمَنَاهِجِ الدِّرَاسِيَّةِ الْجَدِيدَةِ.</span> <span class="trans-ex">— The teachers met to discuss the new academic curricula.</span></td>
+      </tr>
       <!-- 42 -->
       <tr>
         <td class="num-cell">٤٢</td>
@@ -775,6 +915,9 @@
         <td class="ar-cell"><span class="ar">لَا تُوَقِّعْ</span></td>
         <td>to sign (a document)</td>
         <td class="ar-cell"><span class="ar alt">أَمْضَى، خَتَمَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">وَقَّعَ الْمُدِيرُ عَلَى الْوَثِيقَةِ الرَّسْمِيَّةِ بَعْدَ الْمُرَاجَعَةِ.</span> <span class="trans-ex">— The director signed the official document after review.</span></td>
       </tr>
       <!-- 43 -->
       <tr>
@@ -791,6 +934,9 @@
         <td>to send</td>
         <td class="ar-cell"><span class="ar alt">بَعَثَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَرْسَلَ الطَّالِبُ بَحْثَهُ إِلَى الْأُسْتَاذِ بِالْبَرِيدِ الْإِلِكْتْرُونِيِّ.</span> <span class="trans-ex">— The student sent his research to the professor by e-mail.</span></td>
+      </tr>
       <!-- 44 -->
       <tr>
         <td class="num-cell">٤٤</td>
@@ -805,6 +951,9 @@
         <td class="ar-cell"><span class="ar">لَا تَسْتَلِمْ</span></td>
         <td>to receive / collect</td>
         <td class="ar-cell"><span class="ar alt">تَسَلَّمَ، قَبِلَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اسْتَلَمَ الطَّالِبُ شَهَادَتَهُ مِنْ عِمَادَةِ الْجَامِعَةِ.</span> <span class="trans-ex">— The student received his certificate from the university dean's office.</span></td>
       </tr>
       <!-- 45 -->
       <tr>
@@ -821,6 +970,9 @@
         <td>to memorize / preserve</td>
         <td class="ar-cell"><span class="ar alt">اسْتَظْهَرَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">حَفِظَ الطَّالِبُ الْآيَاتِ الْقُرْآنِيَّةَ بِمُرَاجَعَةٍ يَوْمِيَّةٍ.</span> <span class="trans-ex">— The student memorized Quranic verses through daily review.</span></td>
+      </tr>
       <!-- 46 -->
       <tr>
         <td class="num-cell">٤٦</td>
@@ -835,6 +987,9 @@
         <td class="ar-cell"><span class="ar">لَا تَتْلُ</span></td>
         <td>to recite (Quran / text)</td>
         <td class="ar-cell"><span class="ar alt">رَتَّلَ، قَرَأَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">تَلَا الْإِمَامُ سُورَةَ الْفَاتِحَةِ بِتَرْتِيلٍ جَمِيلٍ.</span> <span class="trans-ex">— The imam recited Surah Al-Fatiha with beautiful melodic recitation.</span></td>
       </tr>
       <!-- 47 -->
       <tr>
@@ -851,6 +1006,9 @@
         <td>to explain / clarify</td>
         <td class="ar-cell"><span class="ar alt">فَسَّرَ، أَوْضَحَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">شَرَحَ الْأُسْتَاذُ الْقَاعِدَةَ النَّحْوِيَّةَ بِأَمْثِلَةٍ وَافِيَةٍ.</span> <span class="trans-ex">— The professor explained the grammatical rule with ample examples.</span></td>
+      </tr>
       <!-- 48 -->
       <tr>
         <td class="num-cell">٤٨</td>
@@ -865,6 +1023,9 @@
         <td class="ar-cell"><span class="ar">لَا تَحْضُرْ</span></td>
         <td>to attend / be present</td>
         <td class="ar-cell"><span class="ar alt">شَهِدَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">حَضَرَ جَمِيعُ الطُّلَّابِ مُحَاضَرَةَ الْيَوْمِ بِانْتِظَامٍ.</span> <span class="trans-ex">— All students attended today's lecture regularly.</span></td>
       </tr>
       <!-- 49 -->
       <tr>
@@ -881,6 +1042,9 @@
         <td>to register / record / enroll</td>
         <td class="ar-cell"><span class="ar alt">قَيَّدَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَجَّلَ الطَّالِبُ فِي مَادَّةِ النَّحْوِ لِلْفَصْلِ الدِّرَاسِيِّ الْقَادِمِ.</span> <span class="trans-ex">— The student enrolled in the grammar course for the upcoming semester.</span></td>
+      </tr>
       <!-- 50 -->
       <tr>
         <td class="num-cell">٥٠</td>
@@ -895,6 +1059,9 @@
         <td class="ar-cell"><span class="ar">لَا تَرْكَبْ</span></td>
         <td>to ride / board</td>
         <td class="ar-cell"><span class="ar alt">صَعِدَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">رَكِبَ الطَّالِبُ الْحَافِلَةَ إِلَى الْجَامِعَةِ كُلَّ صَبَاحٍ.</span> <span class="trans-ex">— The student rode the bus to university every morning.</span></td>
       </tr>
       <!-- 51 -->
       <tr>
@@ -911,6 +1078,9 @@
         <td>to descend / get off / alight</td>
         <td class="ar-cell"><span class="ar alt">هَبَطَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">نَزَلَ الرُّكَّابُ مِنَ الْقِطَارِ عِنْدَ الْمَحَطَّةِ الْأَخِيرَةِ.</span> <span class="trans-ex">— The passengers got off the train at the last station.</span></td>
+      </tr>
       <!-- 52 -->
       <tr>
         <td class="num-cell">٥٢</td>
@@ -925,6 +1095,9 @@
         <td class="ar-cell"><span class="ar">لَا تَنْتَظِرْ</span></td>
         <td>to wait / await</td>
         <td class="ar-cell"><span class="ar alt">تَرَبَّصَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">انْتَظَرَ الطَّالِبُ دَوْرَهُ بِصَبْرٍ أَمَامَ بَابِ الْمَكْتَبِ.</span> <span class="trans-ex">— The student waited for his turn patiently in front of the office door.</span></td>
       </tr>
       <!-- 53 -->
       <tr>
@@ -941,6 +1114,9 @@
         <td>to rent / hire</td>
         <td class="ar-cell"><span class="ar alt">اكْتَرَى، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اسْتَأْجَرَ الطَّالِبُ شَقَّةً قَرِيبَةً مِنَ الْجَامِعَةِ.</span> <span class="trans-ex">— The student rented an apartment close to the university.</span></td>
+      </tr>
       <!-- 54 -->
       <tr>
         <td class="num-cell">٥٤</td>
@@ -955,6 +1131,9 @@
         <td class="ar-cell"><span class="ar">لَا تَحْجُزْ</span></td>
         <td>to book / reserve</td>
         <td class="ar-cell"><span class="ar alt">حَجَّزَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">حَجَزَ الْمُسَافِرُ مَقْعَداً فِي الطَّائِرَةِ قَبْلَ السَّفَرِ بِأُسْبُوعٍ.</span> <span class="trans-ex">— The traveler booked a seat on the plane a week before the trip.</span></td>
       </tr>
       <!-- 55 -->
       <tr>
@@ -971,6 +1150,9 @@
         <td>to sell</td>
         <td class="ar-cell"><span class="ar alt">اتَّجَرَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">بَاعَ الطَّالِبُ كُتُبَهُ الْقَدِيمَةَ بَعْدَ إِتْمَامِ دِرَاسَتِهِ.</span> <span class="trans-ex">— The student sold his old books after completing his studies.</span></td>
+      </tr>
       <!-- 56 -->
       <tr>
         <td class="num-cell">٥٦</td>
@@ -985,6 +1167,9 @@
         <td class="ar-cell"><span class="ar">لَا تَدْفَعْ</span></td>
         <td>to pay</td>
         <td class="ar-cell"><span class="ar alt">سَدَّدَ، أَدَّى</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">دَفَعَ الطَّالِبُ رُسُومَ التَّسْجِيلِ فِي بِدَايَةِ الْفَصْلِ الدِّرَاسِيِّ.</span> <span class="trans-ex">— The student paid the registration fees at the beginning of the academic semester.</span></td>
       </tr>
       <!-- 57 -->
       <tr>
@@ -1001,6 +1186,9 @@
         <td>to choose / select</td>
         <td class="ar-cell"><span class="ar alt">انْتَقَى، تَخَيَّرَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اخْتَارَ الطَّالِبُ تَخَصُّصَ اللُّغَةِ الْعَرَبِيَّةِ وَآدَابِهَا.</span> <span class="trans-ex">— The student chose Arabic language and literature as his specialisation.</span></td>
+      </tr>
       <!-- 58 -->
       <tr>
         <td class="num-cell">٥٨</td>
@@ -1015,6 +1203,9 @@
         <td class="ar-cell"><span class="ar">لَا تَجِدْ</span></td>
         <td>to find / discover</td>
         <td class="ar-cell"><span class="ar alt">عَثَرَ عَلَى، اكْتَشَفَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">وَجَدَ الْبَاحِثُ مَعْلُومَاتٍ قَيِّمَةً فِي مَرَاجِعِ الْمَكْتَبَةِ.</span> <span class="trans-ex">— The researcher found valuable information in the library's references.</span></td>
       </tr>
       <!-- 59 -->
       <tr>
@@ -1031,6 +1222,9 @@
         <td>to help / assist</td>
         <td class="ar-cell"><span class="ar alt">أَعَانَ، أَسْنَدَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَاعَدَ الطَّالِبُ زَمِيلَهُ فِي فَهْمِ الدُّرُوسِ الصَّعْبَةِ.</span> <span class="trans-ex">— The student helped his colleague understand the difficult lessons.</span></td>
+      </tr>
       <!-- 60 -->
       <tr>
         <td class="num-cell">٦٠</td>
@@ -1045,6 +1239,9 @@
         <td class="ar-cell"><span class="ar">لَا تَنْتَقِلْ</span></td>
         <td>to move / relocate / transfer</td>
         <td class="ar-cell"><span class="ar alt">تَحَوَّلَ، رَحَلَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">انْتَقَلَ الْأُسْتَاذُ إِلَى جَامِعَةٍ أُخْرَى بَعْدَ حُصُولِهِ عَلَى التَّرْقِيَةِ.</span> <span class="trans-ex">— The professor moved to another university after receiving his promotion.</span></td>
       </tr>
       <!-- 61 -->
       <tr>
@@ -1061,6 +1258,9 @@
         <td>to sleep</td>
         <td class="ar-cell"><span class="ar alt">رَقَدَ، هَجَعَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">نَامَ الطَّالِبُ مُبَكِّراً لِيَسْتَيْقِظَ نَشِيطاً فِي الصَّبَاحِ.</span> <span class="trans-ex">— The student slept early to wake up energetic in the morning.</span></td>
+      </tr>
       <!-- 62 -->
       <tr>
         <td class="num-cell">٦٢</td>
@@ -1075,6 +1275,9 @@
         <td class="ar-cell"><span class="ar">لَا تَلْبَسْ</span></td>
         <td>to wear / put on</td>
         <td class="ar-cell"><span class="ar alt">اِرْتَدَى، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">لَبِسَ الطَّالِبُ ثِيَاباً رَسْمِيَّةً لِحَفْلَةِ التَّخَرُّجِ.</span> <span class="trans-ex">— The student wore formal clothes for the graduation ceremony.</span></td>
       </tr>
       <!-- 63 -->
       <tr>
@@ -1091,6 +1294,9 @@
         <td>to be / exist</td>
         <td class="ar-cell"><span class="ar alt">صَارَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">كَانَ الْعِلْمُ فِي الْمَاضِي حِكْراً عَلَى فِئَةٍ قَلِيلَةٍ مِنَ النَّاسِ.</span> <span class="trans-ex">— Knowledge in the past was the exclusive preserve of a small group of people.</span></td>
+      </tr>
       <!-- 64 -->
       <tr>
         <td class="num-cell">٦٤</td>
@@ -1105,6 +1311,9 @@
         <td class="ar-cell"><span class="ar">لَا تَسْتَطِعْ</span></td>
         <td>to be able to / can</td>
         <td class="ar-cell"><span class="ar alt">أَمْكَنَ، قَدَرَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اسْتَطَاعَ الطَّالِبُ إِتْقَانَ اللُّغَةِ بِالصَّبْرِ وَالْمُثَابَرَةِ.</span> <span class="trans-ex">— The student was able to master the language through patience and perseverance.</span></td>
       </tr>
       <!-- 65 -->
       <tr>
@@ -1121,6 +1330,9 @@
         <td>to return / go back</td>
         <td class="ar-cell"><span class="ar alt">رَجَعَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">عَادَ الطَّالِبُ إِلَى بَلَدِهِ فَرِحاً بَعْدَ إِتْمَامِ دِرَاسَتِهِ.</span> <span class="trans-ex">— The student returned to his country happily after completing his studies.</span></td>
+      </tr>
       <!-- 66 -->
       <tr>
         <td class="num-cell">٦٦</td>
@@ -1135,6 +1347,9 @@
         <td class="ar-cell"><span class="ar">لَا تَبْدَأْ</span></td>
         <td>to begin / start</td>
         <td class="ar-cell"><span class="ar alt">شَرَعَ، انْطَلَقَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">بَدَأَ الدَّرْسُ بِتِلَاوَةِ آيَاتٍ مِنَ الْقُرْآنِ الْكَرِيمِ.</span> <span class="trans-ex">— The lesson began with the recitation of verses from the Noble Quran.</span></td>
       </tr>
       <!-- 67 -->
       <tr>
@@ -1151,6 +1366,9 @@
         <td>to complete / finish</td>
         <td class="ar-cell"><span class="ar alt">أَتَمَّ، أَنْجَزَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَكْمَلَ الطَّالِبُ بَحْثَهُ قَبْلَ الْمَوْعِدِ النِّهَائِيِّ بِيَوْمَيْنِ.</span> <span class="trans-ex">— The student completed his research two days before the final deadline.</span></td>
+      </tr>
       <!-- 68 -->
       <tr>
         <td class="num-cell">٦٨</td>
@@ -1165,6 +1383,9 @@
         <td class="ar-cell"><span class="ar">لَا تَضَعْ</span></td>
         <td>to put / place</td>
         <td class="ar-cell"><span class="ar alt">أَلْقَى، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">وَضَعَ الْأُسْتَاذُ مَعَايِيرَ وَاضِحَةً لِتَقْيِيمِ الطُّلَّابِ.</span> <span class="trans-ex">— The professor laid down clear criteria for evaluating students.</span></td>
       </tr>
       <!-- 69 -->
       <tr>
@@ -1181,6 +1402,9 @@
         <td>to raise / lift</td>
         <td class="ar-cell"><span class="ar alt">أَعْلَى، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">رَفَعَ الطَّالِبُ يَدَهُ لِلْإِجَابَةِ عَنِ السُّؤَالِ.</span> <span class="trans-ex">— The student raised his hand to answer the question.</span></td>
+      </tr>
       <!-- 70 -->
       <tr>
         <td class="num-cell">٧٠</td>
@@ -1195,6 +1419,9 @@
         <td class="ar-cell"><span class="ar">لَا تَقْطَعْ</span></td>
         <td>to cut / sever</td>
         <td class="ar-cell"><span class="ar alt">بَتَرَ، شَقَّ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">قَطَعَ الطَّالِبُ مَسَافَةً طَوِيلَةً لِلْوُصُولِ إِلَى الْجَامِعَةِ يَوْمِيّاً.</span> <span class="trans-ex">— The student covered a long distance to reach the university daily.</span></td>
       </tr>
       <!-- 71 -->
       <tr>
@@ -1211,6 +1438,9 @@
         <td>to pour</td>
         <td class="ar-cell"><span class="ar alt">صَبَّ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">سَكَبَتِ الْأُمُّ الشَّايَ فِي الْأَكْوَابِ وَقَدَّمَتْهُ لِلضُّيُوفِ.</span> <span class="trans-ex">— The mother poured tea into the cups and served it to the guests.</span></td>
+      </tr>
       <!-- 72 -->
       <tr>
         <td class="num-cell">٧٢</td>
@@ -1225,6 +1455,9 @@
         <td class="ar-cell"><span class="ar">لَا تُصَلِّ</span></td>
         <td>to pray (ṣalāh)</td>
         <td class="ar-cell"><span class="ar alt">دَعَا، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">صَلَّى الْجَمِيعُ صَلَاةَ الظُّهْرِ جَمَاعَةً فِي الْمَسْجِدِ.</span> <span class="trans-ex">— Everyone prayed the Dhuhr prayer in congregation at the mosque.</span></td>
       </tr>
       <!-- 73 -->
       <tr>
@@ -1241,6 +1474,9 @@
         <td>to call / invite / supplicate</td>
         <td class="ar-cell"><span class="ar alt">نَادَى، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">دَعَا الْإِمَامُ لِلطُّلَّابِ بِالتَّوْفِيقِ وَالنَّجَاحِ فِي امْتِحَانَاتِهِمْ.</span> <span class="trans-ex">— The imam supplicated for the students with success in their exams.</span></td>
+      </tr>
       <!-- 74 -->
       <tr>
         <td class="num-cell">٧٤</td>
@@ -1255,6 +1491,9 @@
         <td class="ar-cell"><span class="ar">لَا تَنْظُرْ</span></td>
         <td>to look at / observe</td>
         <td class="ar-cell"><span class="ar alt">رَأَى، تَأَمَّلَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">نَظَرَ الطَّالِبُ إِلَى السَّبُّورَةِ بِانْتِبَاهٍ وَتَأَمُّلٍ.</span> <span class="trans-ex">— The student looked at the board with attention and contemplation.</span></td>
       </tr>
       <!-- 75 -->
       <tr>
@@ -1271,6 +1510,9 @@
         <td>to contact / call / connect</td>
         <td class="ar-cell"><span class="ar alt">تَوَاصَلَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">اتَّصَلَ الطَّالِبُ بِالْأُسْتَاذِ لِتَأْكِيدِ مَوْعِدِ الِامْتِحَانِ.</span> <span class="trans-ex">— The student contacted the professor to confirm the exam date.</span></td>
+      </tr>
       <!-- 76 -->
       <tr>
         <td class="num-cell">٧٦</td>
@@ -1285,6 +1527,9 @@
         <td class="ar-cell"><span class="ar">لَا تُوَافِقْ</span></td>
         <td>to agree / approve / concur</td>
         <td class="ar-cell"><span class="ar alt">قَبِلَ، —</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">وَافَقَ الْمَجْلِسُ عَلَى اعْتِمَادِ الْخَطَّةِ الدِّرَاسِيَّةِ الْجَدِيدَةِ.</span> <span class="trans-ex">— The council approved the adoption of the new academic plan.</span></td>
       </tr>
       <!-- 77 -->
       <tr>
@@ -1301,6 +1546,9 @@
         <td>to repair / fix / improve</td>
         <td class="ar-cell"><span class="ar alt">صَلَّحَ، رَمَّمَ</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَصْلَحَ الْفَنِّيُّ جِهَازَ الْحَاسُوبِ الْمَعْطُوبَ بِسُرْعَةٍ.</span> <span class="trans-ex">— The technician repaired the broken computer quickly.</span></td>
+      </tr>
       <!-- 78 -->
       <tr>
         <td class="num-cell">٧٨</td>
@@ -1315,6 +1563,9 @@
         <td class="ar-cell"><span class="ar">لَا تُقَرِّرْ</span></td>
         <td>to decide / determine</td>
         <td class="ar-cell"><span class="ar alt">بَتَّ، أَجْمَعَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">قَرَّرَتِ اللَّجْنَةُ تَأْجِيلَ الِامْتِحَانَاتِ بِسَبَبِ ظُرُوفٍ طَارِئَةٍ.</span> <span class="trans-ex">— The committee decided to postpone the exams due to unforeseen circumstances.</span></td>
       </tr>
       <!-- 79 -->
       <tr>
@@ -1331,6 +1582,9 @@
         <td>to forget</td>
         <td class="ar-cell"><span class="ar alt">غَفَلَ، —</span></td>
       </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">نَسِيَ الطَّالِبُ كِتَابَهُ عَلَى الْمَقْعَدِ فِي الْفَصْلِ.</span> <span class="trans-ex">— The student forgot his book on the seat in the classroom.</span></td>
+      </tr>
       <!-- 80 -->
       <tr>
         <td class="num-cell">٨٠</td>
@@ -1345,6 +1599,9 @@
         <td class="ar-cell"><span class="ar">لَا تُخْبِرْ</span></td>
         <td>to inform / report / notify</td>
         <td class="ar-cell"><span class="ar alt">أَعْلَمَ، أَبْلَغَ</span></td>
+      </tr>
+      <tr class="ex-row">
+        <td colspan="12" class="ar-cell">💡 <span class="ar-ex">أَخْبَرَ الْأُسْتَاذُ الطُّلَّابَ بِمَوْعِدِ الِامْتِحَانِ النِّهَائِيِّ.</span> <span class="trans-ex">— The professor informed the students of the final exam date.</span></td>
       </tr>
     </tbody>
   </table>
