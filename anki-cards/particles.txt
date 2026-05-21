@@ -1,0 +1,43 @@
+#separator:tab
+#html:false
+#tags column:3
+in, at, on (location / time)	فِي (fī) — النَّوْعُ: Preposition — بَدَائِلُ: دَاخِلَ، بِـ — مِثَالٌ: دَرَسَ الطُّلَّابُ فِي الْمَكْتَبَةِ طَوَالَ الْيَوْمِ.	particles-core
+on, upon, over; regarding	عَلَى ('alā) — النَّوْعُ: Preposition — بَدَائِلُ: فَوْقَ — مِثَالٌ: وَضَعَ الطَّالِبُ الْكِتَابَ عَلَى الْمَكْتَبِ بِعِنَايَةٍ.	particles-core
+from, of, out of	مِنْ (min) — النَّوْعُ: Preposition — بَدَائِلُ: عَنْ — مِثَالٌ: تَخَرَّجَ الطَّالِبُ مِنْ كُلِّيَّةِ الشَّرِيعَةِ بِامْتِيَازٍ.	particles-core
+to, towards, until	إِلَى (ilā) — النَّوْعُ: Preposition — بَدَائِلُ: نَحْوَ، حَتَّى — مِثَالٌ: أَرْسَلَ الْمُعَلِّمُ رِسَالَةً إِلَى وَلِيِّ أَمْرِ الطَّالِبِ.	particles-core
+about, concerning; away from	عَنْ ('an) — النَّوْعُ: Preposition — بَدَائِلُ: حَوْلَ — مِثَالٌ: سَأَلَ الطَّالِبُ الْأُسْتَاذَ عَنْ مَعْنَى هَذِهِ الْآيَةِ.	particles-core
+with, together with, along with	مَعَ (ma'a) — النَّوْعُ: Preposition — بَدَائِلُ: بِرُفْقَةِ — مِثَالٌ: ذَاكَرَ الطَّالِبُ دُرُوسَهُ مَعَ زَمِيلِهِ قَبْلَ الِامْتِحَانِ.	particles-core
+with (instrument), by means of, in	بِـ (bi) — النَّوْعُ: Preposition — بَدَائِلُ: بِوَاسِطَةِ — مِثَالٌ: كَتَبَ الطَّالِبُ الْإِجَابَاتِ بِالْقَلَمِ الرَّصَاصِ.	particles-core
+for, to (purpose/possession)	لِـ (li) — النَّوْعُ: Preposition — بَدَائِلُ: مِنْ أَجْلِ — مِثَالٌ: اشْتَرَى الْأَبُ كِتَاباً لِابْنِهِ الصَّغِيرِ.	particles-core
+and (joins nouns, phrases, clauses)	وَ (wa) — النَّوْعُ: Conjunction — بَدَائِلُ: فَـ، ثُمَّ — مِثَالٌ: حَضَرَ الطَّالِبُ وَالْأُسْتَاذُ الِاجْتِمَاعَ فِي الْوَقْتِ ذَاتِهِ.	particles-core
+or (choice / doubt)	أَوْ (aw) — النَّوْعُ: Conjunction — بَدَائِلُ: إِمَّا — مِثَالٌ: يُمْكِنُكَ قِرَاءَةُ الْكِتَابِ أَوِ الِاسْتِمَاعُ إِلَى التَّسْجِيلِ.	particles-core
+but, however, yet	لَكِنْ / لَكِنَّ (lākin / lākinna) — النَّوْعُ: Conjunction — بَدَائِلُ: غَيْرَ أَنَّ، بَيْدَ أَنَّ — مِثَالٌ: فَهِمَ الطَّالِبُ الدَّرْسَ لَكِنَّهُ نَسِيَ بَعْضَ التَّفَاصِيلِ.	particles-core
+indeed / verily — stresses what follows (puts noun in accusative)	إِنَّ (inna) — النَّوْعُ: Emphasis particle — بَدَائِلُ: أَنَّ — مِثَالٌ: إِنَّ طَلَبَ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ وَمُسْلِمَةٍ.	particles-core
+that (clause introduced after verbs of saying/knowing)	أَنَّ (anna) — النَّوْعُ: Complementiser — بَدَائِلُ: كَيْ — مِثَالٌ: عَلِمَ الطُّلَّابُ أَنَّ الِامْتِحَانَ سَيُعْقَدُ يَوْمَ الْخَمِيسِ.	particles-core
+when, if (for expected/likely events)	إِذَا (idhā) — النَّوْعُ: Conditional — بَدَائِلُ: إِنْ، لَوْ — مِثَالٌ: إِذَا دَرَسْتَ بِجِدٍّ فَسَتَنْجَحُ فِي الِامْتِحَانِ بِإِذْنِ اللهِ.	particles-core
+when, as soon as, once (past narrative)	لَمَّا (lammā) — النَّوْعُ: Temporal — بَدَائِلُ: حِينَ، عِنْدَمَا — مِثَالٌ: لَمَّا دَخَلَ الْأُسْتَاذُ الْفَصْلَ صَمَتَ الطُّلَّابُ جَمِيعاً.	particles-core
+in order to, so that (followed by subjunctive)	لِكَيْ / كَيْ (likay / kay) — النَّوْعُ: Purpose particle — بَدَائِلُ: لِـ (+ مَصْدَرٌ) — مِثَالٌ: يَدْرُسُ الطَّالِبُ لِكَيْ يَنَالَ شَهَادَةً جَامِعِيَّةً مُمَيَّزَةً.	particles-core
+introduces a yes/no question	هَلْ (hal) — النَّوْعُ: Interrogative — بَدَائِلُ: أَـ (hamza), — — مِثَالٌ: هَلْ قَرَأْتَ كِتَابَ النَّحْوِ الَّذِي أَوْصَى بِهِ الْأُسْتَاذُ؟	particles-core
+no / not (general negation; prohibitive with jussive)	لَا (lā) — النَّوْعُ: Negation — بَدَائِلُ: مَا، لَمْ — مِثَالٌ: لَا يَجُوزُ الْغِشُّ فِي الِامْتِحَانَاتِ الْجَامِعِيَّةِ بِأَيِّ حَالٍ.	particles-core
+already / indeed (with past = confirmation; with present = possibility)	قَدْ (qad) — النَّوْعُ: Emphasis / Perfect — مِثَالٌ: قَدْ أَنْهَى الطَّالِبُ بَحْثَهُ قَبْلَ انْتِهَاءِ الْفَصْلِ الدِّرَاسِيِّ.	particles-core
+then, thereafter, afterwards (implies a time gap)	ثُمَّ (thumma) — النَّوْعُ: Sequence — بَدَائِلُ: فَـ، بَعْدَ ذَلِكَ — مِثَالٌ: شَرَحَ الْأُسْتَاذُ الْقَاعِدَةَ ثُمَّ أَعْطَى الطُّلَّابَ تَمَارِينَ تَطْبِيقِيَّةً.	particles-core
+until / even / so that (before subjunctive)	حَتَّى (ḥattā) — النَّوْعُ: Preposition / Purpose — بَدَائِلُ: إِلَى أَنْ، كَيْ — مِثَالٌ: ظَلَّ الطَّالِبُ يُذَاكِرُ حَتَّى مُنْتَصَفِ اللَّيْلِ اسْتِعْدَاداً لِلِامْتِحَانِ.	particles-core
+between / among	بَيْنَ (bayna) — النَّوْعُ: Preposition — بَدَائِلُ: وَسْطَ — مِثَالٌ: دَارَ نِقَاشٌ عِلْمِيٌّ بَيْنَ الطُّلَّابِ حَوْلَ مَسْأَلَةِ الِاجْتِهَادِ.	particles-core
+after (time / order)	بَعْدَ (ba'da) — النَّوْعُ: Preposition — بَدَائِلُ: إِثْرَ — مِثَالٌ: عَادَ الطُّلَّابُ إِلَى السَّكَنِ بَعْدَ انْتِهَاءِ الْمُحَاضَرَةِ الْأَخِيرَةِ.	particles-core
+before (time / order)	قَبْلَ (qabla) — النَّوْعُ: Preposition — بَدَائِلُ: سَابِقَ — مِثَالٌ: يُرَاجِعُ الطَّالِبُ مُلَاحَظَاتِهِ قَبْلَ بَدْءِ الِامْتِحَانِ بِعِشْرِينَ دَقِيقَةً.	particles-core
+at / near / in the possession of	عِنْدَ ('inda) — النَّوْعُ: Preposition — بَدَائِلُ: لَدَى — مِثَالٌ: عِنْدَ الطَّالِبِ كِتَابٌ نَادِرٌ لَا يُوجَدُ فِي الْمَكْتَبَةِ الْعَامَّةِ.	particles-core
+is / am / are not (negates nominal sentences)	لَيْسَ (laysa) — النَّوْعُ: Negative copula — بَدَائِلُ: غَيْرُ — مِثَالٌ: لَيْسَ الْحِفْظُ وَحْدَهُ كَافِياً بَلْ لَا بُدَّ مِنَ الْفَهْمِ الْعَمِيقِ.	particles-core
+did not (negates past using jussive present form)	لَمْ (lam) — النَّوْعُ: Negation particle — بَدَائِلُ: مَا — مِثَالٌ: لَمْ يَحْضُرِ الطَّالِبُ الْمُحَاضَرَةَ بِسَبَبِ مَرَضٍ طَارِئٍ.	particles-core
+will not / shall never (future negation; followed by subjunctive)	لَنْ (lan) — النَّوْعُ: Negation particle — مِثَالٌ: لَنْ يَنْجَحَ مَنْ يَتَكَاسَلُ عَنِ الدِّرَاسَةِ وَيُهْمِلُ وَاجِبَاتِهِ.	particles-core
+will / shall (future tense marker before present verb)	سَوْفَ / سَـ (sawfa / sa-) — النَّوْعُ: Future particle — مِثَالٌ: سَوْفَ يَعْقِدُ الْقِسْمُ نَدْوَةً عِلْمِيَّةً كَبِيرَةً الشَّهْرَ الْقَادِمَ.	particles-core
+rather / but / on the contrary (corrects previous statement)	بَلْ (bal) — النَّوْعُ: Corrective / Additive — مِثَالٌ: لَمْ يُخَالِفِ الطَّالِبُ الْقَوَاعِدَ بَلْ حَرَصَ عَلَى الِالْتِزَامِ بِهَا دَوْماً.	particles-core
+perhaps / maybe / possibly	رُبَّمَا (rubbamā) — النَّوْعُ: Possibility particle — بَدَائِلُ: لَعَلَّ، عَسَى — مِثَالٌ: رُبَّمَا يُقَرِّرُ الْأُسْتَاذُ تَأْجِيلَ الِامْتِحَانِ إِنْ لَمْ يُكَمِّلِ الطُّلَّابُ الْمَنْهَجَ.	particles-core
+also / too / as well	أَيْضاً (ayḍan) — النَّوْعُ: Adverb — بَدَائِلُ: كَذَلِكَ — مِثَالٌ: دَرَسَ الطَّالِبُ النَّحْوَ وَالصَّرْفَ وَتَعَلَّمَ أَيْضاً أُصُولَ الْفِقْهِ.	particles-core
+only / merely / just	فَقَطْ (faqaṭ) — النَّوْعُ: Limiting particle — بَدَائِلُ: فَحَسْبُ — مِثَالٌ: الِامْتِحَانُ فَقَطْ هُوَ الَّذِي يُحَدِّدُ مُسْتَوَى الطَّالِبِ النِّهَائِيَّ.	particles-core
+very / extremely / greatly	جِدًّا (jiddan) — النَّوْعُ: Intensifying adverb — بَدَائِلُ: كَثِيراً — مِثَالٌ: كَانَ الدَّرْسُ الْيَوْمَ مُفِيداً جِدًّا وَأَثَارَ نِقَاشاً ثَرِياً.	particles-core
+just as / as / likewise	كَمَا (kamā) — النَّوْعُ: Comparative conjunction — بَدَائِلُ: مِثْلَمَا — مِثَالٌ: أَتْقَنَ الطَّالِبُ اللُّغَةَ الْعَرَبِيَّةَ كَمَا أَتْقَنَهَا أُسْتَاذُهُ مِنْ قَبْلُ.	particles-core
+therefore / so then / in that case	إِذَنْ (idhan) — النَّوْعُ: Consequential particle — بَدَائِلُ: لِذَلِكَ — مِثَالٌ: لَقَدْ نَجَحْتَ فِي جَمِيعِ الْمَوَادِّ إِذَنْ أَنْتَ مُؤَهَّلٌ لِلتَّخَرُّجِ.	particles-core
+where / wherever / since / given that	حَيْثُ (ḥaythu) — النَّوْعُ: Locative / causal — بَدَائِلُ: إِذْ — مِثَالٌ: جَلَسَ الطَّالِبُ حَيْثُ يَسْتَطِيعُ رُؤْيَةَ السَّبُّورَةِ بِوُضُوحٍ تَامٍّ.	particles-core
+whenever / every time / the more … the more	كُلَّمَا (kullamā) — النَّوْعُ: Temporal conjunction — بَدَائِلُ: كُلَّ مَرَّةٍ — مِثَالٌ: كُلَّمَا ازْدَادَ الطَّالِبُ قِرَاءَةً ازْدَادَتْ مَعْرِفَتُهُ وَاتَّسَعَتْ آفَاقُهُ.	particles-core
+as if / as though / it seems that	كَأَنَّ (ka-anna) — النَّوْعُ: Assimilation particle — بَدَائِلُ: يَبْدُو أَنَّ — مِثَالٌ: شَرَحَ الْأُسْتَاذُ الدَّرْسَ بِأُسْلُوبٍ بَدِيعٍ كَأَنَّهُ يَرْوِي قِصَّةً شَيِّقَةً.	particles-core
+nevertheless / despite that / even so	مَعَ ذَلِكَ (ma'a dhālik) — النَّوْعُ: Concessive adverb — بَدَائِلُ: بَيْدَ ذَلِكَ — مِثَالٌ: كَانَتِ الدُّرُوسُ صَعْبَةً مَعَ ذَلِكَ لَمْ يَفْقِدِ الطُّلَّابُ أَمَلَهُمْ أَبَداً.	particles-core
