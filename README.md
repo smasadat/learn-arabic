@@ -89,19 +89,20 @@ These are one-time setup tasks. Complete them in **1–2 days** before starting 
 - The reference I gave you earlier → Anki cards
 - **Target: 200–250 cards total in the deck before Day 1**
 
-**📊 What Your Daily Anki Flow Looks Like From Tomorrow**
+**📊 What Your Daily Anki Flow Looks Like From Tomorrow:**
 ☀️ MORNING (Block A — 45 min):
    Open Anki → Study Now
    → Clear ALL due review cards first (~25-30 min)
    → Anki then shows new cards automatically (up to 15/day)
    → Stop when Anki says "Congratulations — you have finished"
    → Sync
-
-🌙 EVENING (Block F — 15 min):
-   Open Anki → Study Now
+   
+🌙 EVENING (Block F - 15 min):
+   → Open Anki → Study Now
    → Only "Again" cards from this morning will appear
    → Review them → Done
    → Sync
+
 ---
 
 ### ⚙️ Setup Task 2 — Restructure Your Scholar Sessions
