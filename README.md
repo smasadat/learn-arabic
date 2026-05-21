@@ -1,343 +1,501 @@
-# The 35-Day King-Making Classical Arabic Plan
+# 👑 The King-Making Plan — Classical Arabic Fluency in 25–35 Days
 
-## PART 1 — Deep Analysis
-
-### Current Learner Status
-
-| Skill Area | Current Status | Evidence | Priority |
-|---|---|---|---|
-| Grammar | Strong foundation | Can follow structured lessons and formal explanations | Medium |
-| Passive Vocabulary | Moderate-High | Recognizes many words during reading/listening | High |
-| Active Vocabulary | Low-Moderate | Knows words but cannot retrieve quickly in speech | Critical |
-| Listening Comprehension | Moderate | Understands slow speech; loses fast connected speech | Critical |
-| Speaking Automaticity | Low | Frequent pauses, translation before speaking | Critical |
-| Learning Consistency | Inconsistent | Method changes interrupt momentum | Critical |
-| Practice Environment | Underused but powerful | Scholar + daughter + Riyadh immersion available | Critical |
-
-### Root Cause Analysis
-
-| Problem | Root Cause | Observable Pattern | Corrective Mechanism |
-|---|---|---|---|
-| Passive/Active Vocabulary Gap | Recognition without recall pressure | "I know this word" but cannot use it in real-time | English→Arabic production cards + daily output |
-| Listening Lag | Over-reliance on text and slow speech | Misses words in normal-speed conversations | 5-pass intensive listening + nightly extensive listening |
-| Zero Speaking Automaticity | Too much input, too little forced output | Long pauses, broken sentences | Timed monologues + shadowing + real missions |
-| Method-Switching Trap | No single executable system | Frequent restarts, no compounding progress | 35-day fixed protocol with measurable KPIs |
-| Underutilized Assets | Scholar and daughter not structured | Sessions are passive, not output-focused | Structured correction protocol + Arabic-only home block |
-
-### Science Behind This Plan
-
-1. **Krashen's Comprehensible Input**: You improve fastest when input is understandable but slightly above current level (*i+1*). This plan layers controlled input (intensive) and natural input (extensive).
-2. **Spaced Repetition (SRS)**: Recall grows through strategically timed forgetting/review cycles. Daily Anki retrieval turns recognition into instant production.
-3. **Forced Output + Immediate Correction**: Speaking under pressure exposes real gaps; immediate correction rewires correct language patterns before errors fossilize.
-4. **80/20 of Classical Arabic**: High-frequency verbs, particles, and domain nouns produce most real conversation outcomes in business, academic, and Islamic settings.
+## A Deeply Personalized Strategic Roadmap for You
 
 ---
 
-## PART 2 — Pre-Plan Setup (Setup Tasks 1–4)
+## 🔬 PART 1 — DEEP ANALYSIS (Read This First, It Explains Everything)
 
-### Setup Task 1: Install Anki
+Before the plan, you must understand **why you are stuck** — because the plan is built on fixing the exact root causes.
 
-- Install desktop + mobile Anki.
-- Create deck: **"Classical Arabic 35-Day Core"**.
-- Card format:
-  - **Front**: English meaning (e.g., "to decide")
-  - **Back**: Arabic with full harakah + masdar + one example sentence
-- Why **English→Arabic** (not Arabic→English):
-  - Arabic→English measures recognition.
-  - English→Arabic trains production under pressure, exactly what speaking needs.
+---
 
-### Setup Task 2: Restructure Scholar Sessions
+### 🧠 1.1 — Your Real Situation (Honest Diagnosis)
 
-Say this exact sentence to your scholar:
+| Area | Your Status | Implication |
+|---|---|---|
+| Grammar (Naḥw & Ṣarf) | ✅ Strong — confirmed by scholars | **Zero time needed here. Stop studying grammar.** |
+| Vocabulary (passive) | ✅ Likely large — you've studied a lot | Words exist in your brain but are **buried** |
+| Vocabulary (active recall) | ❌ Weak — can't retrieve when speaking | This is your **#1 problem** |
+| Listening comprehension | ❌ Slow — can't catch speech in real-time | This is your **#2 problem** |
+| Speaking automaticity | ❌ Near zero — mouth hasn't been trained | This is your **#3 problem** |
+| Learning consistency | ❌ Switching methods every few days | **Compound progress = zero. This must stop today.** |
+| Practice environment | ⚠️ Limited — but you have a scholar + daughter | Both are **massively underutilized** |
+
+---
+
+### 🔍 1.2 — Root Cause Analysis (Why You Feel "Progress = 0")
+
+**Problem 1 — The Passive/Active Vocabulary Gap**
+
+You *know* words the way you know a phone number written in a notebook — it exists, but you can't dial it from memory instantly. When you speak, your brain searches for the word, the search takes 3–5 seconds, the conversation moves on, and you feel lost. This is called **passive vocabulary** — it is recognized when seen/heard but NOT retrieved when needed. The fix is specific and proven.
+
+**Problem 2 — Listening Lag (The "Can't Catch" Problem)**
+
+Your brain has been trained to process Arabic **visually and analytically** (through reading texts, analyzing grammar). It has NOT been trained to process Arabic **acoustically and in real-time**. When a scholar speaks, your brain is still trying to *parse* word 3 when word 7 has already passed. This is NOT an intelligence issue — it is a **training issue**. Your ears have never been drilled at Arabic speech speed. This is 100% fixable with the right daily practice.
+
+**Problem 3 — Zero Speaking Automaticity**
+
+You know grammar *declaratively* (you can explain rules) but not *procedurally* (your mouth doesn't produce correctly without thinking). Think of it like knowing the rules of driving vs. actually being able to drive. Fluency = procedural. Your grammar knowledge is a sleeping giant — it just needs to be **woken up through output**.
+
+**Problem 4 — The Method-Switching Trap**
+
+Language learning is like building a wall. Every time you change methods, you are tearing down the half-built wall and starting from scratch in a new location. You need **one system, followed consistently**, for compound progress to happen. This is the single most important behavioral change you must make.
+
+**Problem 5 — Your Underutilized Assets**
+
+You have TWO incredibly powerful resources being wasted:
+- 🌟 **The Arabian Scholar** — ~1 hour/day of native speaker interaction is gold. But without a structured protocol for those sessions, the benefit is only ~20% of its potential.
+- 🌟 **Your Daughter** — A fluent Arabic speaker living in your house. This is a conversation partner most Arabic learners would pay thousands for. She is currently unused for your learning.
+
+---
+
+### 🎯 1.3 — The Science Behind Your Plan
+
+This plan is built on four proven SLA (Second Language Acquisition) principles:
+
+1. **Krashen's Comprehensible Input (i+1)** — You must listen to Arabic that is *just slightly above* your current level — not too easy, not overwhelming. This builds listening speed naturally.
+2. **Spaced Repetition (SRS)** — The only scientifically proven way to move vocabulary from passive to active memory. Without this, vocab study is mostly wasted effort.
+3. **Forced Output + Immediate Correction** — Speaking with pressure and getting corrected immediately creates the fastest neural pathways for fluency.
+4. **The 80/20 of Classical Arabic Conversation** — 80% of all formal/scholarly spoken Arabic uses roughly 300–400 high-frequency words. Master those first. Your existing materials are already pointed in this direction — they just need to be used *correctly*.
+
+---
+
+## 📋 PART 2 — PRE-PLAN SETUP (Do This Before Day 1)
+
+These are one-time setup tasks. Complete them in **1–2 days** before starting the main plan.
+
+---
+
+### ⚙️ Setup Task 1 — Install Anki (Free Flashcard App)
+
+- **Download:** [apps.ankiweb.net](https://apps.ankiweb.net) — available on PC, Android, iPhone
+- This will be your **daily vocabulary engine**. It uses spaced repetition — it shows you a card right before your brain is about to forget it.
+- **Make ONE deck** called: `Classical Arabic — Active Vocabulary`
+
+**How to make your Anki cards (this format is critical):**
+
+| Card Side | What to Put |
+|---|---|
+| **Front** | The English meaning only — e.g., *"to go"* |
+| **Back** | Arabic verb (with full harakah) + Masdar + short example sentence |
+
+> ⚠️ **Why English → Arabic (not Arabic → English)?**
+> Because your problem is *retrieval* (producing Arabic), not recognition (reading Arabic). Always test yourself from English to Arabic.
+
+**Load your existing materials into Anki:**
+- Your 60 verbs → Anki cards
+- Your 40 nouns/pronouns/ḥurūf → Anki cards
+- The reference I gave you earlier → Anki cards
+- **Target: 200–250 cards total in the deck before Day 1**
+
+---
+
+### ⚙️ Setup Task 2 — Restructure Your Scholar Sessions
+
+Before your next session with the scholar, explain to him (in Arabic, as a practice itself!):
 
 > **يَا شَيْخُ، أُرِيدُ أَنْ نُغَيِّرَ أُسْلُوبَ جَلَسَاتِنَا قَلِيلاً. أُرِيدُ أَنْ أَتَكَلَّمَ أَنَا أَكْثَرَ، وَأَنْتَ تُصَحِّحُ أَخْطَائِي فَوْرًا.**
+> *(Yā Shaykh, I want to change our session style a little. I want to speak more, and you correct my mistakes immediately.)*
 
-Session format:
-
-- 60% learner speaking, 40% scholar feedback/input.
-- Immediate correction protocol:
-  1. Learner speaks.
-  2. Scholar stops only on meaningful errors.
-  3. Scholar gives corrected sentence.
-  4. Learner repeats corrected sentence 2 times.
-- End of every session: scholar gives **3 new high-value sentences** for next-day use.
-
-### Setup Task 3: Daughter Protocol (20 min/day)
-
-- Daily fixed slot: 20 minutes.
-- **Arabic-only rule**.
-- No Bangla, no English.
-- Correction rules:
-  - Correct gently and immediately.
-  - Reformulate sentence, then learner repeats.
-  - Keep emotional tone positive and playful.
-
-### Setup Task 4: Audio Library
-
-| Source | Purpose | Recommended Use |
-|---|---|---|
-| Madinah Arabic Video Course | Clear structured fuṣḥā input | Intensive listening + note capture |
-| Al-Arabiyya Bayna Yadayk | Everyday formal Arabic patterns | Daily listening and phrase mining |
-| Sheikh Ibn Uthaymeen lectures | Authentic scholarly register | Phase 2–3 comprehension building |
-| Arabic with Sam (YouTube) | Explainers + practical usage | Warm-up and clarification |
-| Kalaam العَرَبِيَّة (YouTube) | Spoken-formal bridges | Shadowing content |
-| Al Jazeera Arabic | Real high-speed formal media | Night extensive listening |
+The session format should be:
+- **You talk 60%, Scholar talks 40%** (currently it is probably reversed)
+- He gives you a topic → you speak for 3–5 minutes → he corrects
+- He does NOT rephrase or translate for you — he asks you: **"مَاذَا تَقْصِدُ؟"** (What do you mean?) forcing YOU to find another way to say it
+- End of each session: He gives you **3 new sentences** to memorize for next session
 
 ---
 
-## PART 3 — The 35-Day Master Plan
+### ⚙️ Setup Task 3 — The Daughter Protocol
 
-## Phase 1 (Days 1–10): ACTIVATION
+Have a conversation with your daughter and agree on this:
 
-### Daily Routine (Phase 1)
+**Every day — 20 minutes — Arabic only conversation**
 
-| Block | Task | Duration |
-|---|---|---|
-| A | Morning Anki Production Review | 45 min |
-| B | Intensive Listening | 60 min |
-| C | Shadowing | 45 min |
-| D | Scholar Session | 60 min |
-| E | Daughter Conversation (Arabic-only) | 20 min |
-| F | Evening Review | 45 min |
-| G | Night Extensive Listening | 30 min |
+Rules:
+- No Bangla allowed during those 20 minutes
+- She corrects you but DOES NOT translate — she re-says it correctly in Arabic
+- Start with topics from your prepared materials (kitchen, daily life, etc.)
+- She can be a "strict teacher" for those 20 minutes — give her that authority
 
-### 5-Pass Intensive Listening Method
-
-1. **Pass 1 (Global Meaning)**: Listen once without pausing. Capture topic + 3 understood ideas.
-2. **Pass 2 (Chunk Capture)**: Replay and pause every 10–20 seconds; write key phrases.
-3. **Pass 3 (Micro-Decoding)**: Replay difficult chunks repeatedly until words become clear.
-4. **Pass 4 (Shadow Pass)**: Speak with audio in real-time, matching rhythm and stress.
-5. **Pass 5 (Recall Pass)**: Close text, summarize orally from memory for 2–3 minutes.
-
-### Shadowing Protocol
-
-1. Choose 60–120 second clip.
-2. Listen twice silently.
-3. Shadow once with text, once without text.
-4. Record your voice.
-5. Compare original vs your audio (speed, pronunciation, endings, pauses).
-6. Repeat until one clean run is achieved.
-
-### Evening Review Protocol
-
-- 15 min: Anki due cards.
-- 20 min: Write and say **5 sentences about your actual day**.
-- 10 min: Read those sentences aloud with full iʿrāb awareness.
-
-### Night Extensive Listening
-
-- Purpose: ear conditioning, not perfection.
-- Use easy-medium material.
-- No pausing, no dictionary, no translation.
-- Target: relaxed exposure before sleep.
-
-### Phase 1 Weekly Targets
-
-| Target | Minimum Threshold by Day 10 |
-|---|---|
-| Active vocabulary retrieval | 120 cards reviewed/day with ≥80% accuracy |
-| Listening stability | Understand main idea in 70% of selected clips |
-| Output consistency | 10/10 scholar sessions with speaking majority |
-| Family practice | 10/10 daughter Arabic-only sessions |
-
-## Phase 2 (Days 11–22): CONSTRUCTION
-
-### Daily Routine (Phase 2)
-
-| Block | Task | Duration |
-|---|---|---|
-| A | Anki review + 10 new cards | 50 min |
-| B | Intensive Listening (harder material) | 70 min |
-| C | Shadowing + pronunciation correction | 40 min |
-| D | Scholar session (topic drills) | 60 min |
-| E | Daughter conversation | 20 min |
-| F | Monologue training | 30 min |
-| G | Evening review + extensive listening | 40 min |
-
-### New Scholar Session Format (Phase 2)
-
-- 10 min: previous errors recap.
-- 30 min: topic-based discussion.
-- 15 min: role-play (official/business/Islamic).
-- 5 min: 3 new sentences + 3 corrective notes.
-
-### Monologue Practice Protocol
-
-1. Start 5-minute timer.
-2. Speak without stopping on assigned topic.
-3. Record audio.
-4. Mark every stuck point.
-5. Convert stuck vocabulary/phrases into Anki cards.
-6. Re-run monologue next day on same topic for fluency gain.
-
-### Topic Practice Schedule (Days 11–22)
-
-| Day | Topic |
-|---|---|
-| 11 | Office/Business |
-| 12 | Islamic/Masjid |
-| 13 | University/Academic |
-| 14 | Kitchen/Dining |
-| 15 | Transportation |
-| 16 | Interpersonal |
-| 17 | Bedroom/Home |
-| 18 | Language Learning |
-| 19 | Business Role |
-| 20 | Islamic Topics |
-| 21 | Revision of weakest 3 topics |
-| 22 | Free conversation with scholar (30 min) |
-
-### Phase 2 Targets
-
-| Target | Minimum Threshold by Day 22 |
-|---|---|
-| Monologue fluency | 5 minutes with ≤5 major pauses |
-| Topic readiness | 8/12 topics can be discussed comfortably |
-| Listening growth | 75% comprehension on familiar domains |
-| Active production | 250+ usable cards in active recall |
-
-## Phase 3 (Days 23–35): DEPLOYMENT
-
-### Daily Routine (Phase 3)
-
-| Block | Task | Duration |
-|---|---|---|
-| A | Anki maintenance + selective new cards | 40 min |
-| B | Real-world mission prep | 25 min |
-| C | Real-world speaking mission | 30–60 min |
-| D | Scholar debate/review | 60 min |
-| E | Daughter reinforcement session | 20 min |
-| F | Monologue + mission debrief | 35 min |
-| G | Night listening (news/lectures) | 35 min |
-
-### Real-World Speaking Missions (Day 23–30+)
-
-| Day Window | Mission |
-|---|---|
-| 23 | Ask a shopkeeper about two product options in Arabic |
-| 24 | Make one Arabic phone call and confirm details |
-| 25 | Start a masjid conversation before/after ṣalāh |
-| 26 | Describe your business role in 90 seconds |
-| 27 | Ask directions and repeat route back for confirmation |
-| 28 | Arabic-only lunch conversation |
-| 29 | Ask a lecturer one clear question in fuṣḥā |
-| 30+ | Full Riyadh immersion day with Arabic-only interactions |
-
-### Scholar Debate Format
-
-- Choose one weekly topic (business ethics, education, leadership, adab).
-- 3 rounds:
-  1. Opening position (2 min)
-  2. Scholar counter-questioning (5 min)
-  3. Rebuttal + summary (3 min)
-- Scholar tracks grammar, precision, argument coherence, and register.
-
-### Rescue Phrases (When You Don't Understand)
-
-- **أَعِدْ مِن فَضْلِكَ**
-- **هَلْ يُمْكِنُكَ أَنْ تَشْرَحَ بِطَرِيقَةٍ أُخْرَى؟**
+This will feel uncomfortable at first. That discomfort = learning.
 
 ---
 
-## PART 4 — Measurement System
+### ⚙️ Setup Task 4 — Your Audio Library (Find These Sources)
 
-### Weekly Self-Assessment KPI Grid (5 Questions × 5 Weeks)
+Find these for daily listening (all Classical/Fuṣḥā Arabic):
 
-| KPI Question | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
-|---|---|---|---|---|---|
-| Did I complete all daily blocks at least 80%? |  |  |  |  |  |
-| Can I retrieve target vocabulary without translation delay? |  |  |  |  |  |
-| Can I understand scholar speech at first hearing? |  |  |  |  |  |
-| Can I speak 5+ minutes with continuity? |  |  |  |  |  |
-| Did I use Arabic in real-life settings this week? |  |  |  |  |  |
-
-### Rules for When **NOT** to Advance
-
-Do **not** advance to next phase if any of these is true:
-
-1. Completion rate below 80% for current phase blocks.
-2. Anki accuracy below 75% for 3 consecutive days.
-3. Listening comprehension below phase threshold.
-4. You still avoid speaking during scholar sessions.
-5. Daily daughter protocol broken more than 2 days in one week.
-
----
-
-## PART 5 — The DO NOT List
-
-| # | Critical Rule |
+| Source | Why |
 |---|---|
-| 1 | Do not switch methods before Day 35. |
-| 2 | Do not start extra grammar study tracks during this plan. |
-| 3 | Do not translate while listening. |
-| 4 | Do not skip daily Anki production reviews. |
-| 5 | Do not use Bangla/English during daughter session. |
-| 6 | Do not add more than 15 new cards/day. |
-| 7 | Do not wait to "feel ready" before speaking. |
-| 8 | Do not allow inconsistent study blocks. |
+| **Madinah Arabic Video Course** (Dr. V. Abdur Rahim) | Your level — clear Fuṣḥā, academic |
+| **Al-Arabiyya Bayna Yadayk** audio tracks | Textbook you may know — great for listening |
+| **Lectures of Sheikh Ibn Uthaymeen or Ibn Baz** (slow, clear Fuṣḥā) | Real classical speech |
+| **Arabic with Sam** (YouTube) | Excellent spoken Fuṣḥā explanations |
+| **Kalaam العربية** (YouTube) | Classical conversation content |
+| **Al Jazeera Arabic news** | Advanced — for week 3 onward |
+
+Download these or bookmark on YouTube. You will need them daily.
 
 ---
 
-## PART 6 — Special Guidance
+## 🗓️ PART 3 — THE 35-DAY MASTER PLAN
 
-### "Can't Catch Speech" Fix
-
-Use **dictation-and-recall** daily:
-
-- Pick 10 sentences.
-- Listen → pause.
-- Repeat from memory.
-- Check and correct immediately.
-- Recycle weak sentences next day.
-
-### "Can't Recall Words" Fix
-
-Apply the **3-Sentence Rule** for every difficult Anki card:
-
-1. One sentence about work.
-2. One sentence about family/home.
-3. One sentence about Islamic life.
-
-This creates contextual retrieval routes.
-
-### Staying Consistent
-
-Think of learning as a maze: changing routes keeps you lost. One path, repeated daily, gets you out.
-
-Use a **physical 35-box wall tracker**:
-
-- Draw 35 boxes on paper.
-- Mark one box after completing all daily blocks.
-- Visible progress protects discipline.
+The plan is divided into **3 Phases**. Each phase builds on the previous one. **Do not skip ahead.**
 
 ---
 
-## PART 7 — Quick Reference Summary
+### 🟦 PHASE 1 — Days 1–10: "ACTIVATION"
+**Goal: Wake up your passive vocabulary. Train your ears. Break the silence.**
 
-### Daily Non-Negotiables Checklist
+---
 
-- [ ] Anki production review completed.
-- [ ] Intensive listening completed.
-- [ ] Shadowing/monologue recorded.
-- [ ] Scholar correction cycle completed.
-- [ ] Daughter Arabic-only session completed.
-- [ ] Evening reflection done.
-- [ ] Night extensive listening done.
+#### 📅 Daily Routine — Phase 1 (5.5 hours)
 
-### 3 Phases at a Glance
-
-| Phase | Days | Core Objective | Core Output |
+| Time Block | Activity | Duration | Details |
 |---|---|---|---|
-| Activation | 1–10 | Wake up recall + listening clarity | Stable daily system |
-| Construction | 11–22 | Build topic fluency | 5-minute monologues |
-| Deployment | 23–35 | Real-world Arabic execution | Confident Riyadh interactions |
+| **Block A** | Morning — Anki Session | 45 min | Do ALL due cards first. Then add 15 NEW cards. Never add more than 15/day. |
+| **Block B** | Intensive Listening | 60 min | See protocol below |
+| **Block C** | Shadowing Practice | 45 min | See protocol below |
+| **Block D** | Scholar Session | 60 min | With new format from Setup Task 2 |
+| **Block E** | Daughter Conversation | 20 min | With protocol from Setup Task 3 |
+| **Block F** | Evening — Review & Output | 45 min | See protocol below |
+| **Block G** | Night — Extensive Listening | 30 min | Passive — while relaxing |
 
-### Key Resources
+**Total: ~5 hours 45 minutes**
 
-| Resource Type | Resource | Main Use |
+---
+
+#### 🎧 Block B — Intensive Listening Protocol (THE MOST IMPORTANT BLOCK)
+
+Choose ONE short audio/video (2–4 minutes maximum). For Phase 1, use **Madinah Arabic videos or Al-Arabiyya Bayna Yadayk**.
+
+**The 5-Pass Method:**
+
+| Pass | What You Do |
+|---|---|
+| **Pass 1** | Listen once — no stopping. Note what % you understood. |
+| **Pass 2** | Listen again — pause after EACH sentence. Write what you heard (in Arabic). |
+| **Pass 3** | Check your writing against transcript (if available) or re-listen. |
+| **Pass 4** | Listen again — no pausing. Target: understand more than Pass 1. |
+| **Pass 5** | Listen one final time while reading along. |
+
+> ⚠️ **Use the SAME audio clip for 2 consecutive days before moving to a new one.** This is critical. Your brain needs repetition to build speed, not variety.
+
+---
+
+#### 🗣️ Block C — Shadowing Protocol
+
+**What is shadowing?** You listen to a native speaker and speak SIMULTANEOUSLY — like an echo, 1–2 seconds behind. It feels strange. It is one of the most effective fluency techniques known.
+
+**How to do it:**
+
+1. Take the same clip from Block B
+2. Play it — and speak along with the speaker
+3. Match their rhythm, speed, and intonation — not just the words
+4. Do NOT worry about meaning during shadowing — focus on **sound and rhythm**
+5. Record yourself on your phone during shadowing
+6. At the end, listen to your recording vs. the original
+7. Note 2–3 differences → focus on those tomorrow
+
+> **Start with slow, clear speakers.** Sheikh Ibn Baz's lessons, Madinah Arabic instructor — they speak slowly and clearly. Al Jazeera comes in Week 3.
+
+---
+
+#### 📝 Block F — Evening Review & Output Protocol
+
+This block is about **producing Arabic**, not consuming it.
+
+| Activity | Time | Details |
 |---|---|---|
-| Vocabulary Engine | Anki | Active recall automation |
-| Structured Input | Madinah + Bayna Yadayk | Controlled comprehension |
-| Authentic Input | Lectures + Al Jazeera | Real-speed adaptation |
-| Corrective Output | Scholar sessions | Error correction and upgrade |
-| Daily Reinforcement | Daughter sessions | Low-stakes speaking consistency |
+| Anki Review | 15 min | Review today's cards again (evening review doubles retention) |
+| Sentence Writing | 15 min | Write 5 sentences using today's new vocabulary — about YOUR day |
+| Read Aloud | 15 min | Read what you wrote — out loud — record yourself |
+
+> Writing 5 sentences about YOUR day is critical. It connects Arabic to your real life and real emotions — this dramatically speeds up active recall.
+
+---
+
+#### 🌙 Block G — Extensive Listening
+
+- Play Arabic audio/podcast while you relax, eat, or before sleeping
+- Do NOT actively study — just let Arabic flow into your ears
+- Use lectures, Islamic content, or Arabic news (even if you don't fully understand)
+- This builds your ear's tolerance for Arabic sound patterns
+
+---
+
+#### 🏁 Phase 1 Weekly Targets
+
+| Week | Anki Cards Active | Listening Comprehension Target | Speaking Target |
+|---|---|---|---|
+| End of Week 1 | 105 new cards added | Understand 50–60% of your chosen clips | Complete 3-minute talk on 1 topic |
+| End of Week 2 | 210 new cards added | Understand 65–75% of your chosen clips | Complete 5-minute talk on 2 topics |
+
+---
+
+### 🟩 PHASE 2 — Days 11–22: "CONSTRUCTION"
+**Goal: Build sentence flow. Eliminate hesitation. Expand to real topics.**
+
+---
+
+#### 📅 Daily Routine — Phase 2 (6 hours)
+
+| Time Block | Activity | Duration | Change from Phase 1 |
+|---|---|---|---|
+| **Block A** | Anki Session | 45 min | Continue — now 10 new cards/day (slow down, focus on quality) |
+| **Block B** | Intensive Listening | 75 min | Longer clips now (5–8 min). Use 3-pass method (you're faster now) |
+| **Block C** | Shadowing | 45 min | Now shadow AT FULL SPEED. No slow clips. |
+| **Block D** | Scholar Session | 60 min | New format (see below) |
+| **Block E** | Daughter Conversation | 30 min | Extended to 30 min. Add role-plays. |
+| **Block F** | Monologue Practice | 45 min | See protocol below |
+| **Block G** | Night Listening | 30 min | Continue |
+
+---
+
+#### 🆕 Phase 2 — New Scholar Session Format
+
+By Day 11, you have been speaking more. Now upgrade the scholar session:
+
+- **Topic-based discussion:** Scholar gives you a topic relevant to your life (business, Islamic learning, daily life). You speak on it for 5–7 minutes.
+- **Immediate correction only for meaning-breaking errors** — not every small mistake (this is important — over-correction kills fluency)
+- **Scholar tells you 1 "better way" to say something you said** — you write it down, memorize it, use it tomorrow
+- Ask the scholar to sometimes speak to you at **normal speed without slowing down** — push your listening limit
+
+---
+
+#### 🗣️ Block F — Phase 2: Monologue Practice Protocol
+
+This replaces Block F writing from Phase 1.
+
+**Daily Monologue Practice:**
+
+1. Choose a topic from your life (a meeting you had, something you ate, a plan you have for the business)
+2. **Set a 5-minute timer**
+3. Speak in Arabic — continuously — about that topic
+4. You CANNOT stop. If you don't know a word → describe it another way, use a simpler word, or move on
+5. Record yourself
+6. After recording: note the moments you got stuck → find those words in Arabic → add to Anki
+7. **Do the same topic AGAIN the next day** — you will be noticeably smoother
+
+> This "speak without stopping" practice is called **fluency drilling**. It trains your brain to stop translating and start thinking in Arabic.
+
+---
+
+#### 📌 Phase 2 — Special Topic Practice Schedule
+
+Each day, your monologue and daughter conversation focus on ONE sector from your vocabulary list:
+
+| Day | Topic Focus |
+|---|---|
+| Day 11 | Office / Business meeting |
+| Day 12 | Islamic learning / Masjid |
+| Day 13 | University / Academic |
+| Day 14 | Daily life — Kitchen, Dining room |
+| Day 15 | Transportation — Bus, Metro, Taxi |
+| Day 16 | Interpersonal communication |
+| Day 17 | Bedroom / Home life |
+| Day 18 | Language learning / Study |
+| Day 19 | Your business — what it does, your role |
+| Day 20 | Islamic topics — beliefs, worship |
+| Day 21 | **Revision** — weakest 3 topics from above |
+| Day 22 | **Full conversation** — scholar session: 30 min free conversation, no topic restriction |
+
+---
+
+#### 🏁 Phase 2 Targets
+
+| Target | Goal |
+|---|---|
+| Anki deck total | 300+ active cards |
+| Listening comprehension | 75–85% on familiar topic clips |
+| Monologue length | 5–7 minutes without major stops |
+| Scholar session | You initiate topics and ask questions (not just answer) |
+
+---
+
+### 🟥 PHASE 3 — Days 23–35: "DEPLOYMENT"
+**Goal: Real-world use. Speed. Confidence. Make Arabic your working language.**
+
+---
+
+#### 📅 Daily Routine — Phase 3 (5–6 hours)
+
+| Time Block | Activity | Duration | Notes |
+|---|---|---|---|
+| **Block A** | Anki Maintenance | 30 min | Only review due cards. No new cards. Consolidate. |
+| **Block B** | Challenging Listening | 60 min | Al Jazeera, Islamic university lectures, Madinah scholar speeches |
+| **Block C** | Real-World Speaking | 60 min | See below |
+| **Block D** | Scholar Session | 60 min | Full debate/discussion format |
+| **Block E** | Daughter + Self Recording | 30 min | Weekly recorded full conversation — keep all recordings |
+| **Block F** | Deep Listening Analysis | 45 min | Pick 10 sentences from today's listening → dissect → shadow them |
+| **Block G** | Night — Immersion | 30 min | Arabic content you *enjoy* — lectures, talks, stories |
+
+---
+
+#### 🆕 Phase 3 — Real-World Speaking Missions
+
+Every day you have ONE **real-world speaking mission** outside the house:
+
+| Day | Mission |
+|---|---|
+| Day 23 | Ask a shopkeeper about a product — full Arabic conversation |
+| Day 24 | Call a service and speak Arabic for the whole call |
+| Day 25 | At Masjid — initiate a conversation with someone after ṣalāh |
+| Day 26 | Describe your business to a Saudi contact — in Arabic |
+| Day 27 | Ask for directions somewhere and follow the answer |
+| Day 28 | Have lunch with someone and speak only Arabic |
+| Day 29 | Attend a lecture at Masjid and afterward ask the lecturer one question |
+| Day 30+ | **You are in Riyadh** — every shop, every service, every interaction = Arabic |
+
+> You are in Riyadh. This is your most powerful tool. The city is your classroom. Use it aggressively from Day 23.
+
+---
+
+#### 🆕 Phase 3 — Scholar Session: Debate Format
+
+The scholar now treats you as a **conversational equal** (in format — not in knowledge):
+
+- He gives a statement/position — you respond and give your view
+- You ask him questions about Islamic topics in Arabic
+- He speaks at **normal natural speed** — you must catch up
+- No Bangla, no English, no pausing for translation — Arabic only
+
+If you cannot understand something → say: **"أَعِدْ مِن فَضْلِكَ"** (Please repeat) or **"هَلْ يُمْكِنُكَ أَنْ تَشْرَحَ بِطَرِيقَةٍ أُخْرَى؟"** (Can you explain another way?) — and keep going.
+
+---
+
+## 📊 PART 4 — THE MEASUREMENT SYSTEM
+
+You are a software engineer — you understand KPIs. Here are yours:
+
+### Weekly Self-Assessment (Every Friday)
+
+Answer honestly (1–5 scale):
+
+| Question | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 |
+|---|---|---|---|---|---|
+| Can I recall 80% of Anki cards correctly? | | | | | |
+| Can I listen to a 3-min clip and understand 70%+ without pausing? | | | | | |
+| Can I speak for 5 min on a topic without major stops? | | | | | |
+| Did I complete ALL daily blocks this week? | | | | | |
+| Scholar session: did I speak more than 50% of the time? | | | | | |
+
+If any answer is below 3 → do NOT move to next phase. Spend 3 more days on current phase.
+
+---
+
+## 🚫 PART 5 — THE "DO NOT" LIST (As Important as the Plan)
+
+These are the mistakes that will kill your progress. Treat them as hard rules:
+
+| ❌ Do NOT | Why |
+|---|---|
+| Switch to a new method or resource | You are in this plan now. Full stop. |
+| Study grammar | You don't need it. Every hour on grammar is an hour stolen from fluency. |
+| Translate in your head while listening | Force yourself to understand by context. Translating creates lag. |
+| Skip Anki even one day | Spaced repetition only works if consistent. One missed day = cards pile up and the system breaks. |
+| Use Bangla or English with your daughter during the 20-min session | Zero exceptions. Even if it is awkward. |
+| Add more than 15 new Anki cards per day | More is not better. Your review burden explodes and the system collapses. |
+| Wait until you're "ready" to speak in the real world | You will never feel ready. Speak now. |
+| Study for 8 hours one day then skip the next 2 | 5 consistent hours/day beats 10 scattered hours every time. |
+
+---
+
+## 💡 PART 6 — SPECIAL GUIDANCE FOR YOUR SPECIFIC CHALLENGES
+
+### For the "Can't Catch Speech" Problem
+
+Do this **every single day** as part of Block B:
+
+1. Listen to 1 sentence → pause → repeat it OUT LOUD from memory
+2. Don't write it — speak it
+3. If you can't → rewind → listen again → speak again
+4. Do this for 10 sentences each day
+
+This is called **dictation-and-recall** and it is the single most effective technique for closing the gap between your ears and your brain.
+
+---
+
+### For the "Can't Recall Words When Speaking" Problem
+
+The Anki cards will fix this over time, but here is an accelerator:
+
+**The "3-Sentence Rule"** — For every new word you add to Anki:
+- On the back of the card, write 3 sentences using that word about YOUR life
+- Not example sentences from a book — sentences about your business, your family, your day
+- When you review the card, recall all 3 sentences
+
+Personal sentences create emotional memory hooks. A word connected to your real life is recalled 3x faster than a word in a textbook sentence.
+
+---
+
+### For Staying Consistent (The Maze Problem)
+
+You said you are in a maze. Here is the exit:
+
+> **The maze feeling is caused by too many options. The plan you now have has ONE path. Commit to it completely for 35 days. Progress in language is not linear — it is exponential. Days 1–20 feel like nothing is happening. Day 21 you suddenly notice a jump. Then day 25 another jump. Trust the system.**
+
+Create a physical tracker — paper on your wall — 35 boxes. Cross one every day. Do not break the chain.
+
+---
+
+## 📦 PART 7 — QUICK REFERENCE SUMMARY
+
+### Your Daily Non-Negotiables (Every Single Day)
+
+- [ ] Anki session — morning (45 min)
+- [ ] Intensive listening with 5-pass (60–75 min)
+- [ ] Shadowing the same clip (45 min)
+- [ ] Scholar session — output-heavy format (60 min)
+- [ ] Daughter conversation — Arabic only (20–30 min)
+- [ ] Evening monologue recording (45 min)
+- [ ] Night extensive listening (30 min)
+
+### Your 3 Phases at a Glance
+
+| Phase | Days | Focus | Key Milestone |
+|---|---|---|---|
+| 🟦 Activation | 1–10 | Wake up vocabulary, train ears | Understand 70% of chosen clips |
+| 🟩 Construction | 11–22 | Build sentence flow, topic fluency | 5-min monologue without stopping |
+| 🟥 Deployment | 23–35 | Real world, speed, confidence | Full 30-min conversation with scholar |
+
+### Your Key Resources
+
+| Resource | Purpose |
+|---|---|
+| **Anki** | Vocabulary activation — daily engine |
+| **Scholar sessions** | Corrected output — most valuable hour |
+| **Your daughter** | Daily low-pressure speaking partner |
+| **Madinah Arabic / Al-Arabiyya Bayna Yadayk** | Phase 1–2 listening material |
+| **Al Jazeera / University lectures** | Phase 3 listening material |
+| **Riyadh itself** | Phase 3 real-world practice — the whole city |
+
+---
+
+## 🤲 Final Words
+
+You have everything you need to succeed:
+- The **grammar foundation** — confirmed by scholars
+- The **materials** — already prepared
+- The **scholar** — already accessible
+- The **daughter** — already fluent
+- The **city** — you are living in an Arabic-speaking country
+- The **time** — 25–35 intensive days
+- And now — **the plan**
+
+What you lacked was a clear single path and the confidence to stay on it. You have that now.
+
+In the words of the classical Arabs: **اَلطَّرِيقُ الطَّوِيلُ يَبْدَأُ بِخُطْوَةٍ وَاحِدَةٍ** — *The long road begins with a single step.*
+
+**Your first step is today. Open Anki. Make your first card. Begin.**
+
+---
+
+> 📌 **If you want**, I can now prepare for you:
+> 1. A ready-to-import **Anki card set** (all 60 verbs + 40 words formatted correctly)
+> 2. A **35-day daily log template** (printable/Word format)
+> 3. **Topic-specific conversation scripts** (for each of the 13 sectors) designed for your scholar and daughter sessions
+> 4. **Weekly assessment sheets** in printable format
+>
+> Just say which ones you need and I will build them for you.
