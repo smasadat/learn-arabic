@@ -50,19 +50,19 @@ Every topic follows this 4-step cycle after its first introduction:
 | 03 | Dining Room | غُرْفَةُ الطَّعَامِ | `03-dining-room.md` |
 | 04 | Drawing Room | غُرْفَةُ الجُلُوسِ | `04-drawing-room.md` |
 | 05 | Washroom | الحَمَّامُ | `05-washroom.md` |
-| 12 | Office | المَكْتَبُ | `12-office.md` |
+| 06 ⭐ | Daily Routine | الرُّوتِينُ اليَوْمِيُّ | `06-daily-routine.md` |
 | 07 | Masjid | المَسْجِدُ | `07-masjid.md` |
+| 08 ⭐ | Market / Supermarket | السُّوقُ | `08-market.md` |
+| 09 ⭐ | Restaurant | المَطْعَمُ | `09-restaurant.md` |
+| 10 | Interpersonal | التَّوَاصُلُ الشَّخْصِيُّ | `10-interpersonal.md` |
 | 11 | University | الجَامِعَةُ | `11-university.md` |
+| 12 | Office | المَكْتَبُ | `12-office.md` |
+| 13 | Language Course | دَوْرَةُ اللُّغَةِ | `13-language-course.md` |
+| 14 ⭐ | Park & Outdoors | الحَدِيقَةُ | `14-park.md` |
 | 15 | Bus | الحَافِلَةُ | `15-bus.md` |
 | 16 | Metro | المِتْرُو | `16-metro.md` |
 | 17 | Taxi | التَّاكْسِي | `17-taxi.md` |
-| 13 | Language Course | دَوْرَةُ اللُّغَةِ | `13-language-course.md` |
-| 10 | Interpersonal | التَّوَاصُلُ الشَّخْصِيُّ | `10-interpersonal.md` |
-| **06** | **Daily Routine** ⭐ | **الرُّوتِينُ اليَوْمِيُّ** | `06-daily-routine.md` |
-| **08** | **Market / Supermarket** ⭐ | **السُّوقُ** | `08-market.md` |
-| **09** | **Restaurant** ⭐ | **المَطْعَمُ** | `09-restaurant.md` |
-| **18** | **Doctor / Clinic** ⭐ | **عِيَادَةُ الطَّبِيبِ** | `18-doctor.md` |
-| **14** | **Park & Outdoors** ⭐ | **الحَدِيقَةُ** | `14-park.md` |
+| 18 ⭐ | Doctor / Clinic | عِيَادَةُ الطَّبِيبِ | `18-doctor.md` |
 
 *(⭐ = newly added topic)*
 
