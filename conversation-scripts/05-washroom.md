@@ -2,104 +2,122 @@
 
 ## 1) Vocabulary List (15 Words)
 
-| # | Arabic (with harakah) | English |
-|---|---|---|
-| 1 | طَهَارَةٌ | purity |
-| 2 | وُضُوءٌ | ablution |
-| 3 | مِغْسَلَةٌ | sink |
-| 4 | مِنْشَفَةٌ | towel |
-| 5 | مَاءٌ | water |
-| 6 | صَابُونٌ | soap |
-| 7 | نَظَافَةٌ | cleanliness |
-| 8 | غَسَلَ | washed |
-| 9 | تَمَضْمَضَ | rinsed mouth |
-| 10 | اِسْتَنْشَقَ | sniffed water |
-| 11 | مَسَحَ | wiped |
-| 12 | قَدَمٌ | foot |
-| 13 | يَدٌ | hand |
-| 14 | نِيَّةٌ | intention |
-| 15 | اِنْتِبَاهٌ | care |
+| # | Arabic (with harakah) | English | বাংলা |
+|---|---|---|---|
+| 1 | طَهَارَةٌ | purity | পবিত্রতা |
+| 2 | وُضُوءٌ | ablution | অজু |
+| 3 | مِغْسَلَةٌ | sink | সিঙ্ক |
+| 4 | مِنْشَفَةٌ | towel | তোয়ালে |
+| 5 | مَاءٌ | water | পানি |
+| 6 | صَابُونٌ | soap | সাবান |
+| 7 | نَظَافَةٌ | cleanliness | পরিচ্ছন্নতা |
+| 8 | غَسَلَ | washed | ধুয়েছে |
+| 9 | تَمَضْمَضَ | rinsed mouth | কুলি করেছে |
+| 10 | اِسْتَنْشَقَ | sniffed water | নাক দিয়ে পানি টেনেছে |
+| 11 | مَسَحَ | wiped | মুছেছে |
+| 12 | قَدَمٌ | foot | পা |
+| 13 | يَدٌ | hand | হাত |
+| 14 | نِيَّةٌ | intention | নিয়্যত |
+| 15 | اِنْتِبَاهٌ | care | মনোযোগ |
 
 ## 2) 10 Essential Sentences
 
-| # | Arabic | English | Transliteration |
+| # | Arabic | English | বাংলা |
 |---|---|---|---|
-| 1 | أُرِيدُ أَنْ أَتَوَضَّأَ الآنَ. | I want to perform wudu now. | urīdu an atawaḍḍaʾa al-āna. |
-| 2 | أَيْنَ المِغْسَلَةُ مِنْ فَضْلِكَ؟ | Where is the sink please? | ayna al-mighsalatu min faḍlika? |
-| 3 | اِغْسِلْ يَدَيْكَ جَيِّدًا بِالصَّابُونِ. | Wash your hands well with soap. | ighsil yadayka jayyidan bi-al-ṣābūni. |
-| 4 | اِبْدَأْ بِالنِّيَّةِ قَبْلَ الوُضُوءِ. | Begin with intention before wudu. | ibdaʾ bi-al-niyyati qabla al-wuḍūʾi. |
-| 5 | تَمَضْمَضْ ثَلَاثَ مَرَّاتٍ. | Rinse your mouth three times. | tamaḍmaḍ thalātha marrātin. |
-| 6 | اِمْسَحْ رَأْسَكَ بَعْدَ غَسْلِ اليَدَيْنِ. | Wipe your head after washing arms. | imsaḥ raʾsaka baʿda ghasli al-yadayn. |
-| 7 | لَا تُسْرِفْ فِي اِسْتِعْمَالِ المَاءِ. | Do not waste water. | lā tusrif fī istiʿmāli al-māʾi. |
-| 8 | النَّظَافَةُ مِنَ الإِيمَانِ. | Cleanliness is part of faith. | al-naẓāfatu mina al-īmāni. |
-| 9 | خُذْ هَذِهِ المِنْشَفَةَ بَعْدَ الوُضُوءِ. | Take this towel after wudu. | khudh hādhihi al-minshafata baʿda al-wuḍūʾi. |
-| 10 | هَلْ وُضُوئِي صَحِيحٌ؟ | Is my wudu correct? | hal wuḍūʾī ṣaḥīḥun? |
+| 1 | أُرِيدُ أَنْ أَتَوَضَّأَ الآنَ. | I want to perform wudu now. | এখন অজু করতে চাই। |
+| 2 | أَيْنَ المِغْسَلَةُ مِنْ فَضْلِكَ؟ | Where is the sink please? | সিঙ্ক কোথায়? |
+| 3 | اِغْسِلْ يَدَيْكَ جَيِّدًا بِالصَّابُونِ. | Wash your hands well with soap. | সাবান দিয়ে হাত ভালোভাবে ধোও। |
+| 4 | اِبْدَأْ بِالنِّيَّةِ قَبْلَ الوُضُوءِ. | Begin with intention before wudu. | অজুর আগে নিয়্যত করে শুরু করো। |
+| 5 | تَمَضْمَضْ ثَلَاثَ مَرَّاتٍ. | Rinse your mouth three times. | তিনবার কুলি করো। |
+| 6 | اِمْسَحْ رَأْسَكَ بَعْدَ غَسْلِ اليَدَيْنِ. | Wipe your head after washing arms. | হাত ধোয়ার পরে মাথা মাসেহ করো। |
+| 7 | لَا تُسْرِفْ فِي اِسْتِعْمَالِ المَاءِ. | Do not waste water. | পানি অপচয় করো না। |
+| 8 | النَّظَافَةُ مِنَ الإِيمَانِ. | Cleanliness is part of faith. | পরিচ্ছন্নতা ঈমানের অংশ। |
+| 9 | خُذْ هَذِهِ المِنْشَفَةَ بَعْدَ الوُضُوءِ. | Take this towel after wudu. | অজুর পরে এই তোয়ালেটা নাও। |
+| 10 | هَلْ وُضُوئِي صَحِيحٌ؟ | Is my wudu correct? | আমার অজু কি সহিহ? |
 
 ## 3) Dialogue Script 1 — With the Scholar
 
 **1. المُتَعَلِّمُ:** يَا شَيْخُ، أُرِيدُ مُرَاجَعَةَ خُطُوَاتِ الوُضُوءِ بِالعَرَبِيَّةِ.  
 *I want to review wudu steps in Arabic.*
+*শায়খ, আরবিতে অজুর ধাপগুলো পর্যালোচনা করতে চাই।*
 
 **2. الشَّيْخُ:** اِبْدَأْ بِالنِّيَّةِ، ثُمَّ غَسْلُ الكَفَّيْنِ.  
 *Start with intention, then wash hands.*
+*নিয়্যত দিয়ে শুরু করো, তারপর হাতের তালু ধোয়া।*
 
 **3. المُتَعَلِّمُ:** ثُمَّ أَتَمَضْمَضُ وَأَسْتَنْشِقُ.  
 *Then I rinse mouth and sniff water.*
+*তারপর কুলি করি ও নাক দিয়ে পানি টানি।*
 
 **4. الشَّيْخُ:** جَيِّدٌ. بَعْدَ ذَلِكَ اغْسِلِ الوَجْهَ.  
 *Good. After that wash face.*
+*ভালো। তারপর মুখ ধোয়া।*
 
 **5. المُتَعَلِّمُ:** أَغْسِلُ الوَجْهَ ثَلَاثَ مَرَّاتٍ.  
 *I wash face three times.*
+*তিনবার মুখ ধুই।*
 
 **6. الشَّيْخُ:** وَاغْسِلِ اليَدَيْنِ إِلَى المِرْفَقَيْنِ.  
 *And wash arms to elbows.*
+*কনুই পর্যন্ত হাত ধুয়ে নাও।*
 
 **7. المُتَعَلِّمُ:** ثُمَّ أَمْسَحُ الرَّأْسَ وَالأُذُنَيْنِ.  
 *Then I wipe head and ears.*
+*তারপর মাথা ও কান মাসেহ করি।*
 
 **8. الشَّيْخُ:** أَحْسَنْتَ، وَمَا الخَاتِمَةُ؟  
 *Well done, and the ending?*
+*শাবাশ, শেষটা কী?*
 
 **9. المُتَعَلِّمُ:** أَغْسِلُ الرِّجْلَيْنِ إِلَى الكَعْبَيْنِ.  
 *I wash both feet to ankles.*
+*গোড়ালি পর্যন্ত দুই পা ধুই।*
 
 **10. الشَّيْخُ:** مُمْتَازٌ، وَاحْرِصْ عَلَى الاِقْتِصَادِ فِي المَاءِ.  
 *Excellent; maintain moderation in water.*
+*চমৎকার; পানিতে মিতব্যয়িতা বজায় রাখো।*
 
 ## 4) Dialogue Script 2 — With Your Daughter
 
 **1. الأَبُ:** يَا بُنَيَّتِي، هَيَّا نَتَعَلَّمُ الوُضُوءَ مَعًا.  
 *Let us learn wudu together.*
+*মেয়ে, চলো একসাথে অজু শিখি।*
 
 **2. البِنْتُ:** أُحِبُّ ذَلِكَ، مَا الخُطْوَةُ الأُولَى؟  
 *I like that; what is first step?*
+*পছন্দ হলো, প্রথম ধাপ কী?*
 
 **3. الأَبُ:** أَوَّلًا نَنْوِي ثُمَّ نَغْسِلُ اليَدَيْنِ.  
 *First we intend then wash hands.*
+*প্রথমে নিয়্যত করি তারপর হাত ধুই।*
 
 **4. البِنْتُ:** ثُمَّ نَتَمَضْمَضُ وَنَسْتَنْشِقُ، صَحِيحٌ؟  
 *Then we rinse and sniff, right?*
+*তারপর কুলি করি ও নাক দিয়ে পানি টানি, তাই না?*
 
 **5. الأَبُ:** نَعَمْ، ثُمَّ نَغْسِلُ الوَجْهَ وَاليَدَيْنِ.  
 *Yes, then wash face and arms.*
+*হ্যাঁ, তারপর মুখ ও হাত ধুই।*
 
 **6. البِنْتُ:** وَبَعْدَ ذَلِكَ نَمْسَحُ الرَّأْسَ.  
 *After that we wipe the head.*
+*তারপর মাথা মাসেহ করি।*
 
 **7. الأَبُ:** أَحْسَنْتِ، ثُمَّ نَغْسِلُ الرِّجْلَيْنِ.  
 *Excellent, then wash feet.*
+*শাবাশ, তারপর পা ধুই।*
 
 **8. البِنْتُ:** الحَمْدُ لِلَّهِ، تَعَلَّمْتُ الخُطُوَاتِ.  
 *Alhamdulillah, I learned the steps.*
+*আলহামদুলিল্লাহ, ধাপগুলো শিখলাম।*
 
 ## 5) 5 Questions to Practice
 
-1. **مَا خُطُوَاتُ الوُضُوءِ بِالتَّرْتِيبِ؟** — What are wudu steps in order?
-2. **كَيْفَ تَطْلُبُ المَاءِ بِأَدَبٍ؟** — How do you politely ask for water?
-3. **مَاذَا تَقُولُ عِنْدَ التَّأَكُّدِ مِنْ صِحَّةِ الوُضُوءِ؟** — What do you say to verify wudu validity?
-4. **لِمَاذَا نَتَجَنَّبُ الإِسْرَافَ فِي المَاءِ؟** — Why do we avoid wasting water?
-5. **كَيْفَ تَشْرَحُ الطَّهَارَةَ لِطِفْلٍ؟** — How do you explain purity to a child?
+1. **مَا خُطُوَاتُ الوُضُوءِ بِالتَّرْتِيبِ؟** — What are wudu steps in order? — সঠিক ক্রমে অজুর ধাপগুলো কী?
+2. **كَيْفَ تَطْلُبُ المَاءِ بِأَدَبٍ؟** — How do you politely ask for water? — ভদ্রভাবে পানি চাইবে কীভাবে?
+3. **مَاذَا تَقُولُ عِنْدَ التَّأَكُّدِ مِنْ صِحَّةِ الوُضُوءِ؟** — What do you say to verify wudu validity? — অজুর সহিহ হওয়া নিশ্চিত করতে কী বলবে?
+4. **لِمَاذَا نَتَجَنَّبُ الإِسْرَافَ فِي المَاءِ؟** — Why do we avoid wasting water? — পানির অপচয় কেন এড়াই?
+5. **كَيْفَ تَشْرَحُ الطَّهَارَةَ لِطِفْلٍ؟** — How do you explain purity to a child? — একটি শিশুকে পবিত্রতা কীভাবে বুঝাবে?
 
 ## 6) Common Mistakes Warning
 
