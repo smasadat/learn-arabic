@@ -2,110 +2,130 @@
 
 ## 1) Vocabulary List (15 Words)
 
-| # | Arabic (with harakah) | English |
-|---|---|---|
-| 1 | مِقْلَاةٌ | frying pan |
-| 2 | قِدْرٌ | pot |
-| 3 | مِلْعَقَةٌ | spoon |
-| 4 | سِكِّينٌ | knife |
-| 5 | مِلْحٌ | salt |
-| 6 | سُكَّرٌ | sugar |
-| 7 | أُرُزٌّ | rice |
-| 8 | خُبْزٌ | bread |
-| 9 | لَحْمٌ | meat |
-| 10 | خُضْرَوَاتٌ | vegetables |
-| 11 | يَغْلِي | boils |
-| 12 | يَقْلِي | fries |
-| 13 | يُقَطِّعُ | cuts |
-| 14 | يُحَرِّكُ | stirs |
-| 15 | نَكْهَةٌ | flavor |
+| # | Arabic (with harakah) | English | বাংলা |
+|---|---|---|---|
+| 1 | مِقْلَاةٌ | frying pan | ফ্রাইং প্যান |
+| 2 | قِدْرٌ | pot | পাতিল |
+| 3 | مِلْعَقَةٌ | spoon | চামচ |
+| 4 | سِكِّينٌ | knife | ছুরি |
+| 5 | مِلْحٌ | salt | লবণ |
+| 6 | سُكَّرٌ | sugar | চিনি |
+| 7 | أُرُزٌّ | rice | চাল |
+| 8 | خُبْزٌ | bread | রুটি |
+| 9 | لَحْمٌ | meat | গোশত |
+| 10 | خُضْرَوَاتٌ | vegetables | সবজি |
+| 11 | يَغْلِي | boils | ফোটে |
+| 12 | يَقْلِي | fries | ভাজে |
+| 13 | يُقَطِّعُ | cuts | কাটে |
+| 14 | يُحَرِّكُ | stirs | নাড়ে |
+| 15 | نَكْهَةٌ | flavor | স্বাদ |
 
 ## 2) 10 Essential Sentences
 
-| # | Arabic | English | Transliteration |
+| # | Arabic | English | বাংলা |
 |---|---|---|---|
-| 1 | مَاذَا سَنَطْبُخُ اليَوْمَ؟ | What will we cook today? | mādhā sanaṭbukhu al-yawma? |
-| 2 | أُرِيدُ أَنْ أُقَطِّعَ الخُضْرَوَاتِ أَوَّلًا. | I want to cut the vegetables first. | urīdu an uqaṭṭiʿa al-khuḍrawāti awwalan. |
-| 3 | هَلْ القِدْرُ نَظِيفٌ؟ | Is the pot clean? | hal al-qidru naẓīfun? |
-| 4 | ضَعِ المِلْحَ قَلِيلًا، لَا كَثِيرًا. | Put a little salt, not much. | ḍaʿi al-milḥa qalīlan, lā kathīran. |
-| 5 | الطَّعَامُ يَغْلِي الآنَ. | The food is boiling now. | al-ṭaʿāmu yaghli al-āna. |
-| 6 | اِفْتَحِ النَّافِذَةَ لِخُرُوجِ البُخَارِ. | Open the window for steam to go out. | iftaḥi al-nāfidhata li-khurūji al-bukhāri. |
-| 7 | هَذِهِ النَّكْهَةُ جَمِيلَةٌ جِدًّا. | This flavor is very nice. | hādhihi al-nakhatu jamīlatun jiddan. |
-| 8 | أَحْتَاجُ إِلَى مِلْعَقَةٍ كَبِيرَةٍ. | I need a big spoon. | aḥtāju ilā milʿaqatin kabīratin. |
-| 9 | هَلْ يُمْكِنُكَ أَنْ تُسَاعِدَنِي فِي التَّقْلِيبِ؟ | Can you help me with stirring? | hal yumkinuka an tusāʿidanī fī al-taqlībi? |
-| 10 | سَنَأْكُلُ بَعْدَ خَمْسِ دَقَائِقَ. | We will eat after five minutes. | sanaʾkulu baʿda khamsi daqāʾiq. |
+| 1 | مَاذَا سَنَطْبُخُ اليَوْمَ؟ | What will we cook today? | আজ আমরা কী রান্না করব? |
+| 2 | أُرِيدُ أَنْ أُقَطِّعَ الخُضْرَوَاتِ أَوَّلًا. | I want to cut the vegetables first. | আমি প্রথমে সবজি কাটতে চাই। |
+| 3 | هَلْ القِدْرُ نَظِيفٌ؟ | Is the pot clean? | পাতিলটি কি পরিষ্কার? |
+| 4 | ضَعِ المِلْحَ قَلِيلًا، لَا كَثِيرًا. | Put a little salt, not much. | সামান্য লবণ দাও, বেশি নয়। |
+| 5 | الطَّعَامُ يَغْلِي الآنَ. | The food is boiling now. | খাবার এখন ফুটছে। |
+| 6 | اِفْتَحِ النَّافِذَةَ لِخُرُوجِ البُخَارِ. | Open the window for steam to go out. | বাষ্প বের হওয়ার জন্য জানালা খোলো। |
+| 7 | هَذِهِ النَّكْهَةُ جَمِيلَةٌ جِدًّا. | This flavor is very nice. | এই স্বাদটা খুবই সুন্দর। |
+| 8 | أَحْتَاجُ إِلَى مِلْعَقَةٍ كَبِيرَةٍ. | I need a big spoon. | আমার একটি বড় চামচ দরকার। |
+| 9 | هَلْ يُمْكِنُكَ أَنْ تُسَاعِدَنِي فِي التَّقْلِيبِ؟ | Can you help me with stirring? | নাড়তে কি তুমি আমাকে সাহায্য করতে পারো? |
+| 10 | سَنَأْكُلُ بَعْدَ خَمْسِ دَقَائِقَ. | We will eat after five minutes. | পাঁচ মিনিট পরে খাব। |
 
 ## 3) Dialogue Script 1 — With the Scholar
 
 **1. المُتَعَلِّمُ:** يَا شَيْخُ، أُرِيدُ أَنْ أَصِفَ خُطَوَاتِ الطَّبْخِ بِالفُصْحَى.  
 *Shaykh, I want to describe cooking steps in Fusha.*
+*শায়খ, আমি ফুসহায় রান্নার ধাপগুলো বর্ণনা করতে চাই।*
 
 **2. الشَّيْخُ:** اِبْدَأْ بِالتَّجْهِيزِ ثُمَّ التَّسْخِينِ ثُمَّ التَّقْدِيمِ.  
 *Start with preparation, then heating, then serving.*
+*প্রস্তুতি দিয়ে শুরু করো, তারপর গরম করা, তারপর পরিবেশন।*
 
 **3. المُتَعَلِّمُ:** أَوَّلًا أَغْسِلُ الخُضْرَوَاتِ ثُمَّ أُقَطِّعُهَا.  
 *First I wash vegetables, then cut them.*
+*প্রথমে সবজি ধুই, তারপর কাটি।*
 
 **4. الشَّيْخُ:** جَيِّدٌ، قُلْ: ثُمَّ أَضَعُهَا فِي القِدْرِ السَّاخِنِ.  
 *Good; say: then I place them in the hot pot.*
+*ভালো; বলো: তারপর গরম হাঁড়িতে রাখি।*
 
 **5. المُتَعَلِّمُ:** ثُمَّ أَضَعُهَا فِي القِدْرِ السَّاخِنِ مَعَ الزَّيْتِ.  
 *Then I place them in the hot pot with oil.*
+*তারপর তেলসহ গরম হাঁড়িতে রাখি।*
 
 **6. الشَّيْخُ:** مُمْتَازٌ. كَيْفَ تَضْبُطُ كَمِّيَّةَ المِلْحِ؟  
 *Excellent. How do you control the salt amount?*
+*চমৎকার। লবণের পরিমাণ কীভাবে নিয়ন্ত্রণ করো?*
 
 **7. المُتَعَلِّمُ:** أَضَعُ قَلِيلًا ثُمَّ أُذُوقُ الطَّعَامَ.  
 *I add a little, then taste the food.*
+*একটু দিই, তারপর খাবার চেখে দেখি।*
 
 **8. الشَّيْخُ:** قُلْ: أَتَذَوَّقُ الطَّعَامَ، وَهُوَ أَفْصَحُ.  
 *Say: atadhawwaqu al-ṭaʿāma; it is more eloquent.*
+*বলো: আতাজাওওয়াকু — এটা আরও বাগ্মী।*
 
 **9. المُتَعَلِّمُ:** نَعَمْ، أَتَذَوَّقُ الطَّعَامَ وَأُصَحِّحُ النَّكْهَةَ.  
 *Yes, I taste and adjust the flavor.*
+*হ্যাঁ, আমি চেখে দেখি এবং স্বাদ ঠিক করি।*
 
 **10. الشَّيْخُ:** أَحْسَنْتَ، وَصِفْ لِي خِتَامَ العَمَلِيَّةِ.  
 *Well done, now describe the final step.*
+*শাবাশ, এখন শেষ ধাপ বর্ণনা করো।*
 
 **11. المُتَعَلِّمُ:** أُقَدِّمُ الطَّعَامَ سَاخِنًا وَأَدْعُو الأُسْرَةَ إِلَى المَائِدَةِ.  
 *I serve it hot and invite family to the table.*
+*গরম পরিবেশন করি এবং পরিবারকে খাবার টেবিলে ডাকি।*
 
 ## 4) Dialogue Script 2 — With Your Daughter
 
 **1. الأَبُ:** يَا بُنَيَّتِي، تَعَالَيْ نُعِدَّ العَشَاءَ مَعًا.  
 *My daughter, come let us prepare dinner together.*
+*মেয়ে, এসো আমরা একসাথে রাতের খাবার তৈরি করি।*
 
 **2. البِنْتُ:** حَاضِرٌ يَا أَبِي، مَاذَا أَفْعَلُ أَوَّلًا؟  
 *Sure father, what do I do first?*
+*ঠিক আছে বাবা, আমি প্রথমে কী করব?*
 
 **3. الأَبُ:** اِغْسِلِي الطَّمَاطِمَ جَيِّدًا ثُمَّ قَطِّعِيهَا.  
 *Wash the tomatoes well then cut them.*
+*টমেটোগুলো ভালো করে ধুয়ে কেটে ফেলো।*
 
 **4. البِنْتُ:** هَلْ أَضَعُ المِلْحَ الآنَ؟  
 *Should I add the salt now?*
+*এখন কি লবণ দেব?*
 
 **5. الأَبُ:** نَعَمْ، وَلَكِنْ ضَعِيهِ قَلِيلًا.  
 *Yes, but put only a little.*
+*হ্যাঁ, কিন্তু একটু দাও।*
 
 **6. البِنْتُ:** الرَّائِحَةُ جَمِيلَةٌ، أَنَا سَعِيدَةٌ.  
 *The smell is nice; I am happy.*
+*গন্ধটা সুন্দর, আমি খুশি।*
 
 **7. الأَبُ:** وَأَنَا سَعِيدٌ أَنَّنَا نَتَكَلَّمُ بِالعَرَبِيَّةِ فَقَطْ.  
 *And I am happy we are speaking only Arabic.*
+*আমিও খুশি যে আমরা শুধু আরবিতে কথা বলছি।*
 
 **8. البِنْتُ:** بَعْدَ الطَّعَامِ سَأُرَتِّبُ المَطْبَخَ.  
 *After food I will tidy the kitchen.*
+*খাওয়ার পরে রান্নাঘর গুছিয়ে রাখব।*
 
 **9. الأَبُ:** مُمْتَازٌ، جَزَاكِ اللهُ خَيْرًا.  
 *Excellent, may Allah reward you.*
+*চমৎকার, আল্লাহ তোমাকে পুরস্কৃত করুন।*
 
 ## 5) 5 Questions to Practice
 
-1. **كَيْفَ تُعِدُّ وَجْبَةً بَسِيطَةً فِي المَطْبَخِ؟** — How do you prepare a simple meal in the kitchen?
-2. **مَا الأَدَوَاتُ الَّتِي تَسْتَعْمِلُهَا كُلَّ يَوْمٍ؟** — What tools do you use every day?
-3. **كَيْفَ تَطْلُبُ المُسَاعَدَةَ فِي الطَّبْخِ بِأَدَبٍ؟** — How do you politely ask for help in cooking?
-4. **مَاذَا تَقُولُ إِذَا كَانَ الطَّعَامُ مَالِحًا؟** — What do you say if food is salty?
-5. **كَيْفَ تَصِفُ نَكْهَةَ طَعَامٍ نَاجِحٍ؟** — How do you describe a successful flavor?
+1. **كَيْفَ تُعِدُّ وَجْبَةً بَسِيطَةً فِي المَطْبَخِ؟** — How do you prepare a simple meal in the kitchen? — রান্নাঘরে একটি সহজ খাবার কীভাবে তৈরি করো?
+2. **مَا الأَدَوَاتُ الَّتِي تَسْتَعْمِلُهَا كُلَّ يَوْمٍ؟** — What tools do you use every day? — প্রতিদিন কোন সরঞ্জামগুলো ব্যবহার করো?
+3. **كَيْفَ تَطْلُبُ المُسَاعَدَةَ فِي الطَّبْخِ بِأَدَبٍ؟** — How do you politely ask for help in cooking? — রান্নায় সাহায্য ভদ্রভাবে কীভাবে চাও?
+4. **مَاذَا تَقُولُ إِذَا كَانَ الطَّعَامُ مَالِحًا؟** — What do you say if food is salty? — খাবার নোনতা হলে কী বলো?
+5. **كَيْفَ تَصِفُ نَكْهَةَ طَعَامٍ نَاجِحٍ؟** — How do you describe a successful flavor? — একটি সুস্বাদু খাবারের স্বাদ কীভাবে বর্ণনা করো?
 
 ## 6) Common Mistakes Warning
 

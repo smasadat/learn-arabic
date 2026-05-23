@@ -2,104 +2,122 @@
 
 ## 1) Vocabulary List (15 Words)
 
-| # | Arabic (with harakah) | English |
-|---|---|---|
-| 1 | ضَيْفٌ | guest |
-| 2 | مَجْلِسٌ | sitting council |
-| 3 | ضِيَافَةٌ | hospitality |
-| 4 | قَهْوَةٌ | coffee |
-| 5 | شَايٌ | tea |
-| 6 | تَفَضَّلْ | please come in |
-| 7 | اِسْتِقْبَالٌ | reception |
-| 8 | تَعَارُفٌ | introduction |
-| 9 | حِوَارٌ | conversation |
-| 10 | اِحْتِرَامٌ | respect |
-| 11 | كَرَمٌ | generosity |
-| 12 | مُنَاسَبَةٌ | occasion |
-| 13 | اِطْمِئْنَانٌ | comfort |
-| 14 | مَضْمُونٌ | topic content |
-| 15 | مُهَذَّبٌ | polite |
+| # | Arabic (with harakah) | English | বাংলা |
+|---|---|---|---|
+| 1 | ضَيْفٌ | guest | অতিথি |
+| 2 | مَجْلِسٌ | sitting council | বৈঠকখানা |
+| 3 | ضِيَافَةٌ | hospitality | আতিথেয়তা |
+| 4 | قَهْوَةٌ | coffee | কফি |
+| 5 | شَايٌ | tea | চা |
+| 6 | تَفَضَّلْ | please come in | তাশরীফ রাখুন |
+| 7 | اِسْتِقْبَالٌ | reception | অভ্যর্থনা |
+| 8 | تَعَارُفٌ | introduction | পরিচয় |
+| 9 | حِوَارٌ | conversation | কথোপকথন |
+| 10 | اِحْتِرَامٌ | respect | সম্মান |
+| 11 | كَرَمٌ | generosity | উদারতা |
+| 12 | مُنَاسَبَةٌ | occasion | উপলক্ষ |
+| 13 | اِطْمِئْنَانٌ | comfort | স্বস্তি |
+| 14 | مَضْمُونٌ | topic content | বিষয়বস্তু |
+| 15 | مُهَذَّبٌ | polite | ভদ্র |
 
 ## 2) 10 Essential Sentences
 
-| # | Arabic | English | Transliteration |
+| # | Arabic | English | বাংলা |
 |---|---|---|---|
-| 1 | مَرْحَبًا بِكُمْ فِي مَجْلِسِنَا. | Welcome to our sitting room. | marḥaban bikum fī majlisinā. |
-| 2 | تَفَضَّلْ بِالجُلُوسِ مِنْ فَضْلِكَ. | Please have a seat. | tafaḍḍal bi-al-julūsi min faḍlika. |
-| 3 | هَلْ تُفَضِّلُ القَهْوَةَ أَمِ الشَّايَ؟ | Do you prefer coffee or tea? | hal tufaḍḍilu al-qahwata am al-shāya? |
-| 4 | يُسْعِدُنِي التَّعَارُفُ عَلَيْكَ. | I am happy to get to know you. | yusʿidunī al-taʿārufu ʿalayka. |
-| 5 | كَيْفَ كَانَتْ رِحْلَتُكَ إِلَى الرِّيَاضِ؟ | How was your trip to Riyadh? | kayfa kānat riḥlatuka ilā al-riyāḍi? |
-| 6 | نُحِبُّ الحِوَارَ الهَادِئَ وَالمُفِيدَ. | We like calm and useful conversation. | nuḥibbu al-ḥiwāra al-hādiʾa wa al-mufīda. |
-| 7 | جَزَاكَ اللهُ خَيْرًا عَلَى زِيَارَتِكَ. | May Allah reward you for your visit. | jazāka llāhu khayran ʿalā ziyāratika. |
-| 8 | نَتَحَدَّثُ اليَوْمَ عَنْ الأَخْلَاقِ فِي العَمَلِ. | Today we discuss ethics at work. | nataḥaddathu al-yawma ʿan al-akhlāqi fī al-ʿamali. |
-| 9 | أَتَمَنَّى لَكَ إِقَامَةً مُبَارَكَةً. | I wish you a blessed stay. | atamannā laka iqāmatan mubārakatan. |
-| 10 | إِنْ شِئْتَ نُكْمِلُ الحَدِيثَ بَعْدَ الصَّلَاةِ. | If you wish, we continue after prayer. | in shiʾta nukmilu al-ḥadītha baʿda al-ṣalāh. |
+| 1 | مَرْحَبًا بِكُمْ فِي مَجْلِسِنَا. | Welcome to our sitting room. | আমাদের বৈঠকখানায় স্বাগতম। |
+| 2 | تَفَضَّلْ بِالجُلُوسِ مِنْ فَضْلِكَ. | Please have a seat. | অনুগ্রহ করে বসুন। |
+| 3 | هَلْ تُفَضِّلُ القَهْوَةَ أَمِ الشَّايَ؟ | Do you prefer coffee or tea? | কফি না চা পছন্দ করেন? |
+| 4 | يُسْعِدُنِي التَّعَارُفُ عَلَيْكَ. | I am happy to get to know you. | আপনার সাথে পরিচিত হতে পেরে আনন্দিত। |
+| 5 | كَيْفَ كَانَتْ رِحْلَتُكَ إِلَى الرِّيَاضِ؟ | How was your trip to Riyadh? | রিয়াদে আপনার যাত্রা কেমন ছিল? |
+| 6 | نُحِبُّ الحِوَارَ الهَادِئَ وَالمُفِيدَ. | We like calm and useful conversation. | শান্ত ও উপকারী কথোপকথন পছন্দ করি। |
+| 7 | جَزَاكَ اللهُ خَيْرًا عَلَى زِيَارَتِكَ. | May Allah reward you for your visit. | আপনার সফরের জন্য আল্লাহ আপনাকে পুরস্কৃত করুন। |
+| 8 | نَتَحَدَّثُ اليَوْمَ عَنْ الأَخْلَاقِ فِي العَمَلِ. | Today we discuss ethics at work. | আজ কর্মক্ষেত্রের নৈতিকতা নিয়ে আলোচনা করব। |
+| 9 | أَتَمَنَّى لَكَ إِقَامَةً مُبَارَكَةً. | I wish you a blessed stay. | আপনার বরকতময় অবস্থান কামনা করি। |
+| 10 | إِنْ شِئْتَ نُكْمِلُ الحَدِيثَ بَعْدَ الصَّلَاةِ. | If you wish, we continue after prayer. | ইচ্ছা হলে নামাজের পরে কথা চালিয়ে যাব। |
 
 ## 3) Dialogue Script 1 — With the Scholar
 
 **1. المُتَعَلِّمُ:** يَا شَيْخُ، أُرِيدُ أَلْفَاظًا مُنَاسِبَةً لِاِسْتِقْبَالِ الضُّيُوفِ.  
 *I need phrases suitable for receiving guests.*
+*শায়খ, অতিথি গ্রহণের জন্য উপযুক্ত বাক্যাংশ দরকার।*
 
 **2. الشَّيْخُ:** قُلْ: مَرْحَبًا بِكُمْ، وَتَفَضَّلُوا بِالجُلُوسِ.  
 *Say: welcome and please sit.*
+*বলো: মারহাবান, তাফাদ্দালু বিলজুলুস।*
 
 **3. المُتَعَلِّمُ:** مَرْحَبًا بِكُمْ فِي بَيْتِنَا، تَفَضَّلُوا.  
 *Welcome in our house, please come in.*
+*আমাদের বাড়িতে স্বাগতম, তাশরীফ রাখুন।*
 
 **4. الشَّيْخُ:** حَسَنٌ، وَكَيْفَ تَعْرِضُ المَشْرُوبَ؟  
 *Good, how do you offer drinks?*
+*ভালো, পানীয় কীভাবে অফার করবে?*
 
 **5. المُتَعَلِّمُ:** هَلْ تُفَضِّلُونَ القَهْوَةَ أَمِ الشَّايَ؟  
 *Do you prefer coffee or tea?*
+*কফি নাকি চা পছন্দ করেন?*
 
 **6. الشَّيْخُ:** مُمْتَازٌ، وَأَضِفْ عِبَارَةَ اِهْتِمَامٍ.  
 *Excellent, add a care phrase.*
+*চমৎকার, যত্নের বাক্যাংশ যোগ করো।*
 
 **7. المُتَعَلِّمُ:** نَسْأَلُ اللهَ أَنْ تَكُونُوا فِي صِحَّةٍ وَعَافِيَةٍ.  
 *May Allah keep you in health and wellness.*
+*আল্লাহ আপনাকে সুস্বাস্থ্যে রাখুন।*
 
 **8. الشَّيْخُ:** جَمِيلٌ جِدًّا. وَكَيْفَ تَخْتِمُ الزِّيَارَةَ؟  
 *Very good. How do you close a visit?*
+*খুব সুন্দর। সফর কীভাবে শেষ করবে?*
 
 **9. المُتَعَلِّمُ:** جَزَاكُمُ اللهُ خَيْرًا عَلَى حُضُورِكُمْ.  
 *May Allah reward you for attending.*
+*আপনার উপস্থিতির জন্য আল্লাহ আপনাকে পুরস্কৃত করুন।*
 
 **10. الشَّيْخُ:** أَحْسَنْتَ، هَذَا أُسْلُوبٌ رَفِيعٌ.  
 *Well done, this is a refined style.*
+*শাবাশ, এটা একটি পরিশীলিত কায়দা।*
 
 ## 4) Dialogue Script 2 — With Your Daughter
 
 **1. الأَبُ:** يَا بُنَيَّتِي، سَيَأْتِي ضَيْفٌ بَعْدَ قَلِيلٍ.  
 *A guest will come shortly.*
+*মেয়ে, একটু পরে অতিথি আসবেন।*
 
 **2. البِنْتُ:** مَاذَا أُجَهِّزُ فِي غُرْفَةِ الجُلُوسِ؟  
 *What should I prepare in the living room?*
+*বৈঠকখানায় কী প্রস্তুত করব?*
 
 **3. الأَبُ:** رَتِّبِي المَجْلِسَ وَضَعِي القَهْوَةَ.  
 *Arrange the sitting area and set coffee.*
+*বৈঠকখানা গুছিয়ে রাখো, কফি দাও।*
 
 **4. البِنْتُ:** هَلْ أَقُولُ: مَرْحَبًا بِكَ؟  
 *Should I say: marhaban bika?*
+*মারহাবান বিকা বলব?*
 
 **5. الأَبُ:** نَعَمْ، وَقُولِي أَيْضًا: تَفَضَّلْ بِالجُلُوسِ.  
 *Yes, and also say please sit.*
+*হ্যাঁ, এবং বলো: তাফাদ্দাল বিলজুলুস।*
 
 **6. البِنْتُ:** إِذَا خَرَجَ الضَّيْفُ، مَاذَا نَقُولُ؟  
 *If the guest leaves, what do we say?*
+*অতিথি চলে গেলে কী বলব?*
 
 **7. الأَبُ:** نَقُولُ: جَزَاكَ اللهُ خَيْرًا عَلَى الزِّيَارَةِ.  
 *We say may Allah reward you for the visit.*
+*বলব: জাযাকাল্লাহু খায়রান আলাঝ্যিয়ারা।*
 
 **8. البِنْتُ:** جَمِيلٌ، سَأَتَدَرَّبُ عَلَى هَذِهِ العِبَارَاتِ.  
 *Nice, I will practice these expressions.*
+*সুন্দর, এই বাক্যাংশগুলো অনুশীলন করব।*
 
 ## 5) 5 Questions to Practice
 
-1. **كَيْفَ تَسْتَقْبِلُ ضَيْفًا فِي غُرْفَةِ الجُلُوسِ؟** — How do you receive a guest in the living room?
-2. **مَا أَفْضَلُ سُؤَالٍ لِبَدْءِ حِوَارٍ مُهَذَّبٍ؟** — What is the best opening question for polite talk?
-3. **كَيْفَ تَعْرِضُ القَهْوَةَ بِأُسْلُوبٍ رَسْمِيٍّ؟** — How do you offer coffee in a formal style?
-4. **مَا عِبَارَةُ خِتَامِ الزِّيَارَةِ؟** — What is a closing phrase for the visit?
-5. **كَيْفَ تُبْقِي الحِوَارَ مُفِيدًا وَمُخْتَصَرًا؟** — How do you keep conversation useful and concise?
+1. **كَيْفَ تَسْتَقْبِلُ ضَيْفًا فِي غُرْفَةِ الجُلُوسِ؟** — How do you receive a guest in the living room? — বৈঠকখানায় অতিথিকে কীভাবে গ্রহণ করবে?
+2. **مَا أَفْضَلُ سُؤَالٍ لِبَدْءِ حِوَارٍ مُهَذَّبٍ؟** — What is the best opening question for polite talk? — ভদ্র কথোপকথন শুরুর সেরা প্রশ্ন কোনটি?
+3. **كَيْفَ تَعْرِضُ القَهْوَةَ بِأُسْلُوبٍ رَسْمِيٍّ؟** — How do you offer coffee in a formal style? — আনুষ্ঠানিকভাবে কফি কীভাবে অফার করবে?
+4. **مَا عِبَارَةُ خِتَامِ الزِّيَارَةِ؟** — What is a closing phrase for the visit? — সফরের সমাপনী বাক্যাংশ কী?
+5. **كَيْفَ تُبْقِي الحِوَارَ مُفِيدًا وَمُخْتَصَرًا؟** — How do you keep conversation useful and concise? — কথোপকথন উপকারী ও সংক্ষিপ্ত কীভাবে রাখবে?
 
 ## 6) Common Mistakes Warning
 

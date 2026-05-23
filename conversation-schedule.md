@@ -11,7 +11,7 @@
 | **Total Topics** | 18 (13 original + 5 new) |
 | **Total Days** | 35 |
 | **Conversation Partners** | 👧 Daughter · 🧑‍🏫 Ustaaj |
-| **New Topics Added** | #14 Daily Routine · #15 Market · #16 Restaurant · #17 Doctor · #18 Park |
+| **New Topics Added** | #06 Daily Routine · #08 Market · #09 Restaurant · #18 Doctor · #14 Park |
 
 ---
 
@@ -50,19 +50,19 @@ Every topic follows this 4-step cycle after its first introduction:
 | 03 | Dining Room | غُرْفَةُ الطَّعَامِ | `03-dining-room.md` |
 | 04 | Drawing Room | غُرْفَةُ الجُلُوسِ | `04-drawing-room.md` |
 | 05 | Washroom | الحَمَّامُ | `05-washroom.md` |
-| 06 | Office | المَكْتَبُ | `06-office.md` |
+| 12 | Office | المَكْتَبُ | `12-office.md` |
 | 07 | Masjid | المَسْجِدُ | `07-masjid.md` |
-| 08 | University | الجَامِعَةُ | `08-university.md` |
-| 09 | Bus | الحَافِلَةُ | `09-bus.md` |
-| 10 | Metro | المِتْرُو | `10-metro.md` |
-| 11 | Taxi | التَّاكْسِي | `11-taxi.md` |
-| 12 | Language Course | دَوْرَةُ اللُّغَةِ | `12-language-course.md` |
-| 13 | Interpersonal | التَّوَاصُلُ الشَّخْصِيُّ | `13-interpersonal.md` |
-| **14** | **Daily Routine** ⭐ | **الرُّوتِينُ اليَوْمِيُّ** | `14-daily-routine.md` |
-| **15** | **Market / Supermarket** ⭐ | **السُّوقُ** | `15-market.md` |
-| **16** | **Restaurant** ⭐ | **المَطْعَمُ** | `16-restaurant.md` |
-| **17** | **Doctor / Clinic** ⭐ | **عِيَادَةُ الطَّبِيبِ** | `17-doctor.md` |
-| **18** | **Park & Outdoors** ⭐ | **الحَدِيقَةُ** | `18-park.md` |
+| 11 | University | الجَامِعَةُ | `11-university.md` |
+| 15 | Bus | الحَافِلَةُ | `15-bus.md` |
+| 16 | Metro | المِتْرُو | `16-metro.md` |
+| 17 | Taxi | التَّاكْسِي | `17-taxi.md` |
+| 13 | Language Course | دَوْرَةُ اللُّغَةِ | `13-language-course.md` |
+| 10 | Interpersonal | التَّوَاصُلُ الشَّخْصِيُّ | `10-interpersonal.md` |
+| **06** | **Daily Routine** ⭐ | **الرُّوتِينُ اليَوْمِيُّ** | `06-daily-routine.md` |
+| **08** | **Market / Supermarket** ⭐ | **السُّوقُ** | `08-market.md` |
+| **09** | **Restaurant** ⭐ | **المَطْعَمُ** | `09-restaurant.md` |
+| **18** | **Doctor / Clinic** ⭐ | **عِيَادَةُ الطَّبِيبِ** | `18-doctor.md` |
+| **14** | **Park & Outdoors** ⭐ | **الحَدِيقَةُ** | `14-park.md` |
 
 *(⭐ = newly added topic)*
 
@@ -80,7 +80,7 @@ Every topic follows this 4-step cycle after its first introduction:
 | **3** | 🔵 #01 Kitchen (R) | 🟢 #03 Dining Room | Ustaaj is 1 topic ahead; D reviews |
 | **4** | 🟢 #03 Dining Room | 🟢 #04 Drawing Room | |
 | **5** | 🔵 #02 Bedroom (R) | 🟢 #05 Washroom | |
-| **6** | 🟢 #04 Drawing Room | 🔵 #01 Kitchen (R) + 🟢 #14 Daily Routine | Ustaaj: review + new topic |
+| **6** | 🟢 #04 Drawing Room | 🔵 #01 Kitchen (R) + 🟢 #06 Daily Routine | Ustaaj: review + new topic |
 | **7** | 🟢 #05 Washroom | 🟡 #02+#03 Deepen | ⭐ **End of Phase 1** |
 
 > **Phase 1 Goal**: You should now speak naturally about every room in your home with both partners.
@@ -92,13 +92,13 @@ Every topic follows this 4-step cycle after its first introduction:
 
 | Day | 👧 With Daughter | 🧑‍🏫 With Ustaaj | Notes |
 |-----|-----------------|----------------|-------|
-| **8** | 🟢 #14 Daily Routine | 🟡 #01 Kitchen Deepen | Daughter starts new; Ustaaj deepens |
+| **8** | 🟢 #06 Daily Routine | 🟡 #01 Kitchen Deepen | Daughter starts new; Ustaaj deepens |
 | **9** | 🔵 #03 Dining Room (R) | 🟢 #07 Masjid | |
-| **10** | 🟢 #07 Masjid | 🔵 #14 Daily Routine (R) | |
-| **11** | 🟢 #15 Market | 🟡 #04+#05 Deepen | |
-| **12** | 🔵 #04 Drawing Room (R) | 🟢 #15 Market | |
-| **13** | 🟢 #16 Restaurant | 🔵 #07 Masjid (R) | |
-| **14** | 🔵 #05 Washroom (R) | 🟢 #16 Restaurant | ⭐ **End of Phase 2** |
+| **10** | 🟢 #07 Masjid | 🔵 #06 Daily Routine (R) | |
+| **11** | 🟢 #08 Market | 🟡 #04+#05 Deepen | |
+| **12** | 🔵 #04 Drawing Room (R) | 🟢 #08 Market | |
+| **13** | 🟢 #09 Restaurant | 🔵 #07 Masjid (R) | |
+| **14** | 🔵 #05 Washroom (R) | 🟢 #09 Restaurant | ⭐ **End of Phase 2** |
 
 > **Phase 2 Goal**: Fluent in home + community contexts. You can handle shopping, masjid, and casual dining in Arabic.
 
@@ -109,13 +109,13 @@ Every topic follows this 4-step cycle after its first introduction:
 
 | Day | 👧 With Daughter | 🧑‍🏫 With Ustaaj | Notes |
 |-----|-----------------|----------------|-------|
-| **15** | 🟢 #13 Interpersonal | 🟡 #14 Daily Routine Deepen | |
-| **16** | 🔵 #14 Daily Routine (R) | 🟢 #08 University | |
-| **17** | 🟢 #08 University | 🔵 #15 Market (R) | |
-| **18** | 🔵 #07 Masjid (R) | 🟢 #06 Office | |
-| **19** | 🟢 #06 Office | 🔵 #16 Restaurant (R) | |
-| **20** | 🔵 #15 Market (R) | 🟢 #12 Language Course | |
-| **21** | 🔵 #16 Restaurant (R) | 🟡 #07+#08 Deepen | ⭐ **End of Phase 3** — Mid-plan check |
+| **15** | 🟢 #10 Interpersonal | 🟡 #06 Daily Routine Deepen | |
+| **16** | 🔵 #06 Daily Routine (R) | 🟢 #11 University | |
+| **17** | 🟢 #11 University | 🔵 #08 Market (R) | |
+| **18** | 🔵 #07 Masjid (R) | 🟢 #12 Office | |
+| **19** | 🟢 #12 Office | 🔵 #09 Restaurant (R) | |
+| **20** | 🔵 #08 Market (R) | 🟢 #13 Language Course | |
+| **21** | 🔵 #09 Restaurant (R) | 🟡 #07+#08 Deepen | ⭐ **End of Phase 3** — Mid-plan check |
 
 > **Phase 3 Goal**: You can discuss work, education, and language learning in Fusha. Review of early topics confirms retention.
 
@@ -126,13 +126,13 @@ Every topic follows this 4-step cycle after its first introduction:
 
 | Day | 👧 With Daughter | 🧑‍🏫 With Ustaaj | Notes |
 |-----|-----------------|----------------|-------|
-| **22** | 🟢 #18 Park | 🟡 #06+#13 Deepen | |
-| **23** | 🔵 #13 Interpersonal (R) | 🟢 #09 Bus | |
-| **24** | 🟢 #09 Bus | 🔵 #12 Language Course (R) | |
-| **25** | 🔵 #08 University (R) | 🟢 #10 Metro | |
-| **26** | 🟢 #10 Metro | 🔵 #09 Bus (R) | |
-| **27** | 🔵 #18 Park (R) | 🟢 #11 Taxi | |
-| **28** | 🟢 #11 Taxi | 🟡 #10+#11 Deepen | ⭐ **End of Phase 4** |
+| **22** | 🟢 #14 Park | 🟡 #06+#13 Deepen | |
+| **23** | 🔵 #10 Interpersonal (R) | 🟢 #15 Bus | |
+| **24** | 🟢 #15 Bus | 🔵 #13 Language Course (R) | |
+| **25** | 🔵 #11 University (R) | 🟢 #16 Metro | |
+| **26** | 🟢 #16 Metro | 🔵 #15 Bus (R) | |
+| **27** | 🔵 #14 Park (R) | 🟢 #17 Taxi | |
+| **28** | 🟢 #17 Taxi | 🟡 #10+#11 Deepen | ⭐ **End of Phase 4** |
 
 > **Phase 4 Goal**: Confident navigation and outdoor Arabic. All transport topics covered.
 
@@ -143,9 +143,9 @@ Every topic follows this 4-step cycle after its first introduction:
 
 | Day | 👧 With Daughter | 🧑‍🏫 With Ustaaj | Notes |
 |-----|-----------------|----------------|-------|
-| **29** | 🟢 #17 Doctor | 🟢 #17 Doctor | Both partners learn together |
-| **30** | 🔵 #17 Doctor (R) | 🔴 #01+#02 Master | Ustaaj: mastery test on Phase 1 |
-| **31** | 🟡 #18 Park Deepen | 🔴 #03+#04+#05 Master | |
+| **29** | 🟢 #18 Doctor | 🟢 #18 Doctor | Both partners learn together |
+| **30** | 🔵 #18 Doctor (R) | 🔴 #01+#02 Master | Ustaaj: mastery test on Phase 1 |
+| **31** | 🟡 #14 Park Deepen | 🔴 #03+#04+#05 Master | |
 | **32** | 🔴 #01 Kitchen Master | 🔴 #06+#07+#08 Master | D: first mastery test! |
 | **33** | 🔴 #02+#03 Master | 🔴 #09+#10+#11 Master | |
 | **34** | 🔴 #04+#05+#14 Master | 🔴 #12+#13+#15+#16 Master | |
@@ -166,32 +166,32 @@ Use this table to find any day instantly:
 | 3 | #01 Kitchen 🔵 | #03 Dining Room 🟢 |
 | 4 | #03 Dining Room 🟢 | #04 Drawing Room 🟢 |
 | 5 | #02 Bedroom 🔵 | #05 Washroom 🟢 |
-| 6 | #04 Drawing Room 🟢 | #01 Kitchen 🔵 + #14 Daily Routine 🟢 |
+| 6 | #04 Drawing Room 🟢 | #01 Kitchen 🔵 + #06 Daily Routine 🟢 |
 | 7 | #05 Washroom 🟢 | #02+#03 🟡 Deepen |
-| 8 | #14 Daily Routine 🟢 | #01 Kitchen 🟡 Deepen |
+| 8 | #06 Daily Routine 🟢 | #01 Kitchen 🟡 Deepen |
 | 9 | #03 Dining Room 🔵 | #07 Masjid 🟢 |
-| 10 | #07 Masjid 🟢 | #14 Daily Routine 🔵 |
-| 11 | #15 Market 🟢 | #04+#05 🟡 Deepen |
-| 12 | #04 Drawing Room 🔵 | #15 Market 🟢 |
-| 13 | #16 Restaurant 🟢 | #07 Masjid 🔵 |
-| 14 | #05 Washroom 🔵 | #16 Restaurant 🟢 |
-| 15 | #13 Interpersonal 🟢 | #14 Daily Routine 🟡 Deepen |
-| 16 | #14 Daily Routine 🔵 | #08 University 🟢 |
-| 17 | #08 University 🟢 | #15 Market 🔵 |
-| 18 | #07 Masjid 🔵 | #06 Office 🟢 |
-| 19 | #06 Office 🟢 | #16 Restaurant 🔵 |
-| 20 | #15 Market 🔵 | #12 Language Course 🟢 |
-| 21 | #16 Restaurant 🔵 | #07+#08 🟡 Deepen |
-| 22 | #18 Park 🟢 | #06+#13 🟡 Deepen |
-| 23 | #13 Interpersonal 🔵 | #09 Bus 🟢 |
-| 24 | #09 Bus 🟢 | #12 Language Course 🔵 |
-| 25 | #08 University 🔵 | #10 Metro 🟢 |
-| 26 | #10 Metro 🟢 | #09 Bus 🔵 |
-| 27 | #18 Park 🔵 | #11 Taxi 🟢 |
-| 28 | #11 Taxi 🟢 | #10+#11 🟡 Deepen |
-| 29 | #17 Doctor 🟢 | #17 Doctor 🟢 |
-| 30 | #17 Doctor 🔵 | #01+#02 🔴 Master |
-| 31 | #18 Park 🟡 Deepen | #03+#04+#05 🔴 Master |
+| 10 | #07 Masjid 🟢 | #06 Daily Routine 🔵 |
+| 11 | #08 Market 🟢 | #04+#05 🟡 Deepen |
+| 12 | #04 Drawing Room 🔵 | #08 Market 🟢 |
+| 13 | #09 Restaurant 🟢 | #07 Masjid 🔵 |
+| 14 | #05 Washroom 🔵 | #09 Restaurant 🟢 |
+| 15 | #10 Interpersonal 🟢 | #06 Daily Routine 🟡 Deepen |
+| 16 | #06 Daily Routine 🔵 | #11 University 🟢 |
+| 17 | #11 University 🟢 | #08 Market 🔵 |
+| 18 | #07 Masjid 🔵 | #12 Office 🟢 |
+| 19 | #12 Office 🟢 | #09 Restaurant 🔵 |
+| 20 | #08 Market 🔵 | #13 Language Course 🟢 |
+| 21 | #09 Restaurant 🔵 | #07+#08 🟡 Deepen |
+| 22 | #14 Park 🟢 | #06+#13 🟡 Deepen |
+| 23 | #10 Interpersonal 🔵 | #15 Bus 🟢 |
+| 24 | #15 Bus 🟢 | #13 Language Course 🔵 |
+| 25 | #11 University 🔵 | #16 Metro 🟢 |
+| 26 | #16 Metro 🟢 | #15 Bus 🔵 |
+| 27 | #14 Park 🔵 | #17 Taxi 🟢 |
+| 28 | #17 Taxi 🟢 | #10+#11 🟡 Deepen |
+| 29 | #18 Doctor 🟢 | #18 Doctor 🟢 |
+| 30 | #18 Doctor 🔵 | #01+#02 🔴 Master |
+| 31 | #14 Park 🟡 Deepen | #03+#04+#05 🔴 Master |
 | 32 | #01 Kitchen 🔴 Master | #06+#07+#08 🔴 Master |
 | 33 | #02+#03 🔴 Master | #09+#10+#11 🔴 Master |
 | 34 | #04+#05+#14 🔴 Master | #12+#13+#15+#16 🔴 Master |
